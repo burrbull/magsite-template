@@ -1,0 +1,19 @@
+num: 15
+date: "01.01.2000"
+ru:
+  - text: "Оптимизация аппаратурных затрат в логических схемах устройств управления"
+    google_url: "#"
+    google_total_results: "1"
+    yandex_url: "#"
+    yandex_total_results: "2"
+    bing_url: "#"
+    bing_total_results: "3"
+
+en:
+  - text: "Оптимизация аппаратурных затрат в логических схемах устройств управления"
+    google_url: "#"
+    google_total_results: "1"
+    yandex_url: "#"
+    yandex_total_results: "2"
+    bing_url: "#"
+    bing_total_results: "3"

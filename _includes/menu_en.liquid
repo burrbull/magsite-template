@@ -1,0 +1,12 @@
+<div id="menu">
+    {% if page.title == "Resume" %}
+        <a class="button colorfix">Resume</a>
+    {% else %}
+        <a class="button color" href="{{ page.data.relpath }}indexe.htm">Resume</a>
+    {% endif %}
+    {% if page.title == "Abstract" %}
+        <a class="button colorfix">Abstract</a>
+    {% else %}
+        <a class="button color" href="{{ page.data.relpath }}diss/indexe.htm">Abstract</a>
+    {% endif %}
+</div>
