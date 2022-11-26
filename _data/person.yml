@@ -3,9 +3,11 @@ ru:
   sername: Петров
   name: Петр
   thirdname: Петрович
-  initials: П. П.
 
   diss_name: Оптимизация аппаратурных затрат в логических схемах устройств управления
+  keywords:
+    - слова для поиска 1
+    - слова для поиска 2
 
   adviser_title: д.т.н., проф.
   adviser: Петренко Петр Петрович
@@ -19,6 +21,9 @@ en:
   name: Ivan
 
   diss_name: Hardware optimization in logic circuits of control units
+  keywords:
+    - search words 1
+    - search words 2
 
   adviser_title: Ph.D., Professor
   adviser: Petr Petrenko
