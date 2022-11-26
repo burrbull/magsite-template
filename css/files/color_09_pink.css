@@ -1,4 +1,4 @@
-/* -------------------- ÷‚ÂÚÓ‚‡ˇ ÒıÂÏ‡ - Œ–¿Õ∆≈¬€… -------------------------- */
+/* -------------------- –¶–≤–µ—Ç–æ–≤–∞—è —Å—Ö–µ–º–∞ - –û–†–ê–ù–ñ–ï–í–´–ô -------------------------- */
 
 #header h1 { color: #800080; font: bold 21pt/17pt Book Antiqua, serif; }
 
@@ -67,19 +67,19 @@ a:visited {	color: #800080; }
 .mitemb:hover   { color: white; background: #576c55; }
 .mitemb:visited { color: white; }
  
-table#resume                  { font: 15pt Garamond, serif;  border-collapse:collapse;}
-table#resume td.c1            { font-weight: bold; }
-table#resume tr.odd           { background: none; }  
-table#resume tr.even          { background: none; }
-table#resume tr.odd:hover,
-table#resume tr.even:hover    { background: #DA70D6;}  
+table#resume                    { font: 15pt Garamond, serif;  border-collapse:collapse;}
+table#resume td:first-child     { font-weight: bold; }
+table#resume tr:nth-child(odd)  { background: none; }  
+table#resume tr:nth-child(even) { background: none; }
+table#resume tr:nth-child(odd):hover,
+table#resume tr:nth-child(even):hover { background: #DA70D6;}  
 
 table.search                  { width: 90%; }
 table.search                  { font: 12pt Garamond, serif;}
-table.search tr.odd           { background: none; }      
-table.search tr.even          { background: none; }
-table.search tr.odd:hover,
-table.search tr.even:hover    { background: #DA70D6;}  
+table.search tr.result:nth-child(odd)  { background: none; }      
+table.search tr.result:nth-child(even) { background: none; }
+table.search tr.result:nth-child(odd):hover,
+table.search tr.result:nth-child(even):hover { background: #DA70D6;}  
 
 table.search td.c1            { font-size: 15pt; }
 table.search td.cn a          { color: black; font-size: 16pt;  }

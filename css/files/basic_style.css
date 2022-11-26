@@ -1,16 +1,16 @@
-/* ------------- ОСНОВНЫЕ ТЕГИ ------------------------------------------------------------------------------ */
+/* ------------- РћРЎРќРћР’РќР«Р• РўР•Р“Р ------------------------------------------------------------------------------ */
 
-body {  /* Тело документа */
+body {  /* РўРµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р° */
 	background-image: url('../images/bg1.png');
   margin-bottom: 20pt;  	
 }
 
-/* Разные кавычки для разных языков (тег <q>) */
+/* Р Р°Р·РЅС‹Рµ РєР°РІС‹С‡РєРё РґР»СЏ СЂР°Р·РЅС‹С… СЏР·С‹РєРѕРІ (С‚РµРі <q>) */
 body:lang(en) q { quotes: "\201C" "\201D" "\2018" "\2019"; }
 body:lang(uk) q, body:lang(de) q { quotes: "\201E" "\201C"; }
 body:lang(ru) q, body:lang(fr) q { quotes: "\00AB" "\00BB" "\201E" "\201C"; }
 
-h1 { /* Заголовок страницы */
+h1 { /* Р—Р°РіРѕР»РѕРІРѕРє СЃС‚СЂР°РЅРёС†С‹ */
   font: bold 18pt Century, serif;
   line-height: 100%;
   text-align: center;
@@ -19,7 +19,7 @@ h1 { /* Заголовок страницы */
   margin-top: 0pt;
 }
 
-h2 { /* Подзаголовок страницы (названия подразделов) */
+h2 { /* РџРѕРґР·Р°РіРѕР»РѕРІРѕРє СЃС‚СЂР°РЅРёС†С‹ (РЅР°Р·РІР°РЅРёСЏ РїРѕРґСЂР°Р·РґРµР»РѕРІ) */
   font: bold 15pt Century, serif;
   text-align: left;
   text-indent: 25pt;
@@ -27,7 +27,7 @@ h2 { /* Подзаголовок страницы (названия подразделов) */
   color: #0000a3;
 }
 
-h3 { /* Подзаголовок страницы (названия подподразделов) */
+h3 { /* РџРѕРґР·Р°РіРѕР»РѕРІРѕРє СЃС‚СЂР°РЅРёС†С‹ (РЅР°Р·РІР°РЅРёСЏ РїРѕРґРїРѕРґСЂР°Р·РґРµР»РѕРІ) */
   font: bold 13pt Century, serif;
   text-align: left;
   text-indent: 10pt;
@@ -35,12 +35,12 @@ h3 { /* Подзаголовок страницы (названия подподразделов) */
   color: #0000a3;
 }
 
-h2.cntr { /* Подзаголовок страницы (названия подразделов) с выравниванием по центру */
+h2.cntr { /* РџРѕРґР·Р°РіРѕР»РѕРІРѕРє СЃС‚СЂР°РЅРёС†С‹ (РЅР°Р·РІР°РЅРёСЏ РїРѕРґСЂР°Р·РґРµР»РѕРІ) СЃ РІС‹СЂР°РІРЅРёРІР°РЅРёРµРј РїРѕ С†РµРЅС‚СЂСѓ */
   text-align: center;
   text-indent: 0pt;
 }
 
-#header h1 { /* ФИО в шапке*/
+#header h1 { /* Р¤РРћ РІ С€Р°РїРєРµ*/
   text-align: left;
   font: bold 18pt Century Gothic, serif; 
   line-height: 90%;
@@ -48,7 +48,7 @@ h2.cntr { /* Подзаголовок страницы (названия подразделов) с выравниванием по цен
   margin-top: 10pt;
 }
 
-#header h2 { /* Тема работы в шапке*/
+#header h2 { /* РўРµРјР° СЂР°Р±РѕС‚С‹ РІ С€Р°РїРєРµ*/
   font: bold 16pt Century Gothic, serif; 
   line-height: 90%;
   color: navy;
@@ -57,7 +57,7 @@ h2.cntr { /* Подзаголовок страницы (названия подразделов) с выравниванием по цен
   padding: 5pt 0pt 10pt 0pt;
 }
 
-#header h3 { /* Факультет, кафедра, преподаватель в шапке*/
+#header h3 { /* Р¤Р°РєСѓР»СЊС‚РµС‚, РєР°С„РµРґСЂР°, РїСЂРµРїРѕРґР°РІР°С‚РµР»СЊ РІ С€Р°РїРєРµ*/
   font: 14pt Century Gothic, serif; 
   line-height: 100%;
   color: navy;
@@ -66,7 +66,7 @@ h2.cntr { /* Подзаголовок страницы (названия подразделов) с выравниванием по цен
   padding: 5pt 0pt 10pt 0pt;
 }
 
-p { /* Абзац */
+p { /* РђР±Р·Р°С† */
 	text-indent: 20pt;
 	font: 15pt/120% Times New Roman, serif; 
 	margin: 0pt 0pt 0pt 0pt;
@@ -79,114 +79,114 @@ img {
 border: 0; 
 }
 
-ol { /* Нумерованный список */
+ol { /* РќСѓРјРµСЂРѕРІР°РЅРЅС‹Р№ СЃРїРёСЃРѕРє */
 	text-indent: 0pt;
 	margin: 10pt 0pt 0pt 0pt;
 }
 
-ol h2 { /* Заголовок внутри нумерованного списка */
+ol h2 { /* Р—Р°РіРѕР»РѕРІРѕРє РІРЅСѓС‚СЂРё РЅСѓРјРµСЂРѕРІР°РЅРЅРѕРіРѕ СЃРїРёСЃРєР° */
 	text-indent: 0pt;
 	margin: 30pt 10pt 10pt 0pt;
 }
 
-p + ol { margin-top: 0pt;} /* Если нумерованный список идет сразу после абзаца - отступ не нужен */
+p + ol { margin-top: 0pt;} /* Р•СЃР»Рё РЅСѓРјРµСЂРѕРІР°РЅРЅС‹Р№ СЃРїРёСЃРѕРє РёРґРµС‚ СЃСЂР°Р·Сѓ РїРѕСЃР»Рµ Р°Р±Р·Р°С†Р° - РѕС‚СЃС‚СѓРї РЅРµ РЅСѓР¶РµРЅ */
 
-ul { /* Ненумерованный список */
+ul { /* РќРµРЅСѓРјРµСЂРѕРІР°РЅРЅС‹Р№ СЃРїРёСЃРѕРє */
 	text-indent: 0pt;
 	margin: 0pt;
 }
 
-ul.content { /* Содержание в реферате */
+ul.content { /* РЎРѕРґРµСЂР¶Р°РЅРёРµ РІ СЂРµС„РµСЂР°С‚Рµ */
 	margin-left: 5pt;
   list-style-type: none;
 }
 
-li { /* Элемент списка */
+li { /* Р­Р»РµРјРµРЅС‚ СЃРїРёСЃРєР° */
   margin-left: 25pt;
   font: 15pt Times new roman, serif;
   padding: 0 5pt 5pt 0pt; 
 }
 
-li.ct1 { /* Элемент содержания в реферате (уровень 1) */
+li.ct1 { /* Р­Р»РµРјРµРЅС‚ СЃРѕРґРµСЂР¶Р°РЅРёСЏ РІ СЂРµС„РµСЂР°С‚Рµ (СѓСЂРѕРІРµРЅСЊ 1) */
   margin-left: 0pt;
   padding: 2pt; 
 }
 
-li.ct2 { /* Элемент содержания в реферате (уровень 2) */
+li.ct2 { /* Р­Р»РµРјРµРЅС‚ СЃРѕРґРµСЂР¶Р°РЅРёСЏ РІ СЂРµС„РµСЂР°С‚Рµ (СѓСЂРѕРІРµРЅСЊ 2) */
   margin-left: 20pt;
   padding: 2pt; 
 }
 
-a { /* Простая ссылка */
+a { /* РџСЂРѕСЃС‚Р°СЏ СЃСЃС‹Р»РєР° */
 	font: 14pt Century, serif;
 	color: blue;	
 }
 
-a:hover { /* Курсор наведен на ссылку */
+a:hover { /* РљСѓСЂСЃРѕСЂ РЅР°РІРµРґРµРЅ РЅР° СЃСЃС‹Р»РєСѓ */
 	color: firebrick;
 	text-decoration: none;
 }
 
-a:visited { /* Посещенная ссылка */
+a:visited { /* РџРѕСЃРµС‰РµРЅРЅР°СЏ СЃСЃС‹Р»РєР° */
 	color: #915c9e; 
 }
 
 /* ---------------------------------------------------------------------------------------------------------- */
-/* ------------- ОСНОВНЫЕ БЛОКИ ----------------------------------------------------------------------------- */
+/* ------------- РћРЎРќРћР’РќР«Р• Р‘Р›РћРљР ----------------------------------------------------------------------------- */
 
-#topblock { /* Верхний блок (Флаги и ДоННТУ) */
+#topblock { /* Р’РµСЂС…РЅРёР№ Р±Р»РѕРє (Р¤Р»Р°РіРё Рё Р”РѕРќРќРўРЈ) */
 	min-height: 36px;		
   border-bottom: solid 1pt #b4cdd4;	
 }
 
-#langbox { /* Блок флагов */
+#langbox { /* Р‘Р»РѕРє С„Р»Р°РіРѕРІ */
 	float: left;
   padding: 5pt 0pt 0pt 5pt;
 }
 
-#donntu { /* Блок ДонНТУ и портала магистров */
+#donntu { /* Р‘Р»РѕРє Р”РѕРЅРќРўРЈ Рё РїРѕСЂС‚Р°Р»Р° РјР°РіРёСЃС‚СЂРѕРІ */
 	float: right;
 	padding: 5pt 5pt 0pt 0pt;	
 	margin: 0pt 3pt 0pt 3pt;
 }
 
-#donntu a { /* Ссылки в блоке ДонНТУ */
+#donntu a { /* РЎСЃС‹Р»РєРё РІ Р±Р»РѕРєРµ Р”РѕРЅРќРўРЈ */
 	font: 12pt Century, serif;
   margin-left: 3pt;
 }
 
-#donntu a:visited { /* Ссылки в блоке ДонНТУ (цвет посещенных не меняется) */ 
+#donntu a:visited { /* РЎСЃС‹Р»РєРё РІ Р±Р»РѕРєРµ Р”РѕРЅРќРўРЈ (С†РІРµС‚ РїРѕСЃРµС‰РµРЅРЅС‹С… РЅРµ РјРµРЅСЏРµС‚СЃСЏ) */ 
   color: blue;
 }
 
-#photomag { /* Блок фотографии */
+#photomag { /* Р‘Р»РѕРє С„РѕС‚РѕРіСЂР°С„РёРё */
 	float: left;
 	width: 180px;
   padding: 10pt 20pt 10pt 10pt;  
 }
 
-#header { /* Блок шапки (фотография и текст) */
+#header { /* Р‘Р»РѕРє С€Р°РїРєРё (С„РѕС‚РѕРіСЂР°С„РёСЏ Рё С‚РµРєСЃС‚) */
 	min-height: 270px;
 	clear: both;
 }
 
-#headertext { /* Блок шапки (только текст) */
+#headertext { /* Р‘Р»РѕРє С€Р°РїРєРё (С‚РѕР»СЊРєРѕ С‚РµРєСЃС‚) */
   padding: 10pt 10pt 10pt 10pt;
 }
 
-.img { /* Блок с рисунком */
+.img { /* Р‘Р»РѕРє СЃ СЂРёСЃСѓРЅРєРѕРј */
   margin: 15pt 0 30pt 0;
   text-align: center;
 }
 
-.imgcaption { /* Подпись под рисунком */
+.imgcaption { /* РџРѕРґРїРёСЃСЊ РїРѕРґ СЂРёСЃСѓРЅРєРѕРј */
  font: italic 15pt/120% Times New Roman, serif;
  margin: 0pt 0pt 0pt 0pt;
  padding: 2pt 15pt 3pt 15pt;
  text-align: center;
 }
 
-.comment { /* Блок с комментарией (в финально версии сожет не использоваться)*/
+.comment { /* Р‘Р»РѕРє СЃ РєРѕРјРјРµРЅС‚Р°СЂРёРµР№ (РІ С„РёРЅР°Р»СЊРЅРѕ РІРµСЂСЃРёРё СЃРѕР¶РµС‚ РЅРµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ)*/
   background: lightsteelblue; 
   color: white; 
   font-size: 12pt; 
@@ -195,73 +195,73 @@ a:visited { /* Посещенная ссылка */
   text-indent: 0;
 }
 
-.cntr { text-align: center; } /* Выравнивание по центру */
-.bld {font-weight: bold;}     /* Полужирный */
-.itl {font-style: italic;}    /* Курсив */
+.cntr { text-align: center; } /* Р’С‹СЂР°РІРЅРёРІР°РЅРёРµ РїРѕ С†РµРЅС‚СЂСѓ */
+.bld {font-weight: bold;}     /* РџРѕР»СѓР¶РёСЂРЅС‹Р№ */
+.itl {font-style: italic;}    /* РљСѓСЂСЃРёРІ */
 
 /* ---------------------------------------------------------------------------------------------------------- */
-/* ------------- ТАБЛИЦА РЕЗЮМЕ ----------------------------------------------------------------------------- */
+/* ------------- РўРђР‘Р›РР¦Рђ Р Р•Р—Р®РњР• ----------------------------------------------------------------------------- */
 
-table#resume { /* Сама таблица */ 
+table#resume { /* РЎР°РјР° С‚Р°Р±Р»РёС†Р° */ 
 	width: 90%;
 	margin: 0 auto;
 	margin-bottom: 0pt;
 }
 
-table#resume tr td {  /* Ячейка в таблице */
+table#resume tr td {  /* РЇС‡РµР№РєР° РІ С‚Р°Р±Р»РёС†Рµ */
 	border: 0pt solid black;
 	padding: 6pt;
 }
 
-table#resume td.c1 { /* Первый столбец */ 
+table#resume td:first-child { /* РџРµСЂРІС‹Р№ СЃС‚РѕР»Р±РµС† */ 
   width: 25%; 
   text-align: right; 
   padding-right: 10pt; 
   color: #1b005e;
 }
 
-table#resume td.c2 { width: 75%; } /* Второй столбец */
+table#resume td:nth-child(2) { width: 75%; } /* Р’С‚РѕСЂРѕР№ СЃС‚РѕР»Р±РµС† */
 
-table#resume tr.odd { background-color: #f5f5f5;} /* Нечетная строка */ 
-table#resume tr.even { background-color: white;}  /* Четная строка */ 
+table#resume tr:nth-child(odd)  { background-color: #f5f5f5;} /* РќРµС‡РµС‚РЅР°СЏ СЃС‚СЂРѕРєР° */ 
+table#resume tr:nth-child(even) { background-color: white;}  /* Р§РµС‚РЅР°СЏ СЃС‚СЂРѕРєР° */ 
 
-table#resume tr.odd:hover { background-color: #deebef;}  /* Курсор наведен на нечетную строку */
-table#resume tr.even:hover { background-color: #eefbff;} /* Курсор наведен на четную строку */
+table#resume tr:nth-child(odd):hover  { background-color: #deebef;}  /* РљСѓСЂСЃРѕСЂ РЅР°РІРµРґРµРЅ РЅР° РЅРµС‡РµС‚РЅСѓСЋ СЃС‚СЂРѕРєСѓ */
+table#resume tr:nth-child(even):hover { background-color: #eefbff;} /* РљСѓСЂСЃРѕСЂ РЅР°РІРµРґРµРЅ РЅР° С‡РµС‚РЅСѓСЋ СЃС‚СЂРѕРєСѓ */
 
 /* ---------------------------------------------------------------------------------------------------------- */
-/* ------------- ПУНКТ СПИСКА БИБЛИОТЕКИ -------------------------------------------------------------------- */
+/* ------------- РџРЈРќРљРў РЎРџРРЎРљРђ Р‘РР‘Р›РРћРўР•РљР -------------------------------------------------------------------- */
 
 .lib { margin: 10pt 0pt 20pt 25pt; }
 
-.lib p { /* Абзац в пункте списка */
+.lib p { /* РђР±Р·Р°С† РІ РїСѓРЅРєС‚Рµ СЃРїРёСЃРєР° */
 	text-indent: 0pt;
 	margin: 4pt 0pt 0pt 0pt;
 }
 
-.lib .cat { /* Название категории (автор, описание, источник) в описании пункта списка */
+.lib .cat { /* РќР°Р·РІР°РЅРёРµ РєР°С‚РµРіРѕСЂРёРё (Р°РІС‚РѕСЂ, РѕРїРёСЃР°РЅРёРµ, РёСЃС‚РѕС‡РЅРёРє) РІ РѕРїРёСЃР°РЅРёРё РїСѓРЅРєС‚Р° СЃРїРёСЃРєР° */
 	color: #150146;
 	font-weight: bold;
 }
 
 /* ---------------------------------------------------------------------------------------------------------- */
-/* ------------- ПУНКТ СПИСКА СССЫЛОК  ---------------------------------------------------------------------- */
+/* ------------- РџРЈРќРљРў РЎРџРРЎРљРђ РЎРЎРЎР«Р›РћРљ  ---------------------------------------------------------------------- */
 
 .list { margin: 5pt 0pt 12pt 25pt; }
 
-.list p { /* Абзац внутри элемента списка */
+.list p { /* РђР±Р·Р°С† РІРЅСѓС‚СЂРё СЌР»РµРјРµРЅС‚Р° СЃРїРёСЃРєР° */
 	text-indent: 0pt;
 	margin: 4pt 0pt 0pt 0pt;
 }
 
-.list .cat { /* Название категории (автор, описание, источник) в описании пункта списка */
+.list .cat { /* РќР°Р·РІР°РЅРёРµ РєР°С‚РµРіРѕСЂРёРё (Р°РІС‚РѕСЂ, РѕРїРёСЃР°РЅРёРµ, РёСЃС‚РѕС‡РЅРёРє) РІ РѕРїРёСЃР°РЅРёРё РїСѓРЅРєС‚Р° СЃРїРёСЃРєР° */
 	color: green;
 	font-weight: bold;
 }
 
 /* ---------------------------------------------------------------------------------------------------------- */
-/* ------------- ТАБЛИЦА ОТЧЕТА О ПОИСКЕ  ------------------------------------------------------------------- */
+/* ------------- РўРђР‘Р›РР¦Рђ РћРўР§Р•РўРђ Рћ РџРћРРЎРљР•  ------------------------------------------------------------------- */
 
-table.search { /* Сама таблица */
+table.search { /* РЎР°РјР° С‚Р°Р±Р»РёС†Р° */
 	width: 80%;
 	margin: 0 auto;
 	margin-bottom: 40pt;
@@ -271,12 +271,12 @@ table.search { /* Сама таблица */
   text-align: center;
 }
 
-table.search tr td { /* Ячейка в таблице */	
+table.search tr td { /* РЇС‡РµР№РєР° РІ С‚Р°Р±Р»РёС†Рµ */	
   border: 1pt solid black; 
   padding: 3pt;
 } 
 
-table.search td.c1 { /* Первый столбец */ 
+table.search td.c1 { /* РџРµСЂРІС‹Р№ СЃС‚РѕР»Р±РµС† */ 
   width: 52%; 
   text-align: left; 
   padding-left: 10pt; 
@@ -284,39 +284,39 @@ table.search td.c1 { /* Первый столбец */
   font-size: 15pt;
 }
   
-table.search td.cn { /* Все остальные столбцы */ 
+table.search td.cn { /* Р’СЃРµ РѕСЃС‚Р°Р»СЊРЅС‹Рµ СЃС‚РѕР»Р±С†С‹ */ 
   width: 12%; 
   text-align: center; 
 }
 
-table.search td.cspan { padding: 15pt 5pt 5pt 0pt;} /* Объединенный столбец (название языка)*/ 
+table.search td.cspan { padding: 15pt 5pt 5pt 0pt;} /* РћР±СЉРµРґРёРЅРµРЅРЅС‹Р№ СЃС‚РѕР»Р±РµС† (РЅР°Р·РІР°РЅРёРµ СЏР·С‹РєР°)*/ 
 
-table.search tr.odd { background-color: white; }    /* Нечетная строка */  
-table.search tr.even { background-color: #f5f5f5;}  /* Четная строка */
+table.search tr.result:nth-child(odd)  { background-color: #f5f5f5; }    /* РќРµС‡РµС‚РЅР°СЏ СЃС‚СЂРѕРєР° */  
+table.search tr.result:nth-child(even) { background-color: white; }  /* Р§РµС‚РЅР°СЏ СЃС‚СЂРѕРєР° */
 
-table.search tr.odd:hover { background-color: #eefbff;}  /* Курсор наведен на нечетную строку */
-table.search tr.even:hover { background-color: #deebef;} /* Курсор наведен на подсвеченную четная строку */
+table.search tr.result:nth-child(odd):hover  { background-color: #deebef;}  /* РљСѓСЂСЃРѕСЂ РЅР°РІРµРґРµРЅ РЅР° РЅРµС‡РµС‚РЅСѓСЋ СЃС‚СЂРѕРєСѓ */
+table.search tr.result:nth-child(even):hover { background-color: #eefbff;} /* РљСѓСЂСЃРѕСЂ РЅР°РІРµРґРµРЅ РЅР° РїРѕРґСЃРІРµС‡РµРЅРЅСѓСЋ С‡РµС‚РЅР°СЏ СЃС‚СЂРѕРєСѓ */
 
-table.search td.cspan p { /* Абзац в объединенном столбце */ 
+table.search td.cspan p { /* РђР±Р·Р°С† РІ РѕР±СЉРµРґРёРЅРµРЅРЅРѕРј СЃС‚РѕР»Р±С†Рµ */ 
   color: black; 
   font: bold 13pt Century Gothic, serif; 
   text-indent: 10pt; 
   margin: 0;
 }
   
-table.search td.cn a { /* Ссылка (количество найденных результатов) */ 
+table.search td.cn a { /* РЎСЃС‹Р»РєР° (РєРѕР»РёС‡РµСЃС‚РІРѕ РЅР°Р№РґРµРЅРЅС‹С… СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ) */ 
   font-size: 13pt;
   font-weight: bold; 
   color: mediumblue;
 }  
 
-table.search td.cn a:visited { color: mediumblue; } /* Посещенная ссылка */
-table.search td.cn a:hover { color: firebrick; }    /* Подсвеченная ссылка */
+table.search td.cn a:visited { color: mediumblue; } /* РџРѕСЃРµС‰РµРЅРЅР°СЏ СЃСЃС‹Р»РєР° */
+table.search td.cn a:hover { color: firebrick; }    /* РџРѕРґСЃРІРµС‡РµРЅРЅР°СЏ СЃСЃС‹Р»РєР° */
 
 /* ---------------------------------------------------------------------------------------------------------- */
-/* ------------- КНОПКИ ГЛАВНОГО МЕНЮ ----------------------------------------------------------------------- */
+/* ------------- РљРќРћРџРљР Р“Р›РђР’РќРћР“Рћ РњР•РќР® ----------------------------------------------------------------------- */
 
-.button { /* Сама кнопка */
+.button { /* РЎР°РјР° РєРЅРѕРїРєР° */
   color: white;
 	display: inline-block;
 	outline: none;
@@ -334,18 +334,18 @@ table.search td.cn a:hover { color: firebrick; }    /* Подсвеченная ссылка */
 	-moz-box-shadow: 0px 1px 2px rgba(0,0,0,.2);
 	box-shadow: 0px 1px 2px rgba(0,0,0,.2);
 }
-.button:active { /* Нажатая кнопка */
+.button:active { /* РќР°Р¶Р°С‚Р°СЏ РєРЅРѕРїРєР° */
 	position: relative;
 	top: 1px;
 }
 
-.bigrounded { /* Кнопка с закругленными углами */
+.bigrounded { /* РљРЅРѕРїРєР° СЃ Р·Р°РєСЂСѓРіР»РµРЅРЅС‹РјРё СѓРіР»Р°РјРё */
 	-webkit-border-radius: 2em;
 	-moz-border-radius: 2em;
 	border-radius: 2em;
 }
 
-.color { /* Цвет кнопки*/
+.color { /* Р¦РІРµС‚ РєРЅРѕРїРєРё*/
 	color: navy;  
 	border: solid 1px #7496a2;
 	background: #96c1d0;
@@ -354,9 +354,9 @@ table.search td.cn a:hover { color: firebrick; }    /* Подсвеченная ссылка */
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#96c1d0');  /* ie */
 }
 
-.color:visited { color: #6500c4; } /* Кнопка посещенной ссылки */
+.color:visited { color: #6500c4; } /* РљРЅРѕРїРєР° РїРѕСЃРµС‰РµРЅРЅРѕР№ СЃСЃС‹Р»РєРё */
   
-.color:hover { /* На кнопку наведен курсор */
+.color:hover { /* РќР° РєРЅРѕРїРєСѓ РЅР°РІРµРґРµРЅ РєСѓСЂСЃРѕСЂ */
 	background: #007ead;
 	color: white;
 	text-decoration: none;    
@@ -365,7 +365,7 @@ table.search td.cn a:hover { color: firebrick; }    /* Подсвеченная ссылка */
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cd0e9', endColorstr='#00678e');
 }
 
-.color:active { /* Нажатая кнопка */
+.color:active { /* РќР°Р¶Р°С‚Р°СЏ РєРЅРѕРїРєР° */
 	color: white;
 	position: relative;
 	top: 1px;
@@ -374,7 +374,7 @@ table.search td.cn a:hover { color: firebrick; }    /* Подсвеченная ссылка */
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
 }
 
-.colorfix { /* Кнопка текущего раздела */
+.colorfix { /* РљРЅРѕРїРєР° С‚РµРєСѓС‰РµРіРѕ СЂР°Р·РґРµР»Р° */
 	position: static;
 	top: 0px;
 	cursor: auto;
@@ -388,7 +388,7 @@ table.search td.cn a:hover { color: firebrick; }    /* Подсвеченная ссылка */
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#ffd200'); /* ie */
 }
 	
-.colorfix:active  { top: 0px; }		    /* Активную кнопку не смещаем вниз при нажатии */
-.colorfix:hover   { color: #692f06; }	  /* Цвет при наведении не меняем */
+.colorfix:active  { top: 0px; }		    /* РђРєС‚РёРІРЅСѓСЋ РєРЅРѕРїРєСѓ РЅРµ СЃРјРµС‰Р°РµРј РІРЅРёР· РїСЂРё РЅР°Р¶Р°С‚РёРё */
+.colorfix:hover   { color: #692f06; }	  /* Р¦РІРµС‚ РїСЂРё РЅР°РІРµРґРµРЅРёРё РЅРµ РјРµРЅСЏРµРј */
 
 

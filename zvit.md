@@ -39,7 +39,7 @@ data:
 
 {% for result in site.data.search.ru %}
 
-<tr class="even">
+<tr class="result">
 <td class="c1">{{ result.text }}</td>
 <td class="cn"><a target="_blank" href="{{ result.google_url }}">{{ result.google_total_results }}</a></td>
 <td class="cn"><a target="_blank" href="{{ result.yandex_url }}">{{ result.yandex_total_results }}</a></td>
@@ -55,7 +55,7 @@ data:
 
 {% for result in site.data.search.ua %}
 
-<tr class="even">
+<tr class="result">
 <td class="c1">{{ result.text }}</td>
 <td class="cn"><a target="_blank" href="{{ result.google_url }}">{{ result.google_total_results }}</a></td>
 <td class="cn"><a target="_blank" href="{{ result.yandex_url }}">{{ result.yandex_total_results }}</a></td>
@@ -71,7 +71,7 @@ data:
 
 {% for result in site.data.search.en %}
 
-<tr class="even">
+<tr class="result">
 <td class="c1">{{ result.text }}</td>
 <td class="cn"><a target="_blank" href="{{ result.google_url }}">{{ result.google_total_results }}</a></td>
 <td class="cn"><a target="_blank" href="{{ result.yandex_url }}">{{ result.yandex_total_results }}</a></td>

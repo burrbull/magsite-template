@@ -75,21 +75,21 @@ border: none;
  
 #maintext       { background: none; border: none; }
 
-table#resume                  { font: 14pt Courier new, serif;  border-collapse:collapse;}
-table#resume td.c1            { font-weight: bold; color: #008080;}
-table#resume tr.odd           { background: none; }  
-table#resume tr.even          { background: none; }
-table#resume tr.odd:hover,
-table#resume tr.even:hover    { background: #808080;}  
+table#resume                    { font: 14pt Courier new, serif;  border-collapse:collapse;}
+table#resume td:first-child     { font-weight: bold; color: #008080;}
+table#resume tr:nth-child(odd)  { background: none; }  
+table#resume tr:nth-child(even) { background: none; }
+table#resume tr:nth-child(odd):hover,
+table#resume tr:nth-child(even):hover { background: #808080;}  
 
 table.search                  { width: 86%; }
 table.search                  { font: 11pt Courier new, serif;}
-table.search tr.odd           { background: none; }      
-table.search tr.even          { background: none; }
-table.search tr.odd:hover,
-table.search tr.even:hover    { background: #808080;}  
+table.search tr.result:nth-child(odd)  { background: none; }      
+table.search tr.result:nth-child(even) { background: none; }
+table.search tr.result:nth-child(odd):hover,
+table.search tr.result:nth-child(even):hover { background: #808080;}  
 
-table.search td.c1            { font-size: 14pt; }
+table.search td:first-child   { font-size: 14pt; }
 table.search td.cn a          { color: #0000CD; font-size: 13pt;  }
 table.search td.cn a:visited  { color: #FF0000; } 
 table.search td.cn a:hover    { color: #800080; }    

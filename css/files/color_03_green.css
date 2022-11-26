@@ -75,19 +75,19 @@ border: none;
  
 #maintext       { background: none; border: none; }
 
-table#resume                  { font: 14pt Georgia, serif;  border-collapse:collapse;}
-table#resume td.c1            { font-weight: bold; color: #083a04;}
-table#resume tr.odd           { background: none; }  
-table#resume tr.even          { background: none; }
-table#resume tr.odd:hover,
-table#resume tr.even:hover    { background: #d2d3b8;}  
+table#resume                    { font: 14pt Georgia, serif;  border-collapse:collapse;}
+table#resume td:first-child     { font-weight: bold; color: #083a04;}
+table#resume tr:nth-child(odd)  { background: none; }  
+table#resume tr:nth-child(even) { background: none; }
+table#resume tr:nth-child(odd):hover,
+table#resume tr:nth-child(even):hover { background: #d2d3b8;}  
 
 table.search                  { width: 86%; }
 table.search                  { font: 11pt Georgia, serif;}
-table.search tr.odd           { background: none; }      
-table.search tr.even          { background: none; }
-table.search tr.odd:hover,
-table.search tr.even:hover    { background: #d2d3b8;}  
+table.search tr.result:nth-child(odd)  { background: none; }      
+table.search tr.result:nth-child(even) { background: none; }
+table.search tr.result:nth-child(odd):hover,
+table.search tr.result:nth-child(even):hover { background: #d2d3b8;}  
 
 table.search td.c1            { font-size: 14pt; }
 table.search td.cn a          { color: brown; font-size: 13pt;  }

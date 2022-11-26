@@ -1,4 +1,4 @@
-/* -------------------- ÷‚ÂÚÓ‚‡ˇ ÒıÂÏ‡ - —»Õﬂﬂ -------------------------- */
+/* -------------------- –¶–≤–µ—Ç–æ–≤–∞—è —Å—Ö–µ–º–∞ - –°–ò–ù–Ø–Ø -------------------------- */
 
 #header h1 { color: #191970; font: bold 19pt/15pt comic sans ms, sans serif; }
 
@@ -40,18 +40,18 @@ a:visited {	color: #8f509f; }
  
 #maintext { background: #CFCFCF; }
 
-table#resume                { font: 13pt/120% arial, sans serif;}
-table#resume tr.odd         { background: none; }  
-table#resume tr.even        { background: none; }
-table#resume tr.odd:hover,
-table#resume tr.even:hover  { background: #ffcfe;}  
+table#resume                    { font: 13pt/120% arial, sans serif;}
+table#resume tr:nth-child(odd)  { background: none; }  
+table#resume tr:nth-child(even) { background: none; }
+table#resume tr:nth-child(odd):hover,
+table#resume tr:nth-child(even):hover { background: #ffcfe;}  
 
 table.search            { width: 90%; }
 table.search            { font: 12pt/120% arial, sans serif;}
-table.search tr.odd     { background: none; }      
-table.search tr.even    { background: none; }
-table.search tr.odd:hover,
-table.search tr.even:hover  { background: #f6fcfe;}  
+table.search tr.result:nth-child(odd)  { background: none; }      
+table.search tr.result:nth-child(even) { background: none; }
+table.search tr.result:nth-child(odd):hover,
+table.search tr.result:nth-child(even):hover { background: #f6fcfe;}  
 table.search td.c1      { font-size: 13pt; }
 table.search td.cn a    { font-size: 11pt; }
 table.search td.cspan p {  
