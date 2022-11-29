@@ -1,0 +1,9 @@
+ru
+Смольский Алексей Алексеевич
+Исследование релейной защиты сборных шин 6-10 кВ ЗРУ и разработка мероприятий по повышению ее быстродействия
+Электроснабжение и энергосбережение
+
+en
+Alexey Smolsky
+Research of relay protection of closed switchgear of 6-10 kV and development of measures to improve its performance
+Power supply and energy saving
