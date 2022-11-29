@@ -6,7 +6,12 @@
 <div id="headertext">
 	<h1 class="hdr">{{ site.data.person.en.name }} {{ site.data.person.en.sername }}</h1>
 	<h3 class="hdr">{{ site.data.person.en.faculty }}</h3>
+	{% if site.data.person.en.department %}
 	<h3 class="hdr">{{ site.data.person.en.department }}</h3>
+	{%endif%}
+	{% if site.data.person.en.field %}
+	<h3 class="hdr">Field of study <q>{{ site.data.person.en.field }}</q></h3>
+	{%endif%}
 	<h3 class="hdr">Speciality <q>{{ site.data.person.en.speciality }}</q></h3>
 	<h2 class="hdr">{{ site.data.person.en.diss_name }}</h2>
 	<h3 class="hdr">Scientific adviser: {{ site.data.person.en.adviser_title }} {{ site.data.person.en.adviser }}</h3>
