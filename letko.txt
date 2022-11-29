@@ -1,0 +1,9 @@
+ru
+Летко Сергей Михайлович
+Исследование и разработка схемы источника бесперебойного электроснабжения на базе гибридной солнечной электростанции
+Электроснабжение и энергосбережение
+
+en
+Sergey Letko
+Research and development of an uninterruptible power supply source scheme based on a hybrid solar power plant
+Power supply and energy saving
