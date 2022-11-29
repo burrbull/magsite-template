@@ -1,0 +1,9 @@
+ru
+Глухой Виктор Владимирович
+Определение искробезопасных параметров сложных электрических цепей рудничного оборудования
+Электроснабжение и энергосбережение
+
+en
+Viktor Gluhoi
+Determination of intrinsically safe parameters of complex electrical circuits of mining equipment
+Power supply and energy saving
