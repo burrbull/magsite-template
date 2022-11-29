@@ -1,0 +1,9 @@
+ru
+Лебедев Антон Владимирович
+Защита электроприемников напряжением 380/220 В от импульсных перенапряжений в питающей сети
+Электроснабжение и энергосбережение
+
+en
+Anton Lebedev
+Protection of electrical receivers with a voltage of 380/220 V from surges in the supply network
+Power supply and energy saving
