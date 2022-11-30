@@ -391,4 +391,21 @@ table.search td.cn a:hover { color: firebrick; }    /* Подсвеченная 
 .colorfix:active  { top: 0px; }		    /* Активную кнопку не смещаем вниз при нажатии */
 .colorfix:hover   { color: #692f06; }	  /* Цвет при наведении не меняем */
 
+table.numeq {
+    width: 100%;
+    padding-left: 30pt;
+    padding-right: 30pt;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+}
 
+table.numeq tr td:nth-child(1){
+    text-align: center;
+}
+table.numeq tr td:nth-child(1) img {
+    vertical-align: center;
+}
+table.numeq tr td:nth-child(2){
+    width: auto;
+    text-align: right;
+}
