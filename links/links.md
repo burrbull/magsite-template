@@ -12,6 +12,12 @@ data:
 <h2>Научные работы и статьи</h2>
 
 <li class=list>
+  <a href="https://www.elibrary.ru/item.asp?id=30143058">Электроснабжение городов: учебное пособие</a>
+  <p><span class=cat>Авторы:</span> Ю.В.&nbsp;Мясоедов, Л.А.&nbsp;Мясоедова, И.Г.&nbsp;Подгурская</p> 
+  <p><span class=cat>Описание:</span> Учебное пособие ориентировано на оказание помощи студентам направления подготовки – «Электроэнергетика и электротехника» для формирования специальных знаний в области городских электрических сетей, приобретение студентами навыков их проектирования, изучение вопросов анализа, расчетов, и основ эксплуатации систем электроснабжения городов.</p>
+</li>
+
+<li class=list>
   <a href="https://bookree.org/reader?file=486321&amp;pg=12">Электрическая
 	часть электростанций и подстанций</a>
   <p><span class=cat>Авторы:</span> Б.&nbsp;Н.&nbsp;Неклепаев,
@@ -25,6 +31,7 @@ data:
 собственных нужд и конструкций РУ
 электростанций и подстанций.</p>
 </li>
+
 <li class=list>
   <a href="https://www.studmed.ru/vinoslavskiy-vn-perehodnye-processy-v-sistemah-elektrosnabzheniya_1cda5ee6a6b.html">Переходные
 	процессы в системах электроснабжения</a>
@@ -34,6 +41,7 @@ data:
 переходных процессов и методы их
 математического анализа.</p>
 </li>
+
 <li class=list>
   <a href="https://gekoms.org/2021/08/17/vybor-optimalnyh-sposobov-kompensacii-reaktivnoj-moshhnosti-v-jelektricheskih-setjah-promyshlennyh-predprijatij/">Выбор
 	оптимальных способов компенсации
@@ -45,6 +53,7 @@ data:
 реактивной мощности электросети
 промышленного предприятия.</p>
 </li>
+
 <li class=list>
   <a href="https://www.studmed.ru/chernyh-iv-modelirovanie-elektrotehnicheskih-ustroystv-v-matlab-simpowersystems-i-simulink_d4af784978d.html">Моделирование
 	электротехнических устройств в MATLAB,
