@@ -9,55 +9,56 @@ data:
 
 <ol>
 
-<h2>Материалы магистров ДонНТУ</h2>
-
-<li class=list>
-  <a href="http://masters.donntu.org/2011/fknt/tatolov/">Татолов Е.Р. Разработка и исследование подхода к унификации синтеза автоматов Мура в базисе FPGA</a>
-  <p><span class=cat>Описание: </span>Персональный сайт на портале магистров ДонНТУ, 2011 г.</p>
-  <p><span class=cat>Руководитель: </span>к.т.н. Зеленева И.Я.</p> 
-</li>
-<li class=list>
-  <a href="http://masters.donntu.org/2011/fknt/maksimenko/">Максименко В.Л. Исследование и разработка специализированных программных способов для моделирования автоколебаний</a>
-  <p><span class=cat>Описание: </span>Персональный сайт на портале магистров ДонНТУ, 2011 г.</p>
-  <p><span class=cat>Руководитель: </span>к.т.н., доц. Назаренко В.И.</p> 
-</li>
-<li class=list>
-  <a href="#">Фамилия И.О. Тема</a>
-  <p><span class=cat>Описание: </span>Персональный сайт на портале магистров ДонНТУ, год</p>
-  <p><span class=cat>Руководитель:</span> ФИО Руководителя</p> 
-</li>
-<li class=list>
-  <a href="#">Фамилия И.О. Тема</a>
-  <p><span class=cat>Описание: </span>Персональный сайт на портале магистров ДонНТУ, год</p>
-  <p><span class=cat>Руководитель:</span> ФИО Руководителя</p> 
-</li>
-<li class=list>
-  <a href="#">Фамилия И.О. Тема</a>
-  <p><span class=cat>Описание: </span>Персональный сайт на портале магистров ДонНТУ, год</p>
-  <p><span class=cat>Руководитель:</span> ФИО Руководителя</p> 
-</li>
-
 <h2>Научные работы и статьи</h2>
 
 <li class=list>
-  <a href="http://si2.epfl.ch/~demichel/publications/archive/1984/ICCAD84_P0209.PDF">KISS: a program for optimal state assignment of finite state machines </a>
-  <p><span class=cat>Авторы:</span> De Micheli G., Brayton R., Sangiovanni-Vincentelli A. </p> 
-  <p><span class=cat>Описание:</span> Программная реализация алгоритма KISS кодирования состояний конечных автоматов</p>
+  <a href="http://masters.donntu.ru/2011/etf/dushevin/library/tez4.htm">Научные
+основы, методы оценки и обеспечения
+искробезопасности</a>
+  <p><span class=cat>Авторы:</span> </p> 
+  <p><span class=cat>Описание:</span>Рассмотрены
+основные способы проведения экспериментов
+по определению искробезопасности
+электрических цепей.<br/>
+Источник:&nbsp;Журнал
+технической физики, 1965 год.</p>
 </li>
 <li class=list>
-  <a href="#">Название книги, статьи, доклада </a>
-  <p><span class=cat>Авторы:</span> ФИО авторов </p> 
-  <p><span class=cat>Описание:</span> Текст описания</p>
+  <a href="http://masters.donntu.ru/2011/etf/dushevin/library/tez5.htm">Виды
+разрядов. Электрическая дуга. Применение
+дугового разряда</a>
+  <p><span class=cat>Авторы:</span> неизвестны</p> 
+  <p><span class=cat>Описание:</span> Рассмотрены
+различные виды разрядов и дано определение
+электрической дуги. Приведены примеры
+применения дугового
+разряда.<br/>
+Источник:&nbsp;Сайт&nbsp;<a href="http://www.refine.com.ru/">www.refine.com.ru</a></p>
 </li>
 <li class=list>
-  <a href="#">Название книги, статьи, доклада </a>
-  <p><span class=cat>Авторы:</span> ФИО авторов </p> 
-  <p><span class=cat>Описание:</span> Текст описания</p>
+  <a href="http://masters.donntu.ru/2011/etf/dushevin/library/tez6.pdf">Расчетная
+оценка искробезопасности цепей
+постоянного тока рудничного
+электрооборудования</a>
+  <p><span class=cat>Авторы:</span> З.М.&nbsp;Иохельсон, О.И.&nbsp;Кашуба, И.А.&nbsp;Бершадский</p> 
+  <p><span class=cat>Описание:</span> В
+статье рассмотрена еомпьютерная модель
+для опредления параметров дугового
+розряда в цепи постоянного тока, выполнено
+сравнение результатов расчетов по этой
+модели с известной  методикой расчета
+на примере омической
+цепи.</p>
 </li>
 <li class=list>
-  <a href="#">Название книги, статьи, доклада </a>
-  <p><span class=cat>Авторы:</span> ФИО авторов </p> 
-  <p><span class=cat>Описание:</span> Текст описания</p>
+  <a href="http://masters.donntu.ru/2011/etf/dushevin/library/tez7.htm">Основные
+критерии
+искробезопасности</a>
+  <p><span class=cat>Авторы:</span> неизвестны</p> 
+  <p><span class=cat>Описание:</span> Приведены
+основные требования искробезопасности
+предьявляемые к электрическим
+цепям</p>
 </li>
 <li class=list>
   <a href="#">Название книги, статьи, доклада </a>
