@@ -404,6 +404,7 @@ table.numeq tr td:nth-child(1){
 }
 table.numeq tr td:nth-child(1) img {
     vertical-align: center;
+    scale: 1.3;
 }
 table.numeq tr td:nth-child(2){
     width: auto;
