@@ -1,19 +1,74 @@
-num: 15
-date: "01.01.2000"
+num: 10
+date: 11.12.2022
 ru:
-  - text: "Оптимизация аппаратурных затрат в логических схемах устройств управления"
-    google_url: "#"
-    google_total_results: "1"
-    yandex_url: "#"
-    yandex_total_results: "2"
-    bing_url: "#"
-    bing_total_results: "3"
-
+- text: Исследование особенностей схем электроснабжения помещений с повышенной опасностью и разработка мероприятий по повышению их электробезопасности
+  google_url: https://www.google.com/search?q=%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9+%D1%81%D1%85%D0%B5%D0%BC+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9+%D1%81+%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9+%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E+%D0%B8+%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0+%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B9+%D0%BF%D0%BE+%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D1%8E+%D0%B8%D1%85+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8&oq=%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9+%D1%81%D1%85%D0%B5%D0%BC+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9+%D1%81+%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9+%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E+%D0%B8+%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0+%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B9+%D0%BF%D0%BE+%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D1%8E+%D0%B8%D1%85+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8&sourceid=chrome&ie=UTF-8
+  google_total_results: 37500
+  yandex_url: https://yandex.ru/search/?text=%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9+%D1%81%D1%85%D0%B5%D0%BC+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9+%D1%81+%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9+%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E+%D0%B8+%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0+%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B9+%D0%BF%D0%BE+%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D1%8E+%D0%B8%D1%85+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9+%D1%81%D1%85%D0%B5%D0%BC+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9+%D1%81+%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9+%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E+%D0%B8+%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0+%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B9+%D0%BF%D0%BE+%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D1%8E+%D0%B8%D1%85+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8
+  bing_total_results: 3930000
+- text: Левшов Александр Васильевич, ДОННТУ
+  google_url: https://www.google.com/search?q=%D0%9B%D0%B5%D0%B2%D1%88%D0%BE%D0%B2+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3&oq=%D0%9B%D0%B5%D0%B2%D1%88%D0%BE%D0%B2+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3&sourceid=chrome&ie=UTF-8
+  google_total_results: 319
+  yandex_url: https://yandex.ru/search/?text=%D0%9B%D0%B5%D0%B2%D1%88%D0%BE%D0%B2+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%9B%D0%B5%D0%B2%D1%88%D0%BE%D0%B2+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3
+  bing_total_results: 93100
+- text: Схемы электроснабжения помещений
+  google_url: https://www.google.com/search?q=%D0%A1%D1%85%D0%B5%D0%BC%D1%8B+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9&oq=%D0%A1%D1%85%D0%B5%D0%BC%D1%8B+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9&sourceid=chrome&ie=UTF-8
+  google_total_results: 376000
+  yandex_url: https://yandex.ru/search/?text=%D0%A1%D1%85%D0%B5%D0%BC%D1%8B+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%A1%D1%85%D0%B5%D0%BC%D1%8B+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9
+  bing_total_results: 125000
+- text: Электробезопасность помещений
+  google_url: https://www.google.com/search?q=%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C+%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9&oq=%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C+%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9&sourceid=chrome&ie=UTF-8
+  google_total_results: 1670000
+  yandex_url: https://yandex.ru/search/?text=%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C+%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C+%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9
+  bing_total_results: 278000
+- text: Устройство защитного отключения
+  google_url: https://www.google.com/search?q=%D0%A3%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE+%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BE%D1%82%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F&oq=%D0%A3%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE+%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BE%D1%82%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F&sourceid=chrome&ie=UTF-8
+  google_total_results: 2280000
+  yandex_url: https://yandex.ru/search/?text=%D0%A3%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE+%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BE%D1%82%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F&lr=142
+  yandex_total_results: ≈ 266 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%A3%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE+%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BE%D1%82%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F
+  bing_total_results: 2880000
 en:
-  - text: "Оптимизация аппаратурных затрат в логических схемах устройств управления"
-    google_url: "#"
-    google_total_results: "1"
-    yandex_url: "#"
-    yandex_total_results: "2"
-    bing_url: "#"
-    bing_total_results: "3"
+- text: Study of the features of power supply schemes for premises with increased danger and development of measures to improve their electrical safety
+  google_url: https://www.google.com/search?q=Study+of+the+features+of+power+supply+schemes+for+premises+with+increased+danger+and+development+of+measures+to+improve+their+electrical+safety&oq=Study+of+the+features+of+power+supply+schemes+for+premises+with+increased+danger+and+development+of+measures+to+improve+their+electrical+safety&sourceid=chrome&ie=UTF-8
+  google_total_results: 118000000
+  yandex_url: https://yandex.ru/search/?text=Study+of+the+features+of+power+supply+schemes+for+premises+with+increased+danger+and+development+of+measures+to+improve+their+electrical+safety&lr=142
+  yandex_total_results: ≈ 967 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=Study+of+the+features+of+power+supply+schemes+for+premises+with+increased+danger+and+development+of+measures+to+improve+their+electrical+safety
+  bing_total_results: 16300000
+- text: Alexander Levshov, DONNTU
+  google_url: https://www.google.com/search?q=Alexander+Levshov%2C+DONNTU&oq=Alexander+Levshov%2C+DONNTU&sourceid=chrome&ie=UTF-8
+  google_total_results: 71
+  yandex_url: https://yandex.ru/search/?text=Alexander+Levshov%2C+DONNTU&lr=142
+  yandex_total_results: ≈ 554 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=Alexander+Levshov%2C+DONNTU
+  bing_total_results: 55300
+- text: Power supply schemes for premises
+  google_url: https://www.google.com/search?q=Power+supply+schemes+for+premises&oq=Power+supply+schemes+for+premises&sourceid=chrome&ie=UTF-8
+  google_total_results: 32400000
+  yandex_url: https://yandex.ru/search/?text=Power+supply+schemes+for+premises&lr=142
+  yandex_total_results: ≈ 15 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=Power+supply+schemes+for+premises
+  bing_total_results: 9680000
+- text: Electrical safety of premises
+  google_url: https://www.google.com/search?q=Electrical+safety+of+premises&oq=Electrical+safety+of+premises&sourceid=chrome&ie=UTF-8
+  google_total_results: 40400000
+  yandex_url: https://yandex.ru/search/?text=Electrical+safety+of+premises&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=Electrical+safety+of+premises
+  bing_total_results: 14200000
+- text: Residual current device
+  google_url: https://www.google.com/search?q=Residual+current+device&oq=Residual+current+device&sourceid=chrome&ie=UTF-8
+  google_total_results: 122000000
+  yandex_url: https://yandex.ru/search/?text=Residual+current+device&lr=142
+  yandex_total_results: ≈ 307 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=Residual+current+device
+  bing_total_results: 1520000
