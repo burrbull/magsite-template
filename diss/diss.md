@@ -41,15 +41,14 @@ data:
 <a name=ref></a>
 <h2>Список источников</h2>
 <ol>
-  <li><a name="ref1"></a>Рекомендации по защите низковольтного оборудования от импульсных перенапряжений / «Техническая коллекции Schneider Electric» на русском языке. Выпуск № 24, 10. 2008; электронный ресурс. Режим доступа: N_24_obl.indd (msavtomatika.com.ua).
-  <li><a name="ref2"></a>Каталог ABB: Защита от перенапряжения. Серия  OVR. Режим доступа:
-https://cs-cs.net/wp-uploads/generic/documents/ABB_OVR-Schemes.pdf.
+  <li><a name="ref1"></a>Рекомендации по защите низковольтного оборудования от импульсных перенапряжений / «Техническая коллекции Schneider Electric» на русском языке. Выпуск № 24, 10. 2008; электронный ресурс. Режим доступа: N_24_obl.indd (<a href="https://msavtomatika.com.ua">https://msavtomatika.com.ua</a>).
+  <li><a name="ref2"></a>Каталог ABB: Защита от перенапряжения. Серия  OVR. Режим доступа: <a href="https://cs-cs.net/wp-uploads/generic/documents/ABB_OVR-Schemes.pdf">https://cs-cs.net/wp-uploads/generic/documents/ABB_OVR-Schemes.pdf</a>.
   <li><a name="ref3"></a>Классы и типы защиты от импульсного перенапряжения электросети. Режим доступа:
-https://www.amnis.ru/staty/zashchita-ot-impulsnogo-perenapryazheniya-elektroseti-i-oborudovaniya/.
+<a href="https://www.amnis.ru/staty/zashchita-ot-impulsnogo-perenapryazheniya-elektroseti-i-oborudovaniya/">https://www.amnis.ru/staty/zashchita-ot-impulsnogo-perenapryazheniya-elektroseti-i-oborudovaniya/</a>.
   <li><a name="ref4"></a>ГОСТ Р 51992-2002. Устройства для защиты от импульсных перенапряжений в низковольтных распределительных системах. Дата введения 2004-01-01
-Режим доступа: http://docs.cntd.ru/document/1200031294.
+Режим доступа: <a href="http://docs.cntd.ru/document/1200031294">http://docs.cntd.ru/document/1200031294</a>.
   <li><a name="ref5"></a>Устройства защиты от импульсных перенапряжений - НПО «Стример». Режим доступа:
-www.streamer.ru › rif › materialy-dlya-skachivaniya.
+<a href="www.streamer.ru/rif/materialy-dlya-skachivaniya">www.streamer.ru/rif/materialy-dlya-skachivaniya</a>.
   <li><a name="ref6"></a>Руководящие указания по защите от грозовых и внутренних перенапряжений электрических сетей 6 – 1150 кВ единой энергосистемы СССР. Т.2. Грозозащита линий и подстанций 6 – 1150 кВ. – СПб.: НИИПТ, 1991.
   <li><a name="ref7"></a>Методические указания по применению ограничителей перенапряжений нелинейных в электрических сетях 6 – 35 кВ. – М.: Сопротэк-11, 2001. – с. 73. 8. СО 153-34.21.122-2003. Инструкция по устройству молниезащиты зданий, сооружений и промышленных коммуникаций.
   <li><a name="ref8"></a>Правила устройства электроустановок. Раздел 6, 7. – 7-е изд. – М.: Изд-во НЦ ЭНАС, 1999. – 79 с.
