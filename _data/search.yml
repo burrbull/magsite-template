@@ -1,19 +1,74 @@
-num: 15
-date: "01.01.2000"
+num: 10
+date: 12.12.2022
 ru:
-  - text: "Оптимизация аппаратурных затрат в логических схемах устройств управления"
-    google_url: "#"
-    google_total_results: "1"
-    yandex_url: "#"
-    yandex_total_results: "2"
-    bing_url: "#"
-    bing_total_results: "3"
-
+- text: Оценка вероятности поражения электрическим током работников предприятий угольной отрасли
+  google_url: https://www.google.com/search?q=%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0+%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8+%D0%BF%D0%BE%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC+%D1%82%D0%BE%D0%BA%D0%BE%D0%BC+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B9+%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9+%D0%BE%D1%82%D1%80%D0%B0%D1%81%D0%BB%D0%B8&oq=%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0+%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8+%D0%BF%D0%BE%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC+%D1%82%D0%BE%D0%BA%D0%BE%D0%BC+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B9+%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9+%D0%BE%D1%82%D1%80%D0%B0%D1%81%D0%BB%D0%B8&sourceid=chrome&ie=UTF-8
+  google_total_results: 62500
+  yandex_url: https://yandex.ru/search/?text=%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0+%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8+%D0%BF%D0%BE%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC+%D1%82%D0%BE%D0%BA%D0%BE%D0%BC+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B9+%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9+%D0%BE%D1%82%D1%80%D0%B0%D1%81%D0%BB%D0%B8&lr=142
+  yandex_total_results: ≈ 10 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0+%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8+%D0%BF%D0%BE%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC+%D1%82%D0%BE%D0%BA%D0%BE%D0%BC+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B9+%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9+%D0%BE%D1%82%D1%80%D0%B0%D1%81%D0%BB%D0%B8
+  bing_total_results: 338000
+- text: Чурсинов Виктор Иванович, ДОННТУ
+  google_url: https://www.google.com/search?q=%D0%A7%D1%83%D1%80%D1%81%D0%B8%D0%BD%D0%BE%D0%B2+%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80+%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3&oq=%D0%A7%D1%83%D1%80%D1%81%D0%B8%D0%BD%D0%BE%D0%B2+%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80+%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3&sourceid=chrome&ie=UTF-8
+  google_total_results: 232
+  yandex_url: https://yandex.ru/search/?text=%D0%A7%D1%83%D1%80%D1%81%D0%B8%D0%BD%D0%BE%D0%B2+%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80+%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3&lr=142
+  yandex_total_results: ≈ 11 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%A7%D1%83%D1%80%D1%81%D0%B8%D0%BD%D0%BE%D0%B2+%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80+%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3
+  bing_total_results: 82200
+- text: Оценка вероятности
+  google_url: https://www.google.com/search?q=%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0+%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8&oq=%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0+%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8&sourceid=chrome&ie=UTF-8
+  google_total_results: 7460000
+  yandex_url: https://yandex.ru/search/?text=%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0+%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8&lr=142
+  yandex_total_results: ≈ 6 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0+%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8
+  bing_total_results: 2360000
+- text: Поражение электрическим током
+  google_url: https://www.google.com/search?q=%D0%9F%D0%BE%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC+%D1%82%D0%BE%D0%BA%D0%BE%D0%BC&oq=%D0%9F%D0%BE%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC+%D1%82%D0%BE%D0%BA%D0%BE%D0%BC&sourceid=chrome&ie=UTF-8
+  google_total_results: 378000
+  yandex_url: https://yandex.ru/search/?text=%D0%9F%D0%BE%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC+%D1%82%D0%BE%D0%BA%D0%BE%D0%BC&lr=142
+  yandex_total_results: ≈ 3 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%9F%D0%BE%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC+%D1%82%D0%BE%D0%BA%D0%BE%D0%BC
+  bing_total_results: 0
+- text: Электроснабжение предприятия угольной отрасли
+  google_url: https://www.google.com/search?q=%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F+%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9+%D0%BE%D1%82%D1%80%D0%B0%D1%81%D0%BB%D0%B8&oq=%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F+%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9+%D0%BE%D1%82%D1%80%D0%B0%D1%81%D0%BB%D0%B8&sourceid=chrome&ie=UTF-8
+  google_total_results: 221000
+  yandex_url: https://yandex.ru/search/?text=%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F+%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9+%D0%BE%D1%82%D1%80%D0%B0%D1%81%D0%BB%D0%B8&lr=142
+  yandex_total_results: ≈ 12 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F+%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9+%D0%BE%D1%82%D1%80%D0%B0%D1%81%D0%BB%D0%B8
+  bing_total_results: 123000
 en:
-  - text: "Оптимизация аппаратурных затрат в логических схемах устройств управления"
-    google_url: "#"
-    google_total_results: "1"
-    yandex_url: "#"
-    yandex_total_results: "2"
-    bing_url: "#"
-    bing_total_results: "3"
+- text: Evaluation of the probability of electric shock to employees of coal industry enterprises
+  google_url: https://www.google.com/search?q=Evaluation+of+the+probability+of+electric+shock+to+employees+of+coal+industry+enterprises&oq=Evaluation+of+the+probability+of+electric+shock+to+employees+of+coal+industry+enterprises&sourceid=chrome&ie=UTF-8
+  google_total_results: 5660000
+  yandex_url: https://yandex.ru/search/?text=Evaluation+of+the+probability+of+electric+shock+to+employees+of+coal+industry+enterprises&lr=142
+  yandex_total_results: ≈ 11 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=Evaluation+of+the+probability+of+electric+shock+to+employees+of+coal+industry+enterprises
+  bing_total_results: 293000000
+- text: Viktor Chursinov, DONNTU
+  google_url: https://www.google.com/search?q=Viktor+Chursinov%2C+DONNTU&oq=Viktor+Chursinov%2C+DONNTU&sourceid=chrome&ie=UTF-8
+  google_total_results: 8
+  yandex_url: https://yandex.ru/search/?text=Viktor+Chursinov%2C+DONNTU&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=Viktor+Chursinov%2C+DONNTU
+  bing_total_results: 3670000
+- text: Probability score
+  google_url: https://www.google.com/search?q=Probability+score&oq=Probability+score&sourceid=chrome&ie=UTF-8
+  google_total_results: 299000000
+  yandex_url: https://yandex.ru/search/?text=Probability+score&lr=142
+  yandex_total_results: ≈ 6 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=Probability+score
+  bing_total_results: 45800000
+- text: Electric shock
+  google_url: https://www.google.com/search?q=Electric+shock&oq=Electric+shock&sourceid=chrome&ie=UTF-8
+  google_total_results: 242000000
+  yandex_url: https://yandex.ru/search/?text=Electric+shock&lr=142
+  yandex_total_results: ≈ 5 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=Electric+shock
+  bing_total_results: 0
+- text: Power supply of the coal industry
+  google_url: https://www.google.com/search?q=Power+supply+of+the+coal+industry&oq=Power+supply+of+the+coal+industry&sourceid=chrome&ie=UTF-8
+  google_total_results: 74600000
+  yandex_url: https://yandex.ru/search/?text=Power+supply+of+the+coal+industry&lr=142
+  yandex_total_results: ≈ 11 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=Power+supply+of+the+coal+industry
+  bing_total_results: 193000000
