@@ -16,58 +16,53 @@ data:
 </tr>
 <tr>
   <td>Date of birth</td>
-  <td>Jan 1, 1990</td>
+  <td>Oct 3, 1974</td>
 </tr>
 <tr>
   <td>Place of birth</td>
-  <td>Donetsk</td>
+  <td>Torez</td>
 </tr>
 <tr>
   <td>Schools</td>
-  <td>List of schools</td>
+  <td>Eight-year school No. 3 of Torez town</td>
 </tr>
 <tr>
   <td>Universities</td>
-  <td>List of universities; bachelor and master's programs are divided into two records with periods of study</td>
+  <td>Donetsk National Technical University</td>
 </tr>
 <tr>
   <td>Average score</td>
-  <td>Average score during Bachelor course</td>
+  <td>??</td>
 </tr>
 <tr>
   <td>Languages</td>
-  <td>List of languages with level indicating (<q>basic</q>, <q>intermediate</q>, <q>advanced</q> etc)</td>
-</tr>
-<tr>
-  <td>Personal achievements</td>
-  <td>List of personal achievements - training (winner of the All-Ukrainian competitions, contests and so on), scientific, sports and any other</td>
+  <td>Russian – <q>advanced</q><br>
+  English – <q>basic</q>
+  </td>
 </tr>
 <tr>
   <td>Hobbies and interests</td>
-  <td>Games, books, music, any other hobbies</td>
+  <td>Drawing, literature</td>
 </tr>
 <tr>
   <td>Personal qualities</td>
-  <td>Short list of positive qualities</td>
+  <td>Commitment, responsibility, goodwill, ability to work in a team, desire to learn</td>
 </tr>
 <tr>
   <td>Professional and computer skills</td>
-  <td>1. Operating systems.<br>2. Applications.<br>3. Programming languages.<br>4. Environments. </td>
-</tr>
-<tr>
-  <td>Additional courses, internships, grants</td>
-  <td>Professional courses, internships abroad, international conferences.</td>
+  <td>1. Operating systems: Windows<br>2. Applications: MS Office: Visio, Outlook, Excel, Word
+</td>
 </tr>
 <tr>
   <td>Professional experience</td>
-  <td>Company, job title and dates of employment</td>
+  <td>21 years of experience in the energy industry. 2001&ndash;2002 energy supervision controller, 2002&ndash;2015 electrician for the operation of distribution networks, 2015 to the current period - engineer for calculations and modes of the 2nd category of the central dispatch service of the State Unitary Enterprise of the DPR <q>State backbone grid company</q></td>
 </tr>
 <tr>
   <td>Future plans</td>
-  <td>Short description of future plans</td>
+  <td>Stable job with career growth</td>
 </tr>
 <tr>
   <td>Contact information</td>
-  <td>E-mail, skype, facebook, ICQ etc</td>
+  <td>E-mail: <a href="sedina.rita@gmail.com">sedina.rita@gmail.com</a></td>
 </tr>
 </table>
