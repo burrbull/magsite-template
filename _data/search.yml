@@ -1,19 +1,60 @@
-num: 15
-date: "01.01.2000"
+num: 8
+date: 18.12.2022
 ru:
-  - text: "Оптимизация аппаратурных затрат в логических схемах устройств управления"
-    google_url: "#"
-    google_total_results: "1"
-    yandex_url: "#"
-    yandex_total_results: "2"
-    bing_url: "#"
-    bing_total_results: "3"
-
+- text: Разработка мероприятий по энергосбережению в системах электроснабжения промышленного предприятия
+  google_url: https://www.google.com/search?q=%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0+%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B9+%D0%BF%D0%BE+%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%BE%D1%81%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%BD%D0%B8%D1%8E+%D0%B2+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%D1%85+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F&oq=%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0+%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B9+%D0%BF%D0%BE+%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%BE%D1%81%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%BD%D0%B8%D1%8E+%D0%B2+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%D1%85+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F&sourceid=chrome&ie=UTF-8
+  google_total_results: 322000
+  yandex_url: https://yandex.ru/search/?text=%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0+%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B9+%D0%BF%D0%BE+%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%BE%D1%81%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%BD%D0%B8%D1%8E+%D0%B2+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%D1%85+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0+%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B9+%D0%BF%D0%BE+%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%BE%D1%81%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%BD%D0%B8%D1%8E+%D0%B2+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%D1%85+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F
+  bing_total_results: 2780000
+- text: Чурсинова Аурика Александровна, ДОННТУ
+  google_url: https://www.google.com/search?q=%D0%A7%D1%83%D1%80%D1%81%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0+%D0%90%D1%83%D1%80%D0%B8%D0%BA%D0%B0+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BD%D0%B0%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3&oq=%D0%A7%D1%83%D1%80%D1%81%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0+%D0%90%D1%83%D1%80%D0%B8%D0%BA%D0%B0+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BD%D0%B0%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3&sourceid=chrome&ie=UTF-8
+  google_total_results: 1330
+  yandex_url: https://yandex.ru/search/?text=%D0%A7%D1%83%D1%80%D1%81%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0+%D0%90%D1%83%D1%80%D0%B8%D0%BA%D0%B0+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BD%D0%B0%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3&lr=142
+  yandex_total_results: ≈ 10 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%A7%D1%83%D1%80%D1%81%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0+%D0%90%D1%83%D1%80%D0%B8%D0%BA%D0%B0+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BD%D0%B0%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3
+  bing_total_results: 51100
+- text: Мероприятия по энергосбережению
+  google_url: https://www.google.com/search?q=%D0%9C%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F+%D0%BF%D0%BE+%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%BE%D1%81%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%BD%D0%B8%D1%8E&oq=%D0%9C%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F+%D0%BF%D0%BE+%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%BE%D1%81%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%BD%D0%B8%D1%8E&sourceid=chrome&ie=UTF-8
+  google_total_results: 3600000
+  yandex_url: https://yandex.ru/search/?text=%D0%9C%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F+%D0%BF%D0%BE+%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%BE%D1%81%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%BD%D0%B8%D1%8E&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%9C%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F+%D0%BF%D0%BE+%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%BE%D1%81%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%BD%D0%B8%D1%8E
+  bing_total_results: 315000
+- text: Система электроснабжения промышленного предприятия
+  google_url: https://www.google.com/search?q=%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F&oq=%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F&sourceid=chrome&ie=UTF-8
+  google_total_results: 277000
+  yandex_url: https://yandex.ru/search/?text=%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F&lr=142
+  yandex_total_results: ≈ 6 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F
+  bing_total_results: 1840000
 en:
-  - text: "Оптимизация аппаратурных затрат в логических схемах устройств управления"
-    google_url: "#"
-    google_total_results: "1"
-    yandex_url: "#"
-    yandex_total_results: "2"
-    bing_url: "#"
-    bing_total_results: "3"
+- text: Development of measures for energy saving in power supply systems of an industrial enterprise
+  google_url: https://www.google.com/search?q=Development+of+measures+for+energy+saving+in+power+supply+systems+of+an+industrial+enterprise&oq=Development+of+measures+for+energy+saving+in+power+supply+systems+of+an+industrial+enterprise&sourceid=chrome&ie=UTF-8
+  google_total_results: 247000000
+  yandex_url: https://yandex.ru/search/?text=Development+of+measures+for+energy+saving+in+power+supply+systems+of+an+industrial+enterprise&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=Development+of+measures+for+energy+saving+in+power+supply+systems+of+an+industrial+enterprise
+  bing_total_results: 44000000
+- text: Aurika Chursinova, DONNTU
+  google_url: https://www.google.com/search?q=Aurika+Chursinova%2C+DONNTU&oq=Aurika+Chursinova%2C+DONNTU&sourceid=chrome&ie=UTF-8
+  google_total_results: 0
+  yandex_url: https://yandex.ru/search/?text=Aurika+Chursinova%2C+DONNTU&lr=142
+  yandex_total_results: ≈ 36 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=Aurika+Chursinova%2C+DONNTU
+  bing_total_results: 32900
+- text: Measures for energy saving
+  google_url: https://www.google.com/search?q=Measures+for+energy+saving&oq=Measures+for+energy+saving&sourceid=chrome&ie=UTF-8
+  google_total_results: 937000000
+  yandex_url: https://yandex.ru/search/?text=Measures+for+energy+saving&lr=142
+  yandex_total_results: ≈ 13 тыс.
+  bing_url: https://www.bing.com/search?form=QBRE&q=Measures+for+energy+saving
+  bing_total_results: 44400000
+- text: Power supply systems of an industrial enterprise
+  google_url: https://www.google.com/search?q=Power+supply+systems+of+an+industrial+enterprise&oq=Power+supply+systems+of+an+industrial+enterprise&sourceid=chrome&ie=UTF-8
+  google_total_results: 811000000
+  yandex_url: https://yandex.ru/search/?text=Power+supply+systems+of+an+industrial+enterprise&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=Power+supply+systems+of+an+industrial+enterprise
+  bing_total_results: 56400000
