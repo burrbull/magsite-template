@@ -480,90 +480,45 @@ data:
 должны превышать значений, указанных
 в табл.2., табл. 3
 
-Таблица 2 - Предельно допустимое напряжение
-прикосновения
 
-<table width="624" cellpadding="4" cellspacing="0">
-	<col width="281"/>
-	<col width="327"/>
-	<tbody>
-		<tr valign="top">
-			<td width="281" style="border: none"><p>
-				<br/>
-				</p>
+<table style="text-align: center; margin: auto" cellspacing="0px" cellpadding="4px">
+<caption>Таблица 2 - Предельно допустимое напряжение прикосновения</caption>
+	<col width="281" />
+	<col width="327" />
+		<tr style="border-top: 1px solid #000000; border-bottom: 1px solid #000000">
+			<td width="281" style="border: 1px solid #000">
+				Продолжительность воздействия, с
 			</td>
-			<td width="327" style="border: none"><p>
-				<br/>
-				</p>
-			</td>
-		</tr>
-	</tbody>
-	<tbody>
-		<tr valign="top">
-			<td width="281" style="padding: 0cm 0.1cm"><p align="center">
-				Продолжительность</p>
-				<p align="center">воздействия,
-				с</p>
-			</td>
-			<td width="327" style="padding: 0cm 0.1cm"><p align="center">
+			<td width="327" style="border: 1px solid #000">
 				Предельно
 				допустимое значение напряжения
-				прикосновения, В</p>
+				прикосновения, В
 			</td>
 		</tr>
-	</tbody>
-	<tbody>
-		<tr valign="top">
-			<td width="281" style="border-top: 1px solid #000000; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				До
-				0,1</p>
-			</td>
-			<td width="327" style="border-top: 1px solid #000000; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				500</p>
-			</td>
+		<tr>
+			<td style="border-left: 1px solid #000; border-right: 1px solid #000">До 0,1</td>
+			<td style="border-right: 1px solid #000">500</td>
 		</tr>
-		<tr valign="top">
-			<td width="281" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				0,2</p>
-			</td>
-			<td width="327" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				400</p>
-			</td>
+		<tr>
+			<td style="border-left: 1px solid #000; border-right: 1px solid #000">0,2</td>
+			<td style="border-right: 1px solid #000">400</td>
 		</tr>
-		<tr valign="top">
-			<td width="281" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				0,5</p>
-			</td>
-			<td width="327" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				200</p>
-			</td>
+		<tr>
+			<td style="border-left: 1px solid #000; border-right: 1px solid #000">0,5</td>
+			<td style="border-right: 1px solid #000">200</td>
 		</tr>
-		<tr valign="top">
-			<td width="281" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				0,7</p>
-			</td>
-			<td width="327" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				130</p>
-			</td>
+		<tr>
+			<td style="border-left: 1px solid #000; border-right: 1px solid #000">0,7</td>
+			<td style="border-right: 1px solid #000">130</td>
 		</tr>
-		<tr valign="top">
-			<td width="281" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				1,0</p>
-			</td>
-			<td width="327" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				100</p>
-			</td>
+		<tr>
+			<td style="border-left: 1px solid #000; border-right: 1px solid #000">1,0</td>
+			<td style="border-right: 1px solid #000">100</td>
 		</tr>
-		<tr valign="top">
-			<td width="281" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				Св.
-				1,0 до 5,0</p>
-			</td>
-			<td width="327" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				65</p>
-			</td>
+		<tr>
+			<td style="border-left: 1px solid #000; border-right: 1px solid #000; border-bottom: 1px solid #000">Св. 1,0 до 5,0</td>
+			<td style="border-right: 1px solid #000; border-bottom: 1px solid #000">65</td>
 		</tr>
-	</tbody>
 </table>
 
 <p>
@@ -571,170 +526,84 @@ data:
 воздействия на человека напряжений и
 токов 
 </p>
-<table width="624" cellpadding="4" cellspacing="0">
-	<col width="280"/>
-	<col width="159"/>
-	<col width="158"/>
+<table style="text-align: center; margin: auto" cellspacing="0px" cellpadding="4px">
+	<col width="280" style="border-left: 1px solid #000000; border-right: 1px solid #000000"/>
+	<col width="159" style="border-right: 1px solid #000000"/>
+	<col width="158" style="border-right: 1px solid #000000"/>
 	<tbody>
-		<tr valign="top">
-			<td width="280" style="border-top: 1px solid #000000; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				Продолжительность
-				воздействия, с</p>
+		<tr style="border-top: 1px solid #000000;">
+			<td>Продолжительность	воздействия, с
 			</td>
-			<td colspan="2" width="326" style="padding: 0cm 0.1cm"><p align="center">
-				Нормируемая
-				величина</p>
+			<td colspan="2" style="border: 1px solid #000000">
+				Нормируемая величина
 			</td>
 		</tr>
-		<tr valign="top">
-			<td width="280" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p>
-				<br/>
-				</p>
-			</td>
-			<td width="159" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				<img src="images/e9d3c8ef829ee1d4.gif" name="Фигура2" alt="Фигура2" align="bottom" width="17" height="16"/>
-				B</p>
-			</td>
-			<td width="158" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				<img src="images/bb002b7745e65f29.gif" name="Фигура3" alt="Фигура3" align="bottom" width="13" height="16"/>
-мА&nbsp;</p>
-			</td>
+		<tr style="border-bottom: 1px solid #000000;">
+			<td style="border-top: none;"></td>
+			<td>B</td>
+			<td>мА</td>
 		</tr>
 	</tbody>
 	<tbody>
-		<tr valign="top">
-			<td width="280" style="border-top: 1px solid #000000; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				От
-				0,01 до 0,08</p>
-			</td>
-			<td width="159" style="border-top: 1px solid #000000; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				220</p>
-			</td>
-			<td width="158" style="border-top: 1px solid #000000; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				220</p>
-			</td>
+		<tr>
+			<td>От 0,01 до 0,08</td>
+			<td>220</td>
+			<td>220</td>
 		</tr>
-		<tr valign="top">
-			<td width="280" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				0,1</p>
-			</td>
-			<td width="159" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				200</p>
-			</td>
-			<td width="158" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				200</p>
-			</td>
+		<tr>
+			<td>0,1</td>
+			<td>200</td>
+			<td>200</td>
 		</tr>
-		<tr valign="top">
-			<td width="280" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				0,2</p>
-			</td>
-			<td width="159" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				100</p>
-			</td>
-			<td width="158" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				100</p>
-			</td>
+		<tr>
+			<td>0,2</td>
+			<td>100</td>
+			<td>100</td>
 		</tr>
-		<tr valign="top">
-			<td width="280" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				0,3</p>
-			</td>
-			<td width="159" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				70</p>
-			</td>
-			<td width="158" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				70</p>
-			</td>
+		<tr>
+			<td>0,3</td>
+			<td>70</td>
+			<td>70</td>
 		</tr>
-		<tr valign="top">
-			<td width="280" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				0,4</p>
-			</td>
-			<td width="159" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				55</p>
-			</td>
-			<td width="158" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				55</p>
-			</td>
+		<tr>
+			<td>0,4</td>
+			<td>55</td>
+			<td>55</td>
 		</tr>
-		<tr valign="top">
-			<td width="280" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				0,5</p>
-			</td>
-			<td width="159" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				50</p>
-			</td>
-			<td width="158" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				50</p>
-			</td>
+		<tr>
+			<td>0,5</td>
+			<td>50</td>
+			<td>50</td>
 		</tr>
-		<tr valign="top">
-			<td width="280" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				0,6</p>
-			</td>
-			<td width="159" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				40</p>
-			</td>
-			<td width="158" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				40</p>
-			</td>
+		<tr>
+			<td>0,6</td>
+			<td>40</td>
+			<td>40</td>
 		</tr>
-		<tr valign="top">
-			<td width="280" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				0,7</p>
-			</td>
-			<td width="159" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				35</p>
-			</td>
-			<td width="158" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				35</p>
-			</td>
+		<tr>
+			<td>0,7</td>
+			<td>35</td>
+			<td>35</td>
 		</tr>
-		<tr valign="top">
-			<td width="280" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				0,8</p>
-			</td>
-			<td width="159" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				30</p>
-			</td>
-			<td width="158" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				30</p>
-			</td>
+		<tr>
+			<td>0,8</td>
+			<td>30</td>
+			<td>30</td>
 		</tr>
-		<tr valign="top">
-			<td width="280" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				0,9</p>
-			</td>
-			<td width="159" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				27</p>
-			</td>
-			<td width="158" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				27</p>
-			</td>
+		<tr>
+			<td>0,9</td>
+			<td>27</td>
+			<td>27</td>
 		</tr>
-		<tr valign="top">
-			<td width="280" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				1,0</p>
-			</td>
-			<td width="159" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				25</p>
-			</td>
-			<td width="158" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				25</p>
-			</td>
+		<tr>
+			<td>1,0</td>
+			<td>25</td>
+			<td>25</td>
 		</tr>
-		<tr valign="top">
-			<td width="280" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				Св.
-				1,0</p>
-			</td>
-			<td width="159" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				12</p>
-			</td>
-			<td width="158" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000 0.1cm"><p align="center">
-				2</p>
-			</td>
+		<tr style="border-bottom: 1px solid #000000;">
+			<td>Св. 1,0</td>
+			<td>12</td>
+			<td>2</td>
 		</tr>
 	</tbody>
 </table>
