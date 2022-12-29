@@ -1,4 +1,4 @@
-/* -------------------- Цветовая схема - СИНЯЯ -------------------------- */
+
 
 #header h1 { color: white; font: bold 19pt/15pt Tahoma, sans serif; }
 
@@ -18,34 +18,46 @@ a {	font: 13pt Tahoma, sans serif; }
 
 a:hover { text-decoration: none; }
 
-a:visited {	color: #8f509f; }
+a:visited {	color: #80bcef; }
+ 
 
-#topblock { border: none; background: #456b8c; }
+#topblock { border: none; 
+background: rgba(0,0,0,0.5);
+margin: 10px 5% 0 5%; }
 
 #donntu a {	font: 12pt Tahoma, sans serif; margin-left: 4pt; color: #e5f5ff; }
 
-#donntu a:visited {	color: #e5f5ff; }
+#donntu a:visited {	color: #5fb3ef; }
 
-#header { background: #84a4bf; border: none; }
+#header {  border: none;
+margin: 10px 5% 0 5%; }
 
-#middleblock { background: #a7c6d9; border: none;}
+#middleblock { background: rgba(0,0,0,0.5); border: none;
+	/*max-width: 100%;*/
+	margin: 0 5% 0 5%;
+	padding: 0% 10% 0% 10%;
+	text-align:left;}
 
-#menu {border: none; }
+#menu {border: none;
+background: #273d59;}
 
-#menub { background: #273d59;	border: none; }
+#menub { background: #273d59;	border: none;
+ margin: 0 5% 0 5%;}
   
 .mitemb {	color: #e5f5ff; font-size: 14pt; }
 .mitemb:hover {color: white;};
 .mitemb:visited {	color: #d8bcdf; }
  
-#maintext { background: #e5f5ff; }
+#maintext { background: white;/*#e5f5ff;*/ 
+padding:10px;}
 
-table#resume                    { font: 13pt/120% Tahoma, sans serif;}
-table#resume tr:nth-child(odd)  { background: none; }  
+table#resume                { font: 13pt/120% Tahoma, sans serif; width:90%;}
+table#resume tr:nth-child(odd)  { background: #f5f5f5; }  
 table#resume tr:nth-child(even) { background: none; }
-table#resume tr:nth-child(odd):hover,
-table#resume tr:nth-child(even):hover { background: #f6fcfe;}  
+table#resume tr:nth-child(odd):hover { background-color: #deebef;}  
+table#resume tr:nth-child(even):hover { background-color: #eefbff;} 
 
+/*
 table.search            { width: 90%; }
 table.search            { font: 12pt/120% Tahoma, sans serif;}
 table.search tr.result:nth-child(odd)  { background: none; }      
@@ -58,8 +70,8 @@ table.search td.cspan p {
   color: #5f5f5f; 
   font: bold 13pt Tahoma, sans serif;
   text-indent: 0pt; }
-
-  
+*/
+  /*
 .button { 
 	font: bold 12pt/120% Verdana, sans serif;
   margin: .7em .2em .11em .2em; 
@@ -67,28 +79,52 @@ table.search td.cspan p {
 	-moz-border-radius: .0em;
 	border-radius: .0em;
   }
+*/
+.button { /* ???? ?????? */
+  color: white;
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14pt/100% Tahoma, serif;
+	padding: .4em .6em .5em;
+	text-shadow: 0px 1px 1px rgba(0,0,0,.3);
+  margin: .5em .15em .0em .15em; 
+	-webkit-border-radius: .0em; 
+	-moz-border-radius: .0em;
+	border-radius: .0em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+
+
+
 
 .color { 
-	background: #84a4bf;
-	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#84a4bf));              
-	background: -moz-linear-gradient(top,  #fff,  #84a4bf);                                             
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#84a4bf'); }
-
-.color:visited { color: #70327f; text-shadow: none; } 
-  
-.color:hover { 
 	background: #007ead;
 	color: white;
 	text-decoration: none;    
 	background: -webkit-gradient(linear, left top, left bottom, from(#8cd0e9), to(#00678e));
-	background: -moz-linear-gradient(top,  #8cd0e9,  #00678e);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cd0e9', endColorstr='#00678e'); }
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cd0e9', endColorstr='#00678e');
+}
+
+.color:visited { color: #130f0e; text-shadow: none; } 
+  
+.color:hover { 
+	background: #007ead;
+	color: #733b1c;
+	text-decoration: none;    
+	background: -webkit-gradient(linear, left top, left bottom, from(#8cd0e9), to(#00678e));
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cd0e9', endColorstr='#00678e');
+}
 
 .colorfix { 
-	color: #3e1b02; 
-	background: #CC7D50;           
-	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#CC7D50));             
-	background: -moz-linear-gradient(top,  white,  #CC7D50);                                           
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#CC7D50'); }
+	background: #007ead;
+	color: white;
+	text-decoration: none;    
+	background: -webkit-gradient(linear, left top, left bottom, from(#050606), to(#045979));
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cd0e9', endColorstr='#00678e');
+}
 
-.colorfix:hover { color: #3e1b02; }

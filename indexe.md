@@ -53,7 +53,7 @@ data:
 </tr>
 <tr>
   <td>Personal qualities</td>
-  <td>Short list of positive qualities</td>
+  <td>Perseverance, dedication, thoroughness</td>
 </tr>
 <tr>
   <td>Professional and computer skills</td>
