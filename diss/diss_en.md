@@ -60,12 +60,12 @@ I use flat concentrators - heliostats in tower-type solar power plants with a ce
 <div style="clear: both">
 </div>
 </div>
-<p class="cntr">Figure 1 SPP type with a central tower receiver<br> a) - the principle of operation; b) - a direct heliostat (trekker) with an orientation system drive</p>
+<p class="imgcaption">Figure 1 SPP type with a central tower receiver<br> a) - the principle of operation; b) - a direct heliostat (trekker) with an orientation system drive</p>
 
 <div class="cntr">
 <img src="images/ea2d91f1034616fd.png" name="Figure 4" hspace="12" width="472" height="261">
 </img></div>
-<p class="cntr"> Figure 2 - a simplified technological scheme of a tower-type solar power plant</p> 
+<p class="imgcaption"> Figure 2 - a simplified technological scheme of a tower-type solar power plant</p> 
 
 Concentrators of visual parabolic and parabolic-cylindrical shapes are shown in fig. 3.4
 
@@ -83,7 +83,7 @@ Concentrators of visual parabolic and parabolic-cylindrical shapes are shown in 
 <div style="clear: both">
 </div>
 </div>
-<p class="cntr"> Figure 3 - concentrators of solar radiation:
+<p class="imgcaption"> Figure 3 - concentrators of solar radiation:
 <br> a) mirror parabolic; b) parabolic-cylindrical</p> 
 
 The focus of the concentrators is the heat receiver. With the help of concentrators shown in Fig. 3, a modular SPP is created. Parabolic-cylindrical systems find wider application, because for their work, a simpler system of regulation is used only in one coordinate (by the angle of elevation of the sun above the horizon).
@@ -119,7 +119,7 @@ Autonomous FES, in addition to solar panels, as a rule, contains storage batteri
 
 <div class="cntr"><img src="images/1c6c597f67b449d5.png" name="Figure 4" hspace="12" width="426" height="270">
 </img></div>
-<p class="cntr"> Figure 4. Structural diagram of an autonomous solar power plant</p> 
+<p class="imgcaption"> Figure 4. Structural diagram of an autonomous solar power plant</p> 
 
 The parameters of the solar power plant elements (type and number of photovoltaic converters, battery capacity, inverter power), and, accordingly, its cost depend on many factors: the composition of the electrical load, average daily power consumption, the nature of the solar power plant operation (seasonal or year-round), the average monthly arrival of solar radiation and the number of consecutive days without sun at the place of installation of photovoltaic modules, systems for orienting solar panels to the sun and some other factors.
 
@@ -143,7 +143,7 @@ The network photovoltaic system, in addition to solar panels, also usually inclu
 
 <div class="cntr"><img src="images/97d8c91251403e9.png" name="Figure 5" width="623" height="361">
 </img></div>
-<p class="cntr"> Figure 5 - Structural diagram of a network photovoltaic power plant</p> 
+<p class="imgcaption"> Figure 5 - Structural diagram of a network photovoltaic power plant</p> 
 
 In turn, network FES are divided into two main types according to the method of construction:
 - without rechargeable batteries;
@@ -175,7 +175,7 @@ If the load consumes less energy than the solar panels produce, such an inverter
 <div class="cntr">
 <img src="images/a4ad52d38b579411.png" name="Figure 6" width="480" height="361">
 </img></div>
-<p class="cntr"> Figure 6 - Grid-mounted photovoltaic power supply system with DC charge controller</p> 
+<p class="imgcaption"> Figure 6 - Grid-mounted photovoltaic power supply system with DC charge controller</p> 
 
 The advantages of such systems is the possibility of using solar energy, both in the presence of a network and during outages; the possibility of restoring work during long interruptions in the power supply and deep discharge of batteries by charging the battery from the FP.
 
@@ -187,7 +187,7 @@ A photovoltaic power supply system with a network inverter at the input of an un
 
 <div class="cntr"><img src="images/7de6745dcf707808.png" name="Figure 7" width="448" height="384"/>
 </div>
-<p class="cntr"> Figure 7 - Grid-mounted photovoltaic power supply system with grid inverter at UPS input</p> 
+<p class="imgcaption"> Figure 7 - Grid-mounted photovoltaic power supply system with grid inverter at UPS input</p> 
 
 The advantages of this scheme for constructing a solar power plant is the possibility of using network and autonomous inverters with a minimum set of options, widely represented on the market by numerous manufacturers. Batteries are always in a charged state, are operated in a buffer mode and are used only during power outages.
 
@@ -204,7 +204,7 @@ In normal mode, in the presence of voltage in the network, the grid inverter sup
 In the event of a utility power failure, the UPS switches to battery operation and simultaneously provides the reference voltage for the utility inverter. Therefore, the energy of the sun continues to be used in case of accidents in the networks. As in the presence of a network, excess solar electricity is directed to charge batteries.
 <div class="cntr"><img src="images/48cd34be9f6153f1.png" name="Figure 8" width="527" height="364">
 </img></div>
-<p class="cntr"> Figure 8 &mdash; Grid-mounted photovoltaic power system with grid-tied inverter at UPS output</p> 
+<p class="imgcaption"> Figure 8 &mdash; Grid-mounted photovoltaic power system with grid-tied inverter at UPS output</p> 
 
 If the voltage in the network did not disappear, but went beyond the permissible limits, then the inverter disconnects from such a network and continues to supply the responsible load with high-quality current - from the SB and from the battery. The load connected to the inverter is powered by the voltage that is in the network.
 
