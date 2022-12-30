@@ -1,0 +1,199 @@
+#header h1 { color: #0A0047; font: bold 24pt/20pt  Georgia, serif; }
+
+#header h2 {
+	font-family: "Roboto Slab";
+	font-weight: bold;
+	font-size: 23pt;
+	background: linear-gradient(330deg, #0A0047 0%, #0A0047 25%, #0A0047 50%, #0A0047 75%, #0A0047 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+ 
+#header h3 { color: #0A0047; font: normal 17pt/14pt  Georgia, serif; }
+
+h1 { padding-top: 10pt; font: bold 20pt  Georgia, serif; color: #0A0047; }
+
+h2 { padding-left: 35px; font: bold 18pt  Georgia, serif; color: #0A0047; }
+ 
+h3 { font: bold 14pt  Georgia, serif; color: #0A0047; }
+
+.p1 h1, .p1 h2, .p1 h3, .p1 h4 { width: 100%; color: #230663;}   /* цвета заголовков текста */ 
+.p2 h1, .p2 h2, .p2 h3, .p2 h4 {color: #731427;}
+.p3 h1, .p3 h2, .p3 h3, .p3 h4 {color: #004a5e;}
+.p4 h1, .p4 h2, .p4 h3, .p4 h4 {color: #00491e;}
+.p5 h1, .p5 h2, .p5 h3, .p5 h4 {color: #6e004b;}
+.p6 h1, .p6 h2, .p6 h3, .p6 h4 {color: #002f63;}
+.p7 h1, .p7 h2, .p7 h3, .p7 h4 {color: #712724;}
+p { width: 94%; margin: 0 auto;	font: 14pt/1.2  Georgia, serif; color:#000000; }
+ 
+li { font: 14pt/100% Georgia, serif; }
+
+a {	font:  15pt  Georgia, serif; color: #0A0047;}
+
+a:hover { text-decoration: none; }
+
+.links { font:   17pt Georgia, serif; color: #0A0047;}
+#topblock {
+	min-height: 33px;
+  border: none;
+	background: #0A0047;
+	padding-bottom: 0pt;
+  margin-bottom: 0pt;
+  }
+#topblock a {
+	margin-top: 100px;
+	text-align: center;
+}
+.border {
+	border: 3px solid #0B0B3B; /* цвет рамки фото*/
+}
+.borderp {
+	border: 3px solid #0A0047;}
+#donntu {padding-right: 10pt;} 
+
+#donntu a {	font: 10pt Georgia, serif; color: white; text-align: center; }
+
+#donntu a:visited {	color: white; }
+
+#header {
+  min-height: 255px;
+	background: #2a1738;
+	background: -webkit-gradient(linear, left top, left bottom, from(#351138), to(#8336A6));
+	background: -moz-linear-gradient(top,  #172601,  #8336A6);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#351138', endColorstr='#8336A6');
+	background: -webkit-linear-gradient(0deg, #ffffff, #ffffff);              /* chrome, safari, opera  цвет где Ф.И.О ... */  
+	background: -moz-linear-gradient(0deg,  #ffffff,  #ffffff);                                             /* firefox */
+	background: -ms-linear-gradient(0deg,  #ffffff, #ffffff);  /* ie */
+    border: 0;
+    margin-bottom: 0pt;
+}
+
+#headertext {
+  padding-top: 1pt;
+  padding-bottom: 1pt;
+}
+
+
+#middleblock {
+	padding-bottom: 30px;       /* цвета фона в резюме */ 
+	background: -webkit-linear-gradient(0deg, #ffffff, #ffffff);              /* chrome, safari, opera  */
+	background: -moz-linear-gradient(0deg,  #ffffff,  #ffffff);                                             /* firefox */
+	background: -ms-linear-gradient(0deg,  #ffffff, #ffffff);  /* ie */
+	border: none;
+}
+
+
+#menub {
+	background: #2f0f40;
+	border: none; 
+}
+  
+.mitemb         { font: 14pt Georgia, serif; color: #ffffff; text-decoration: none; padding-left: 3pt; padding-right: 3pt;}
+.mitemb:hover   { color: white; font-weight: bold; }
+.mitemb:visited { color: #D3BBFF; }
+
+#maintext       {  border: none; width: 85%; margin: 0 auto; background-color: rgba(255, 255, 255, 1);   /* цвет фона текста */
+	box-shadow: 6px 0 4px -4px #909090, -6px 0 4px -4px #909090;
+	-moz-box-shadow: 6px 0 4px -4px #909090, -6px 0 4px -4px #909090;
+	-webkit-box-shadow: 6px 0 20px -4px #909090, -6px 0 20px -4px #909090;}    /* цвет рамки резюме */
+
+table#resume                  { font: 14pt/1.2  Georgia, serif;  border-collapse:collapse; color: #0b0017; opacity: 1;}      /* цвет текста резюме */
+table#resume td:nth-child(1)            { font-weight: bold; color: #0b0017;}
+table#resume td:nth-child(1) img {padding: 0px 10px 0px 5px; text-align: right;}
+table#resume tr:nth-child(odd) { background-color: rgba(255, 255, 255, 0.7);} /* Нечетная строка */
+table#resume tr:nth-child(even) { background-color: rgba(213, 212, 208, 0.7);} /* Четная строка */
+table#resume tr:nth-child(odd):hover,
+table#resume tr:nth-child(even):hover { background-color: #E0FFFF;} /* Курсор наведен на четную строку */
+
+table.search                  { width: 86%; }
+table.search                  { font: 11pt Georgia, serif;}
+table.search tr.odd           { background-color: rgba(248, 248, 255, 0.7);}
+table.search tr.even          { background-color: rgba(220, 220, 220, 0.1); }
+table.search tr.odd:hover,
+table.search tr.even:hover    { background-color: #E0FFFF;}
+
+table.search td.c1            { font-size: 14pt; }
+table.search td.cn a          { color: #6e004b; font-size: 13pt;  }
+table.search td.cn a:visited  { color: #002f63; }
+table.search td.cn a:hover    { color: #6e004b; }
+sub {font-size: 10pt;}
+sup {font-size: 10pt; margin-left: -5pt;}
+.formula {font-weight: bold; color: #2f0f40;}
+.icon {
+	width: 24px;
+	height: 24px;
+	display: block;
+	float: left;
+	background-size: cover;
+	margin-right: 10px;
+	text-align: right;
+}
+.ic1 {	background: url("../../images/icons/student.png");}
+.ic2 {	background: url("../../images/icons/birthday.png");}
+.ic3 {	background: url("../../images/icons/town.png");}
+.ic4 {	background: url("../../images/icons/school.png");}
+.ic5 {	background: url("../../images/icons/education.png");}
+.ic6 {	background: url("../../images/icons/checklist.png");}
+.ic7 {	background: url("../../images/icons/languages.png");}
+.ic8 {	background: url("../../images/icons/achievements.png");}
+.ic9 {	background: url("../../images/icons/hobby.png");}
+.ic10 {	background: url("../../images/icons/human.png");}
+.ic11 {	background: url("../../images/icons/computer.png");}
+.ic12 {	background: url("../../images/icons/certificate.png");}
+.ic13 {	background: url("../../images/icons/work.png");}
+.ic14 {	background: url("../../images/icons/calendar.png");}
+.ic15 {	background: url("../../images/icons/gmail.png");}
+
+table.search td.cspan p {  
+  color: #150146;
+  font: 900 15pt/80% Georgia, serif;
+  text-indent: 0pt; }
+
+table.search tr td { border: 1pt solid black; } 
+
+.button { 
+	font: 900 16pt/70% Garamond, serif;
+  margin: .7em .15em .11em .3em; 
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em; 
+	border: 0pt;
+	padding: .6em .6em .6em; }
+
+.color { 
+  text-shadow: none;
+	color: black; 
+	background: white;
+	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#aa9882));              
+	background: -moz-linear-gradient(top,  #fff,  #aa9882);                                             
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#aa9882'); }
+
+.color:visited { 
+	color: black;
+	text-shadow: none; } 
+  
+.color:hover { 
+	background: #ECF248;
+	color: #212121;
+	text-shadow: none;
+	text-decoration: none;
+  }
+
+.colorfix:hover { color: white; } 
+ 
+.comment { 
+  background: silver;
+}
+
+.imgcaption { margin: 10pt 0pt 0pt 0pt; }
+.img { margin: 2pt 0pt 2pt 0pt; }
+
+li .list {width: 94%;}
+.lib p { width: 102%; padding-right: 0px;margin-left: -15pt; }
+.list p { width: 102%; padding-right: 0px; margin-left: -15pt; }
+.list a {width: 100%;}
+.lib a {width: 50%;}
+
+.lib .cat {color: #083a04;}
+
+body { margin-bottom: 0pt; }

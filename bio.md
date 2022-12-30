@@ -6,6 +6,7 @@ data:
   relpath: "../"
   noindex: true
   #ua: indexu.htm
+  p: p2
 ---
 # Биография
 

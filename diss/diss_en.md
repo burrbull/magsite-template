@@ -5,6 +5,7 @@ permalink: /diss/indexe.htm
 data:
   relpath: "../"
   ru: "index.htm"
+  p: p3
 ---
 # Abstract
 
@@ -121,6 +122,7 @@ and the environment <i>T</i><sub>C</sub>:
     <td>(5)</td>
   </tr>
 <table>
+
 where α<sub>C</sub> – convective heat transfer coefficient, W/(m<sup>2</sup>·К);<br>
 <i>T</i><sub>C</sub> – ambient temperature, К.
 
@@ -175,6 +177,7 @@ Initially, taking into account the complexity of the dependence α = α(<i>Т</i
     <td>(10)</td>
   </tr>
 <table>
+
 Taking into account (9):
 <table class="numeq">
   <tr>

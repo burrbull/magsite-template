@@ -1,8 +1,8 @@
-/* ------------- ОСНОВНЫЕ ТЕГИ ------------------------------------------------------------------------------ */
-
 body {  /* Тело документа */
-	background-image: url('../images/bg1.png');
-  margin-bottom: 20pt;  	
+	background: -webkit-linear-gradient(0deg, #ffffff, #ffffff);              /* chrome, safari, opera  */
+	background: -moz-linear-gradient(0deg,  #ffffff,  #ffffff);                                             /* firefox */
+	background: -ms-linear-gradient(0deg,  #ffffff, #ffffff);  /* ie */
+	margin-bottom: 20pt;
 }
 
 /* Разные кавычки для разных языков (тег <q>) */
@@ -11,78 +11,90 @@ body:lang(uk) q, body:lang(de) q { quotes: "\201E" "\201C"; }
 body:lang(ru) q, body:lang(fr) q { quotes: "\00AB" "\00BB" "\201E" "\201C"; }
 
 h1 { /* Заголовок страницы */
-  font: bold 18pt Century, serif;
-  line-height: 100%;
-  text-align: center;
-  padding: 0pt 0pt 0pt 0pt; 
-  color: #0000a3;
-  margin-top: 0pt;
+	font: bold 18pt Century, serif;
+	line-height: 100%;
+	text-align: center;
+	padding: 0pt 0pt 10pt 0pt;
+	color: #0000a3;
+	margin-top: 0pt;
 }
 
 h2 { /* Подзаголовок страницы (названия подразделов) */
-  font: bold 15pt Century, serif;
-  text-align: left;
-  text-indent: 25pt;
-  margin: 20pt 10pt 10pt 10pt;
-  color: #0000a3;
+	font: bold 15pt Century, serif;
+	text-align: left;
+	text-indent: 25pt;
+	margin: 10pt 10pt 10pt 10pt;
+	color: #0000a3;
 }
 
 h3 { /* Подзаголовок страницы (названия подподразделов) */
-  font: bold 13pt Century, serif;
-  text-align: left;
-  text-indent: 10pt;
-  margin: 20pt 10pt 0pt 10pt;
-  color: #0000a3;
+	font: bold 13pt Century, serif;
+	text-align: left;
+	text-indent: 10pt;
+	margin: 0pt 0pt 0pt 10pt;
+	color: #0000a3;
 }
 
 h2.cntr { /* Подзаголовок страницы (названия подразделов) с выравниванием по центру */
-  text-align: center;
-  text-indent: 0pt;
+	text-align: center;
+	text-indent: 0pt;
 }
 
 #header h1 { /* ФИО в шапке*/
-  text-align: left;
-  font: bold 18pt Century Gothic, serif; 
-  line-height: 90%;
-  padding: 4pt 0pt 0pt 0pt;
-  margin-top: 10pt;
+	text-align: left;
+	font: bold 18pt Century Gothic, serif;
+	line-height: 90%;
+	padding: 4pt 10pt 10pt 5pt;
+	margin-top: 5pt;
 }
 
 #header h2 { /* Тема работы в шапке*/
-  font: bold 16pt Century Gothic, serif; 
-  line-height: 90%;
-  color: navy;
-  text-indent: 0pt;
-  margin: 0pt;
-  padding: 5pt 0pt 10pt 0pt;
+	font: bold 16pt Century Gothic, serif;
+	line-height: 90%;
+	color: navy;
+	text-indent: 0pt;
+	margin: 0pt;
+	padding: 0pt 0pt 12pt 0pt;
 }
 
 #header h3 { /* Факультет, кафедра, преподаватель в шапке*/
-  font: 14pt Century Gothic, serif; 
-  line-height: 100%;
-  color: navy;
-  text-indent: 0pt;
-  margin: 0pt;
-  padding: 5pt 0pt 10pt 0pt;
+	font: 14pt Century Gothic, serif;
+	line-height: 100%;
+	color: navy;
+	text-indent: 0pt;
+	margin: 0pt;
+	padding: 0pt 0pt 8pt 0pt;
 }
 
 p { /* Абзац */
 	text-indent: 20pt;
-	font: 15pt/120% Times New Roman, serif; 
+	font: 15pt/120% Times New Roman, serif;
 	margin: 0pt 0pt 0pt 0pt;
-	padding: 2pt 15pt 3pt 15pt;   		
+	padding: 2pt 15pt 3pt 15pt;
 	text-align: justify;
 
 }
 
-img { 
-border: 0; 
+#signature { text-align: center; font: 14pt/1.2  Georgia, serif; color:#0b0017; }
+img {
+	border: 0;
 }
-
+.leftimg {
+	float:left; /* Выравнивание по левому краю */
+	margin: 7px 7px 0 0; /* Отступы вокруг картинки */
+}
+.rightimg  {
+	float: right; /* Выравнивание по правому краю  */
+	margin: 7px 0 0 7px; /* Отступы вокруг картинки */
+}
 ol { /* Нумерованный список */
-	text-indent: 0pt;
-	margin: 10pt 0pt 0pt 0pt;
+	width: 94%;
+	margin: 0 auto;
 }
+ol.list{width: 90%; margin: 0 auto;}
+ol li{	font: 14pt/1.2 Georgia, serif;
+	color: #0b0017; margin-left: 30pt;
+	padding: 2pt;	text-indent: 0pt; text-align: justify;}
 
 ol h2 { /* Заголовок внутри нумерованного списка */
 	text-indent: 0pt;
@@ -97,102 +109,101 @@ ul { /* Ненумерованный список */
 }
 
 ul.content { /* Содержание в реферате */
-	margin-left: 5pt;
-  list-style-type: none;
+
+	list-style-type: none;
+	width: 90%;
+	margin: 0 auto;
 }
 
 li { /* Элемент списка */
-  margin-left: 25pt;
-  font: 15pt Times new roman, serif;
-  padding: 0 5pt 5pt 0pt; 
+	font: 15pt Times new roman, serif;
 }
 
 li.ct1 { /* Элемент содержания в реферате (уровень 1) */
-  margin-left: 0pt;
-  padding: 2pt; 
+	margin-left: 18pt;
+	padding: 2pt;
 }
 
 li.ct2 { /* Элемент содержания в реферате (уровень 2) */
-  margin-left: 20pt;
-  padding: 2pt; 
+	margin-left: 20pt;
+	padding: 2pt;
 }
 
 a { /* Простая ссылка */
 	font: 14pt Century, serif;
-	color: blue;	
+	color: blue;
 }
 
 a:hover { /* Курсор наведен на ссылку */
-	color: firebrick;
+	color: #6b419a;
 	text-decoration: none;
 }
-
-a:visited { /* Посещенная ссылка */
-	color: #915c9e; 
-}
-
 /* ---------------------------------------------------------------------------------------------------------- */
 /* ------------- ОСНОВНЫЕ БЛОКИ ----------------------------------------------------------------------------- */
 
 #topblock { /* Верхний блок (Флаги и ДоННТУ) */
-	min-height: 36px;		
-  border-bottom: solid 1pt #b4cdd4;	
+	min-height: 36px;
+	border-bottom: solid 1pt #b4cdd4;
 }
 
 #langbox { /* Блок флагов */
-	float: left;
-  padding: 5pt 0pt 0pt 5pt;
+	float: right;
+	padding: 4pt 10pt 0pt 0pt;
 }
 
 #donntu { /* Блок ДонНТУ и портала магистров */
-	float: right;
-	padding: 5pt 5pt 0pt 0pt;	
-	margin: 0pt 3pt 0pt 3pt;
+	float: left;
+	padding: 1pt 0pt 0pt 5pt;
+	margin: 0pt 20pt 0pt 3pt;
 }
 
 #donntu a { /* Ссылки в блоке ДонНТУ */
 	font: 12pt Century, serif;
-  margin-left: 3pt;
+	margin-left: 3pt;
 }
 
-#donntu a:visited { /* Ссылки в блоке ДонНТУ (цвет посещенных не меняется) */ 
-  color: blue;
+#donntu a:visited { /* Ссылки в блоке ДонНТУ (цвет посещенных не меняется) */
+	color: blue;
 }
 
 #photomag { /* Блок фотографии */
 	float: left;
 	width: 180px;
-  padding: 10pt 20pt 10pt 10pt;  
+	padding: 6pt;
 }
 
 #header { /* Блок шапки (фотография и текст) */
 	min-height: 270px;
 	clear: both;
 }
-
+#info {
+	width: 85%;
+	margin: 0 auto ;
+}
+.pictures {width: 90%; margin: 0 0;}
 #headertext { /* Блок шапки (только текст) */
-  padding: 10pt 10pt 10pt 10pt;
+	padding: 10pt 10pt 10pt 10pt;
 }
 
 .img { /* Блок с рисунком */
-  margin: 15pt 0 30pt 0;
-  text-align: center;
+	margin: 15pt 0 30pt 0;
+	text-align: center;
 }
 
 .imgcaption { /* Подпись под рисунком */
- font: italic 15pt/120% Times New Roman, serif;
- margin: 0pt 0pt 0pt 0pt;
- padding: 2pt 15pt 3pt 15pt;
- text-align: center;
+	font: italic 15pt/120% Times New Roman, serif;
+	margin: 0pt 0pt 0pt 0pt;
+	padding: 2pt 15pt 3pt 15pt;
+	text-align: center;
 }
 
 .comment { /* Блок с комментарией (в финально версии сожет не использоваться)*/
-  background: lightsteelblue; 
-  color: white; 
-  font-size: 12pt; 
-  margin: 0pt 20pt 0pt 20pt; 
-  padding: 10pt 10pt 10pt 10pt; 
-  text-indent: 0;
+	background: lightsteelblue;
+	color: white;
+	font-size: 12pt;
+	margin: 0pt 20pt 0pt 20pt;
+	padding: 10pt 10pt 10pt 10pt;
+	text-indent: 0;
 }
 
 .cntr { text-align: center; } /* Выравнивание по центру */
@@ -202,36 +213,31 @@ a:visited { /* Посещенная ссылка */
 /* ---------------------------------------------------------------------------------------------------------- */
 /* ------------- ТАБЛИЦА РЕЗЮМЕ ----------------------------------------------------------------------------- */
 
-table#resume { /* Сама таблица */ 
+table#resume { /* Сама таблица */
 	width: 90%;
 	margin: 0 auto;
 	margin-bottom: 0pt;
 }
 
 table#resume tr td {  /* Ячейка в таблице */
-	border: 0pt solid black;
 	padding: 6pt;
 }
 
-table#resume td:first-child { /* Первый столбец */ 
-  width: 25%; 
-  text-align: right; 
-  padding-right: 10pt; 
-  color: #1b005e;
+
+table#resume td:nth-child(1) { /* Первый столбец */
+	border-right: 3pt solid rgba(160, 160, 160, 0.5);;       /* раздельтельная линия в резюма  */ пп
+	font: 400 18px  Helvetica;
+	width: 20%;
+	text-align: left;
+	color: #40305a;
 }
 
-table#resume td:nth-child(2) { width: 75%; } /* Второй столбец */
-
-table#resume tr:nth-child(odd)  { background-color: #f5f5f5;} /* Нечетная строка */ 
-table#resume tr:nth-child(even) { background-color: white;}  /* Четная строка */ 
-
-table#resume tr:nth-child(odd):hover  { background-color: #deebef;}  /* Курсор наведен на нечетную строку */
-table#resume tr:nth-child(even):hover { background-color: #eefbff;} /* Курсор наведен на четную строку */
-
+table#resume td:nth-child(2) { width: 67%; } /* Второй столбец */
 /* ---------------------------------------------------------------------------------------------------------- */
 /* ------------- ПУНКТ СПИСКА БИБЛИОТЕКИ -------------------------------------------------------------------- */
 
-.lib { margin: 10pt 0pt 20pt 25pt; }
+.lib {list-style-position: inside; width: 94%;
+	margin: 0 auto; }
 
 .lib p { /* Абзац в пункте списка */
 	text-indent: 0pt;
@@ -246,7 +252,8 @@ table#resume tr:nth-child(even):hover { background-color: #eefbff;} /* Курс�
 /* ---------------------------------------------------------------------------------------------------------- */
 /* ------------- ПУНКТ СПИСКА СССЫЛОК  ---------------------------------------------------------------------- */
 
-.list { margin: 5pt 0pt 12pt 25pt; }
+.list {list-style-position: inside; width: 94%;
+	margin: 0 auto; }
 
 .list p { /* Абзац внутри элемента списка */
 	text-indent: 0pt;
@@ -254,7 +261,6 @@ table#resume tr:nth-child(even):hover { background-color: #eefbff;} /* Курс�
 }
 
 .list .cat { /* Название категории (автор, описание, источник) в описании пункта списка */
-	color: green;
 	font-weight: bold;
 }
 
@@ -264,51 +270,49 @@ table#resume tr:nth-child(even):hover { background-color: #eefbff;} /* Курс�
 table.search { /* Сама таблица */
 	width: 80%;
 	margin: 0 auto;
-	margin-bottom: 40pt;
-  margin-top: 10pt;
-  border-collapse:collapse;
-  padding:0px;
-  text-align: center;
+	margin-top: 10pt;
+	border-collapse:collapse;
+	padding:0px;
+	text-align: center;
 }
 
-table.search tr td { /* Ячейка в таблице */	
-  border: 1pt solid black; 
-  padding: 3pt;
-} 
-
-table.search td.c1 { /* Первый столбец */ 
-  width: 52%; 
-  text-align: left; 
-  padding-left: 10pt; 
-  color: #150146; 
-  font-size: 15pt;
-}
-  
-table.search td.cn { /* Все остальные столбцы */ 
-  width: 12%; 
-  text-align: center; 
+table.search tr td { /* Ячейка в таблице */
+	border: 1pt solid black;
+	padding: 3pt;
 }
 
-table.search td.cspan { padding: 15pt 5pt 5pt 0pt;} /* Объединенный столбец (название языка)*/ 
-
-table.search tr.result:nth-child(odd)  { background-color: #f5f5f5; }    /* Нечетная строка */  
-table.search tr.result:nth-child(even) { background-color: white; }  /* Четная строка */
-
-table.search tr.result:nth-child(odd):hover  { background-color: #deebef;}  /* Курсор наведен на нечетную строку */
-table.search tr.result:nth-child(even):hover { background-color: #eefbff;} /* Курсор наведен на подсвеченную четная строку */
-
-table.search td.cspan p { /* Абзац в объединенном столбце */ 
-  color: black; 
-  font: bold 13pt Century Gothic, serif; 
-  text-indent: 10pt; 
-  margin: 0;
+table.search td.c1 { /* Первый столбец */
+	width: 52%;
+	text-align: left;
+	padding-left: 10pt;
+	color: #150146;
+	font-size: 15pt;
 }
-  
-table.search td.cn a { /* Ссылка (количество найденных результатов) */ 
-  font-size: 13pt;
-  font-weight: bold; 
-  color: mediumblue;
-}  
+
+table.search td.cn { /* Все остальные столбцы */
+	width: 12%;
+	text-align: center;
+}
+
+table.search td.cspan { padding: 15pt 5pt 5pt 0pt;} /* Объединенный столбец (название языка)*/
+
+table.search tr:nth-child(odd) { background-color: white; }    /* Нечетная строка */
+table.search tr:nth-child(even) { background-color: #f5f5f5;}  /* Четная строка */
+
+table.search tr:nth-child(odd):hover { background-color: #eefbff;}  /* Курсор наведен на нечетную строку */
+table.search tr:nth-child(even):hover { background-color: #deebef;} /* Курсор наведен на подсвеченную четная строку */
+
+table.search td.cspan p { /* Абзац в объединенном столбце */
+	font: bold 13pt Century Gothic, serif;
+	text-indent: 10pt;
+	margin: 0;
+}
+
+table.search td.cn a { /* Ссылка (количество найденных результатов) */
+	font-size: 13pt;
+	font-weight: bold;
+	color: mediumblue;
+}
 
 table.search td.cn a:visited { color: mediumblue; } /* Посещенная ссылка */
 table.search td.cn a:hover { color: firebrick; }    /* Подсвеченная ссылка */
@@ -317,7 +321,7 @@ table.search td.cn a:hover { color: firebrick; }    /* Подсвеченная 
 /* ------------- КНОПКИ ГЛАВНОГО МЕНЮ ----------------------------------------------------------------------- */
 
 .button { /* Сама кнопка */
-  color: white;
+	color: white;
 	display: inline-block;
 	outline: none;
 	cursor: pointer;
@@ -326,8 +330,8 @@ table.search td.cn a:hover { color: firebrick; }    /* Подсвеченная 
 	font: 14pt/100% Century, serif;
 	padding: .4em .6em .5em;
 	text-shadow: 0px 1px 1px rgba(0,0,0,.3);
-  margin: .5em .15em .0em .15em; 
-	-webkit-border-radius: .4em; 
+	margin: .5em .15em .0em .15em;
+	-webkit-border-radius: .4em;
 	-moz-border-radius: .4em;
 	border-radius: .4em;
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
@@ -346,7 +350,7 @@ table.search td.cn a:hover { color: firebrick; }    /* Подсвеченная 
 }
 
 .color { /* Цвет кнопки*/
-	color: navy;  
+	color: navy;
 	border: solid 1px #7496a2;
 	background: #96c1d0;
 	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#96c1d0));              /* chrome, safari, opera  */
@@ -355,11 +359,11 @@ table.search td.cn a:hover { color: firebrick; }    /* Подсвеченная 
 }
 
 .color:visited { color: #6500c4; } /* Кнопка посещенной ссылки */
-  
+
 .color:hover { /* На кнопку наведен курсор */
 	background: #007ead;
 	color: white;
-	text-decoration: none;    
+	text-decoration: none;
 	background: -webkit-gradient(linear, left top, left bottom, from(#8cd0e9), to(#00678e));
 	background: -moz-linear-gradient(top,  #8cd0e9,  #00678e);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cd0e9', endColorstr='#00678e');
@@ -378,16 +382,16 @@ table.search td.cn a:hover { color: firebrick; }    /* Подсвеченная 
 	position: static;
 	top: 0px;
 	cursor: auto;
-	color: #692f06; 
-	font-weight: bold;  
+	color: #692f06;
+	font-weight: bold;
 	text-shadow: 0px 0px 0px rgba(0,0,0,.0);
 	border: solid 1px #7496a2;
-	background: #ffd200;           
+	background: #ffd200;
 	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#ffd200));             /* chrome, safari, opera  */
 	background: -moz-linear-gradient(top,  white,  #ffd200);                                           /* firefox */
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#ffd200'); /* ie */
 }
-	
+
 .colorfix:active  { top: 0px; }		    /* Активную кнопку не смещаем вниз при нажатии */
 .colorfix:hover   { color: #692f06; }	  /* Цвет при наведении не меняем */
 

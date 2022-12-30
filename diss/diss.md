@@ -5,6 +5,7 @@ permalink: /diss/index.htm
 data:
   relpath: "../"
   en: indexe.htm
+  p: p3
 ---
 # Реферат по теме выпускной работы
 
@@ -261,6 +262,7 @@ data:
     <td>(5)</td>
   </tr>
 <table>
+
 где α<sub>C</sub> – конвективный
 коэффициент теплоотдачи, Вт/(м<sup>2</sup>·К);<br>
 <i>T</i><sub>C</sub> – температура окружающей среды, К.
@@ -349,6 +351,7 @@ l</i>, м, и диаметром
     <td>(10)</td>
   </tr>
 <table>
+
 С учетом (9):
 <table class="numeq">
   <tr>

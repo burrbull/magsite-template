@@ -4,6 +4,7 @@ layout: index_ru.liquid
 permalink: /links/zvit.htm
 data:
   relpath: "../"
+  p: p6
 ---
 # Отчет об информационном поиске
 

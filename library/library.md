@@ -4,6 +4,7 @@ layout: index_ru.liquid
 permalink: /library/index.htm
 data:
   relpath: "../"
+  p: p4
 ---
 # Библиотека материалов по теме выпускной работы
 

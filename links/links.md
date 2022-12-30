@@ -4,6 +4,7 @@ layout: index_ru.liquid
 permalink: /links/index.htm
 data:
   relpath: "../"
+  p: p5
 ---
 # Ссылки по теме выпускной работы
 

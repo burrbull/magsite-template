@@ -4,6 +4,7 @@ layout: index_ru.liquid
 permalink: /ind/index.htm
 data:
   relpath: "../"
+  p: p7
 ---
 # Спорт в моей жизни
 

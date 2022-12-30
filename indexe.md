@@ -5,6 +5,7 @@ permalink: /indexe.htm
 data:
   relpath: ""
   ru: index.htm
+  p: p1
 ---
 # Brief resume
 

@@ -1,12 +1,6 @@
-<div id="menu">
-    {% if page.title == "Resume" %}
-        <a class="button colorfix">Resume</a>
-    {% else %}
-        <a class="button color" href="{{ page.data.relpath }}indexe.htm">Resume</a>
-    {% endif %}
-    {% if page.title == "Abstract" %}
-        <a class="button colorfix">Abstract</a>
-    {% else %}
-        <a class="button color" href="{{ page.data.relpath }}diss/indexe.htm">Abstract</a>
-    {% endif %}
-</div>
+<nav id="navbar">
+  <ul class="en">
+    <li><a {% if page.title == "Resume" %} class="active" {% else %} href="{{ page.data.relpath }}indexe.htm" {% endif %}><img src="{{ page.data.relpath }}images/icons/resume.png" align="middle" />Resume</a></li>
+    <li><a {% if page.title == "Abstract" %} class="active" {% else %} href="{{ page.data.relpath }}diss/indexe.htm" {% endif %}><img src="{{ page.data.relpath }}images/icons/report.png" align="middle" />Abstract</a></li>
+  </ul>
+</nav>

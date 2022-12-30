@@ -5,6 +5,7 @@ permalink: /index.htm
 data:
   relpath: ""
   en: indexe.htm
+  p: p1
 ---
 # Краткое резюме магистра
 
