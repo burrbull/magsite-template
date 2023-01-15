@@ -5,13 +5,9 @@
   </head>
 <body lang="ru">
   <div id="topblock">
-    <div id="langbox">
-      {% if page.data.en %}
-        <a href="{{ page.data.en }}"><img src="{{ page.data.relpath }}images/en.png" alt="English" title="English" width="24" height="20"></a>
-      {% endif %}
-      {% if page.data.ua %}
-        <a href="{{ page.data.ua }}"><img src="{{ page.data.relpath }}images/ua.png" alt="Українська" title="Українська" width="24" height="20"></a>
-      {% endif %}
+    <div id="langbox">{% if page.data.en %}
+      <a href="{{ page.data.en }}"><img src="{{ page.data.relpath }}images/en.png" alt="English" title="English" width="24" height="20"></a>{% endif %}{% if page.data.ua %}
+      <a href="{{ page.data.ua }}"><img src="{{ page.data.relpath }}images/ua.png" alt="Українська" title="Українська" width="24" height="20"></a>{% endif %}
     </div>
     {% include "donntu_ru.liquid" %}
   </div>
@@ -22,12 +18,11 @@
 
   <div id="middleblock">
     {% include "menu_ru.liquid" %}
-    <div id="maintext">
-      {{ page.content }}
-    </div>
+
+<div id="maintext">
+{{ page.content }}
+</div>
   </div>
-
   {% include "menub_ru.liquid" %}
-
   </body>
 </html>

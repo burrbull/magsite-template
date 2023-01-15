@@ -1,37 +1,9 @@
 <div id="menu">
-    {% if page.title == "Резюме" %}
-        <a class="button colorfix">Резюме</a>
-    {% else %}
-        <a class="button color" href="{{ page.data.relpath }}index.htm">Резюме</a>
-    {% endif %}
-    {% if page.title == "Биография" %}
-        <a class="button colorfix">Биография</a>
-    {% else %}
-        <a class="button color" href="{{ page.data.relpath }}bio/index.htm">Биография</a>
-    {% endif %}
-    {% if page.title == "Реферат" %}
-        <a class="button colorfix">Реферат</a>
-    {% else %}
-        <a class="button color" href="{{ page.data.relpath }}diss/index.htm">Реферат</a>
-    {% endif %}
-    {% if page.title == "Библиотека" %}
-        <a class="button colorfix">Библиотека</a>
-    {% else %}
-        <a class="button color" href="{{ page.data.relpath }}library/index.htm">Библиотека</a>
-    {% endif %}
-    {% if page.title == "Ссылки" %}
-        <a class="button colorfix">Ссылки</a>
-    {% else %}
-        <a class="button color" href="{{ page.data.relpath }}links/index.htm">Ссылки</a>
-    {% endif %}
-    {% if page.title == "Отчет о поиске" %}
-        <a class="button colorfix">Отчет о поиске</a>
-    {% else %}
-        <a class="button color" href="{{ page.data.relpath }}links/zvit.htm">Отчет о поиске</a>
-    {% endif %}
-    {% if page.title == "Индивидуальный раздел" %}
-        <a class="button colorfix">Индивидуальный раздел</a>
-    {% else %}
-        <a class="button color" href="{{ page.data.relpath }}ind/index.htm">Индивидуальный раздел</a>
-    {% endif %}
+    {% if page.title == "Резюме" %}<a class="button colorfix">Резюме</a>{% else %}<a class="button color" href="{{ page.data.relpath }}index.htm">Резюме</a>{% endif %}
+    {% if page.title == "Биография" %}<a class="button colorfix">Биография</a>{% else %}<a class="button color" href="{{ page.data.relpath }}bio/index.htm">Биография</a>{% endif %}
+    {% if page.title == "Реферат" %}<a class="button colorfix">Реферат</a>{% else %}<a class="button color" href="{{ page.data.relpath }}diss/index.htm">Реферат</a>{% endif %}
+    {% if page.title == "Библиотека" %}<a class="button colorfix">Библиотека</a>{% else %}<a class="button color" href="{{ page.data.relpath }}library/index.htm">Библиотека</a>{% endif %}
+    {% if page.title == "Ссылки" %}<a class="button colorfix">Ссылки</a>{% else %}<a class="button color" href="{{ page.data.relpath }}links/index.htm">Ссылки</a>{% endif %}
+    {% if page.title == "Отчет о поиске" %}<a class="button colorfix">Отчет о поиске</a>{% else %}<a class="button color" href="{{ page.data.relpath }}links/zvit.htm">Отчет о поиске</a>{% endif %}
+    {% if page.title == "Индивидуальный раздел" %}<a class="button colorfix">Индивидуальный раздел</a>{% else %}<a class="button color" href="{{ page.data.relpath }}ind/index.htm">Индивидуальный раздел</a>{% endif %}
 </div>
