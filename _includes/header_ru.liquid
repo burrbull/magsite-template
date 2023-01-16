@@ -6,12 +6,7 @@
 <div id="headertext">
 	<h1 class="hdr">{{ site.data.person.ru.sername }} {{ site.data.person.ru.name }} {{ site.data.person.ru.thirdname }}</h1>
 	<h3 class="hdr">{{ site.data.person.ru.faculty }}</h3>
-	{% if site.data.person.ru.department %}
-	<h3 class="hdr">{{ site.data.person.ru.department }}</h3>
-	{%endif%}
-	{% if site.data.person.ru.field %}
-	<h3 class="hdr">Направление подготовки <q>{{ site.data.person.ru.field }}</q></h3>
-	{%endif%}
+	{% if site.data.person.ru.department %}<h3 class="hdr">{{ site.data.person.ru.department }}</h3>{%endif%}{% if site.data.person.ru.field %}<h3 class="hdr">Направление подготовки <q>{{ site.data.person.ru.field }}</q></h3>{%endif%}
 	<h3 class="hdr">Специальность <q>{{ site.data.person.ru.speciality }}</q></h3>
 	<h2 class="hdr">{{ site.data.person.ru.diss_name }}</h2>
 	<h3 class="hdr">Научный руководитель: {{ site.data.person.ru.adviser_title }} {{ site.data.person.ru.adviser }}</h3>

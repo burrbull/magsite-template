@@ -3,41 +3,27 @@
   <head>
     {% include "head_en.liquid" %}
   </head>
-  <body lang="en">
-    <div id="topblock">
-      <div id="langbox">
-        {% if page.data.ru %}
-          <a href="{{ page.data.ru }}"><img
-              src="{{ page.data.relpath }}images/ru.png"
-              alt="Русский"
-              title="English"
-              width="24"
-              height="20"></a>
-        {% endif %}
-        {% if page.data.ua %}
-          <a href="{{ page.data.ua }}"><img
-              src="{{ page.data.relpath }}images/ua.png"
-              alt="Українська"
-              title="Українська"
-              width="24"
-              height="20"></a>
-        {% endif %}
-      </div>
-      {% include "donntu_en.liquid" %}
+<body lang="en">
+  <div id="topblock">
+    <div id="langbox">
+      {% if page.data.ru %}<a href="{{ page.data.ru }}"><img src="{{ page.data.relpath }}images/ru.png" alt="Русский" title="English" width="24" height="20"></a>{% endif %}
+      {% if page.data.ua %}<a href="{{ page.data.ua }}"><img src="{{ page.data.relpath }}images/ua.png" alt="Українська" title="Українська" width="24" height="20"></a>{% endif %}
     </div>
+    {% include "donntu_en.liquid" %}
+  </div>
 
-    <div id="header">
-      {% include "header_en.liquid" %}
-    </div>
+  <div id="header">
+    {% include "header_en.liquid" %}
+  </div>
 
-    <div id="middleblock">
-      {% include "menu_en.liquid" %}
-      <div id="maintext" {% if page.data.p %}class="{{ page.data.p }}"{% endif %}>
+  <div id="middleblock">
+    {% include "menu_en.liquid" %}
+    <div id="maintext" {% if page.data.p %}class="{{ page.data.p }}"{% endif %}>
         {{ page.content }}
-      </div>
     </div>
+  </div>
 
-    {% include "menub_en.liquid" %}
+  {% include "menub_en.liquid" %}
 
   </body>
 </html>
