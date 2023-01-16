@@ -21,8 +21,8 @@ E-mail: nedzad@etf.bg.ac.rs, jovan.trifunovic@etf.bg.ac.rs, nmkostic@etf.bg.ac.r
 жилых домах. Метод был разработан путем
 установления зависимости между
 измеренными сопротивлениями контура
-короткого замыкания линии на землю и
-линии на нейтраль и степенью износа
+короткого замыкания фазы на землю и
+фазы на нейтраль и степенью износа
 контакта, т. е. увеличением его
 электрического сопротивления. Корреляция
 была установлена путем анализа данных,
@@ -111,16 +111,16 @@ E-mail: nedzad@etf.bg.ac.rs, jovan.trifunovic@etf.bg.ac.rs, nmkostic@etf.bg.ac.r
 контакт можно рассматривать как
 характеризующийся [15]:
 
-- неполное перекрытие поверхности медного
+- неполным перекрытием поверхности медного
 проводника и контактной поверхности
 на выводе электрического компонента
 (уменьшение контактной поверхности),
-- уменьшение силы давления между
+- уменьшением силы давления между
 контактными поверхностями медного
 проводника и винта клеммы электрического
 компонента (уменьшение крутящего
 момента), или
-- повышенный оксидный слой в месте
+- повышенным оксидным слоем в месте
 электрического контакта (старый и/или
 поврежденный коррозией контакт).
 
@@ -144,25 +144,23 @@ E-mail: nedzad@etf.bg.ac.rs, jovan.trifunovic@etf.bg.ac.rs, nmkostic@etf.bg.ac.r
 новый метод обнаружения плохих
 электрических контактов в низковольтных
 электроустановках, характеризующихся
-системой защиты TN.</p>
-<p><br/>
+системой защиты TN.
 
 ## 2. Разработка нового метода выявления бедных электрические контакты в низковольтных электроустановках, характеризующихся системой защиты ТН
 
 ### 2.1 Основная идея разработки нового метода для обнаружения плохих электрических контактов
 
-Действующая
-стандартная процедура проверки качества
+Действующая стандартная процедура проверки качества
 низковольтных электроустановок [18]
 основана на сравнении измеренного
-сопротивления линии к земле с предельным
+сопротивления фазы к земле с предельным
 значением, обеспечивающим достаточно
 быстрое срабатывание соответствующего
 защитного устройства (для предотвращения
 поражение электрическим током) [19].
 Поскольку предельные значения высоки,
 все электрические цепи, в которых
-измеренное сопротивление линии
+измеренное сопротивление фазы
 относительно земли ниже предельного
 значения (<i>R<sub>sMAX</sub></i>) заявлены как исправные,
 хотя некоторые из них могут содержать
@@ -172,12 +170,12 @@ E-mail: nedzad@etf.bg.ac.rs, jovan.trifunovic@etf.bg.ac.rs, nmkostic@etf.bg.ac.r
 процедуру обнаружения плохих контактов
 в розетках, основанную на измерении
 сопротивлений короткого замыкания как
-линии на землю, так и линии на нейтраль
+фазы на землю, так и фазы на нейтраль
 при периодической проверке низковольтных
 электроустановок. Обнаружение заметного
 увеличения импеданса контура замыкания
 на землю и/или контура короткого замыкания
-линии на нейтраль указывает на наличие
+фазы на нейтраль указывает на наличие
 по крайней мере одного плохого контакта
 в наблюдаемой электрической цепи.
 
@@ -188,12 +186,12 @@ E-mail: nedzad@etf.bg.ac.rs, jovan.trifunovic@etf.bg.ac.rs, nmkostic@etf.bg.ac.r
 представление измерений контура
 замыкания на землю (L-PE) и измерения
 импеданса контура короткого замыкания
-(LN) между линией и нейтралью с использованием
+(LN) между фазой и нейтралью с использованием
 обычного измерительного устройства
 приведены на рис. 1 и 2 соответственно.
 
 Сопротивление
-линии к земле (<i>R<sub>SL-PE</sub></i>) в системе TN состоит
+фазы к земле (<i>R<sub>SL-PE</sub></i>) в системе TN состоит
 из сопротивления вторичной обмотки
 силового трансформатора, сопротивления
 фазного провода между силовым
@@ -202,7 +200,7 @@ E-mail: nedzad@etf.bg.ac.rs, jovan.trifunovic@etf.bg.ac.rs, nmkostic@etf.bg.ac.r
 проводника оборудования между местом
 испытания и силовым трансформатором.
 Сопротивление петли короткого замыкания
-линии на нейтраль (<i>R<sub>SL-N</sub></i>) в системе TN
+фазы на нейтраль (<i>R<sub>SL-N</sub></i>) в системе TN
 состоит из сопротивления вторичной
 обмотки силового трансформатора,
 сопротивления фазного проводника между
@@ -227,16 +225,16 @@ E-mail: nedzad@etf.bg.ac.rs, jovan.trifunovic@etf.bg.ac.rs, nmkostic@etf.bg.ac.r
 
 ## 2.2 Данные, полученные из большого количества документов связанные с периодическими проверками качества низковольтных электроустановок
 
-Как сообщается в [4], результаты периодических
+Как сообщается в [4], были проанализированы результаты периодических
 проверок низковольтных электроустановок,
 выполненных Лабораторией в общественных
 и коммерческих зданиях общей площадью
-более 150 000 м<sup>2</sup> были проанализированы.
-Измеренный <i>R<sub>SL-PE</sub></i> значения для 11 159 сосудов
+более 150 000 м<sup>2</sup>.
+Измеренный <i>R<sub>SL-PE</sub></i> значения для 11 159 розеток
 были подвергнуты статистическому
 анализу, и их статистическое распределение
 представлено на рис. 3, на котором показано
-количество сосудов, для которых <i>R<sub>SL-PE</sub></i>
+количество розеток, для которых <i>R<sub>SL-PE</sub></i>
 сопротивления принадлежали каждому из
 диапазонов 0–0,1 Ом, 0,1–0,2 Ом,…, 1,1–1,2 Ом
 и 1,2–1,3 Ом. Количество емкостей, для
@@ -247,7 +245,7 @@ E-mail: nedzad@etf.bg.ac.rs, jovan.trifunovic@etf.bg.ac.rs, nmkostic@etf.bg.ac.r
 
 <p align="center"><img src="trans/23ec4c2cf6f1b177.jpg" name="Picture 81" width="495">
 </img></p>
-<p align="center">Рис. 3  Количество сосудов, для которых <i>R<sub>SL-PE</sub></i>
+<p align="center">Рис. 3  Количество розеток, для которых <i>R<sub>SL-PE</sub></i>
 принадлежат каждому из диапазонов
 шириной 0,1 Ом. [4]</p>
 
@@ -264,15 +262,15 @@ E-mail: nedzad@etf.bg.ac.rs, jovan.trifunovic@etf.bg.ac.rs, nmkostic@etf.bg.ac.r
 этажах, т.&nbsp;к. <i>R<sub>SL-PE</sub></i> увеличивается с
 расстоянием между электрической цепью
 и трансформаторной станцией.  В [4] также
-сообщалось, что на 82 сосудах <i>R<sub>SL-PE</sub></i>
+сообщалось, что на 82 розетках <i>R<sub>SL-PE</sub></i>
 сопротивления выше соответствующих <i>R<sub>sMAX</sub></i> значения
-были измерены (в этих сосудах <i>R<sub>SL-PE</sub></i>
+были измерены (в этих розетках <i>R<sub>SL-PE</sub></i>
 сопротивления варьировались от 1,79 Ом
 до 7,68 Ом). Эти схемы были признаны
 непригодными к использованию, так как
 не были соблюдены условия предотвращения
 поражения электрическим током. Кроме
-того, помимо 11 159 сосудов, для которых
+того, помимо 11 159 розеток, для которых
 <i>R<sub>SL-PE</sub></i> значений, в 84 розетках было обнаружено
 обрыв заземляющего проводника
 оборудования, которые также были признаны
@@ -349,9 +347,9 @@ E-mail: nedzad@etf.bg.ac.rs, jovan.trifunovic@etf.bg.ac.rs, nmkostic@etf.bg.ac.r
 контакты с различными типами увеличенного
 оксидного слоя в месте электрического
 контакта. Эксперименты проводились на
-сосуде, бывшем в эксплуатации много лет
+розетке, бывшей в эксплуатации много лет
 (30 лет в анализируемом случае), а также
-на новых сосудах, электрические контакты
+на новых розетках, электрические контакты
 которых перед экспериментами преднамеренно
 подвергались коррозии. Экспериментальная
 установка и используемое измерительное
@@ -367,15 +365,14 @@ PeakTech 3360, 4 – пластиковый распределительный
 щит, 5 – тестер установки FLUKE 1653B, 6 –
 датчик термопары типа К (хромель/алюмель),
 7 – термометр инфракрасный Cole-Parmer, 8 –
-декада сопротивлений 230 В, 60 А, 9 – аппарат,
+коробка сопротивлений 230 В, 60 А, 9 – аппарат,
 обеспечивающий регулировку площади
 перекрытия электродов, 10 – динамометрическая
 механическая отвертка Wiha TorqueVario-S26462, и
 11 – динамометрическая цифровая отвертка
 TSD- 50).</p>
 
-Анализируя
-результаты проведенных экспериментов,
+Анализируя результаты проведенных экспериментов,
 сделан вывод, что медь – нержавеющая
 сталь представляет собой критическую
 комбинацию материалов, при которой
@@ -430,7 +427,7 @@ TSD- 50).</p>
 низковольтных электроустановках,
 разработанный и представленный в [4] и
 [15].  В таблицах 1 и 2 приведены максимальные
-сопротивления линии относительно земли,
+сопротивления фазы относительно земли,
 обеспечивающие эффективное срабатывание
 устройства защиты при отказе в системе
 TN (<i>R<sub>sMAX</sub></i>), определяемые для наиболее
@@ -462,647 +459,632 @@ TN (<i>R<sub>sMAX</sub></i>), определяемые для наиболее
 <i>R<sub>sMAX</sub></i> (в противном случае соответствующую
 цепь следует признать небезопасной).
 
-Поэтому,
-измеряя <i>R<sub>SL-PE</sub></i> и <i>R<sub>SL-N</sub></i> значений в каждой
+Поэтому, измеряя <i>R<sub>SL-PE</sub></i> и
+<i>R<sub>SL-N</sub></i> значений в каждой
 цепи с последующим сравнением их значений
 с <i>R<sub>lim</sub></i> и анализа по таблицам 1–3 можно
 определить, есть ли в цепи плохой контакт.
 
 <p align="center">Таблица
-1: Ценности Iаи <i>R<sub>sMAX</sub></i> для быстрых и
+1: Значения <i>I<sub>a</sub></i> и <i>R<sub>sMAX</sub></i> для быстрых и
 медленных плавких вставок (<i>I<sub>r</sub></i> = 6–25 А) [4]</p>
 <p align="center"><img src="trans/246efc7baf960368.png" name="Изображение3" width="426">
 </img></p>
 
 <p align="center">Таблица
-2: Ценности Iаи <i>R<sub>sMAX</sub></i> для автоматических
+2: Значения <i>I<sub>a</sub></i> и <i>R<sub>sMAX</sub></i> для автоматических
 выключателей типов В и С (<i>I<sub>r</sub></i> = 6–25 А) [4]</p>
 <p align="center"><img src="trans/5398a4baf599542a.png" name="Изображение4" width="432">
 </img></p>
 
-<table cellpadding="2" cellspacing="0">
+<table width=700px cellpadding="2" cellspacing="0" style="margin: auto; text-align: center; vertical-align: center">
 	<caption>Таблица
 3: Анализ сопротивления контура в случаях,
 когда измеренное <i>R<sub>SL-PE</sub></i> сопротивление
 ниже максимального значения сопротивления
-линии относительно земли (<i>R<sub>sMAX</sub></i>), что
+фазы относительно земли (<i>R<sub>sMAX</sub></i>), что
 обеспечивает эффективное срабатывание
 устройства защиты [4]</caption>
-	<col width="51*"/>
-	<col width="51*"/>
-	<col width="51*"/>
-	<col width="51*"/>
-	<col width="51*"/>
+	<col width="15%"/>
+	<col width="15%"/>
+	<col width="15%"/>
+	<col width="15%"/>
+	<col />
 	<tr valign="top">
-		<td rowspan="2" width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0cm"><p>
-			<br/>
-			</p>
+		<td rowspan="2" style="border-top: 1px solid #000; border-bottom: 1px solid #000; border-left: 1px solid #000">
 		</td>
-		<td width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0cm"><p>
-			<i>R<sub>SL-PE</sub></i>&lt;<i>R<sub>lim</sub></i></p>
+		<td style="border-top: 1px solid #000; border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-PE</sub></i>&lt;<i>R<sub>lim</sub></i>
 		</td>
-		<td width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0cm"><p>
-			<i>R<sub>SL-PE</sub></i>&gt; <i>R<sub>lim</sub></i></p>
+		<td style="border-top: 1px solid #000; border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-PE</sub></i>&gt; <i>R<sub>lim</sub></i>
 		</td>
-		<td width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0cm"><p>
-			<i>R<sub>SL-PE</sub></i>&lt;<i>R<sub>lim</sub></i></p>
+		<td style="border-top: 1px solid #000; border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-PE</sub></i>&lt;<i>R<sub>lim</sub></i>
 		</td>
-		<td width="20%" style="border: 1px solid #000000; padding: 0.05cm"><p>
-			<i>R<sub>SL-PE</sub></i>&gt; <i>R<sub>lim</sub></i></p>
+		<td style="border: 1px solid #000">
+			<i>R<sub>SL-PE</sub></i>&gt; <i>R<sub>lim</sub></i>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			<i>R<sub>SL-N</sub></i>&lt;<i>R<sub>lim</sub></i></p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-N</sub></i>&lt;<i>R<sub>lim</sub></i>
 		</td>
-		<td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			<i>R<sub>SL-N</sub></i>&lt;<i>R<sub>lim</sub></i></p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-N</sub></i>&lt;<i>R<sub>lim</sub></i>
 		</td>
-		<td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			<i>R<sub>SL-N</sub></i>&gt; <i>R<sub>lim</sub></i></p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-N</sub></i>&gt; <i>R<sub>lim</sub></i>
 		</td>
-		<td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"><p>
-			<i>R<sub>SL-N</sub></i>&gt; <i>R<sub>lim</sub></i></p>
-		</td>
-	</tr>
-	<tr valign="top">
-		<td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			Расположение плохая электрика контакт</p>
-		</td>
-		<td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			Электрическая цепь скорее всего не
-			плохой электрический контакт</p>
-		</td>
-		<td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			Плохой электрический контакт на
-			оборудовании заземлитель</p>
-		</td>
-		<td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			Плохой электрический контакт на
-			нейтрали проводник</p>
-		</td>
-		<td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"><p style="orphans: 0; widows: 0; ">
-			-плохой электрический контакт на
-			фазном проводе, или</p>
-			<p style="orphans: 0; widows: 0; ">
-			-плохой электрический контакт на двух
-			проводниках (возможны все три
-			комбинации), или</p>
-			<p>-плохие
-			электрические контакты на всех трех
-			проводниках (наихудший случай)</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000; border-right: 1px solid #000">
+			<i>R<sub>SL-N</sub></i>&gt; <i>R<sub>lim</sub></i>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			Опасность пожара (последствия
-			неисправность)</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			Расположение плохая электрика контакт
 		</td>
-		<td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			Вероятно, не существуют</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000"><p>
+			Электрическая цепь скорее всего не плохой электрический контакт</p>
 		</td>
-		<td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			Нет (в случае отказа устройство защиты
-			отвечает в пределах безопасного
-			интервала)</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000"><p>
+			Плохой электрический контакт на оборудовании заземлитель</p>
 		</td>
-		<td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			Возможно, из-за перегрева на нейтральном
-			проводе</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000"><p>
+			Плохой электрический контакт на нейтрали проводник</p>
 		</td>
-		<td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"><p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000; border-right: 1px solid #000">
+			-плохой электрический контакт на фазном проводе, или</br>
+			- плохой электрический контакт на двух проводниках (возможны все три комбинации), или</br>
+			- плохие электрические контакты на всех трех проводниках (наихудший случай)
+		</td>
+	</tr>
+	<tr valign="top">
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			Опасность пожара (последствия неисправность)
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			Вероятно, не существуют
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			Нет (в случае отказа устройство защиты отвечает в пределах безопасного интервала)
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			Возможно, из-за перегрева на нейтральном проводе
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000; border-right: 1px solid #000">
 			Возможно, из-за перегрева на фазном
 			и/или нулевом проводе (в случае
 			неисправности устройство защиты
 			срабатывает в пределах безопасного
-			интервала)</p>
+			интервала)
 		</td>
 	</tr>
 </table>
 
-<table cellpadding="2" cellspacing="0">
+<table width=900px cellpadding="2" cellspacing="0"  style="margin: auto; text-align: center; vertical-align: center">
 	<caption>Таблица
 4: Результаты измерений, полученных при
 проверках качества низковольтных
 электроустановок в квартирах жилых
 домов разного возраста (10–60 лет) по
-новой методике.*Примечание: значения
+новой методике. *Примечание: значения
 измеренного сопротивлениядо
 послевмешательство электрика и устранение
 неисправности.</caption>
-	<col width="20*"/>
-	<col width="20*"/>
-	<col width="20*"/>
-	<col width="20*"/>
-	<col width="20*"/>
-	<col width="20*"/>
-	<col width="20*"/>
-	<col width="20*"/>
-	<col width="20*"/>
-	<col width="20*"/>
-	<col width="20*"/>
-	<col width="20*"/>
-	<col width="20*"/>
+	<col width="7%*"/>
+	<col width="7%*"/>
+	<col />
+	<col width="7%*"/>
+	<col width="7%*"/>
+	<col width="7%*"/>
+	<col width="7%*"/>
+	<col width="7%*"/>
+	<col width="7%*"/>
+	<col width="7%*"/>
+	<col width="7%*"/>
+	<col width="7%*"/>
+	<col width="7%*"/>
 	<tr valign="top">
-		<td rowspan="2" width="8%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0cm"><p>
-			Количество плоский</p>
+		<td rowspan="2" style="border-top: 1px solid #000; border-bottom: 1px solid #000; border-left: 1px solid #000">
+			Количество плоский
 		</td>
-		<td rowspan="2" width="8%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0cm"><p>
-			Возраст здания (годы)</p>
+		<td rowspan="2" style="border-top: 1px solid #000; border-bottom: 1px solid #000; border-left: 1px solid #000">
+			Возраст здания (годы)
 		</td>
-		<td rowspan="2" width="8%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0cm"><p>
-			Измерение</p>
+		<td rowspan="2" style="border-top: 1px solid #000; border-bottom: 1px solid #000; border-left: 1px solid #000">
+			Измерение
 		</td>
-		<td colspan="10" width="77%" style="border: 1px solid #000000; padding: 0.05cm"><p align="center">
-			№ розетки</p>
+		<td colspan="10" style="border: 1px solid #000">
+			№ розетки
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			1</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			1
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			2</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			2
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			3</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			3
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			4</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			4
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			5</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			5
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			6</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			6
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			7</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			7
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			8</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			8
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			9</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			9
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"><p>
-			10</p>
-		</td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="2" width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			1</p>
-		</td>
-		<td rowspan="2" width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			10</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			<i>R<sub>SL-PE</sub></i>(Ом)</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,47</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,46</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,48</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,47</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,48</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,49</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,50</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,49</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,48</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"><p>
-			0,48</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000; border-right: 1px solid #000">
+			10
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			<i>R<sub>SL-N</sub></i>(Ом)</p>
+		<td rowspan="2" style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			1
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,45</p>
+		<td rowspan="2" style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			10
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,45</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-PE</sub></i>(Ом)
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,47</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,47
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,46</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,46
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,46</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,48
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,47</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,47
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,48</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,48
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,47</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,49
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,46</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,50
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"><p>
-			0,46</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,49
 		</td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="2" width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			2</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,48
 		</td>
-		<td rowspan="2" width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			10</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			<i>R<sub>SL-PE</sub></i>(Ом)</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,49</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,46</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			1. 48</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			1,23!/0,49*</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,48</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,49</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,48</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,49</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,51</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"><p>
-			0,50</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000; border-right: 1px solid #000">
+			0,48
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			<i>R<sub>SL-N</sub></i>(Ом)</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-N</sub></i>(Ом)
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,49</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,45
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,47</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,45
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,48</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,47
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,47</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,46
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,47</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,46
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,48</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,47
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,47</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,48
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,48</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,47
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,47</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,46
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"><p>
-			0,48</p>
-		</td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="2" width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			3</p>
-		</td>
-		<td rowspan="2" width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			20</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			<i>R<sub>SL-PE</sub></i>( Ом)</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,34</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,35</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,36</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,36</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,38</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,35</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,37</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,39</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,38</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"><p>
-			0,36</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000; border-right: 1px solid #000">
+			0,46
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			<i>R<sub>SL-N</sub></i>(Ом)</p>
+		<td rowspan="2" style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			2
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,33</p>
+		<td rowspan="2" style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			10
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,32</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-PE</sub></i>(Ом)
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,33</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,49
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,35</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,46
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,34</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			1. 48
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,34</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			1,23!/0,49*
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,33</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,48
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,34</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,49
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,35</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,48
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"><p>
-			0,35</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,49
 		</td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="2" width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			4</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,51
 		</td>
-		<td rowspan="2" width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			20</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			<i>R<sub>SL-PE</sub></i>(Ом)</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,44</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			2. 43</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,44</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,44</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,43</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			1,34!/0,43*</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,42</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,44</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,46</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"><p>
-			0,45</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000; border-right: 1px solid #000">
+			0,50
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			<i>R<sub>SL-N</sub></i>(Ом)</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-N</sub></i>(Ом)
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,44</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,49
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,42</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,47
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,43</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,48
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,44</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,47
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,42</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,47
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			1,33!/0,44*</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,48
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,41</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,47
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,43</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,48
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,45</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,47
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"><p>
-			0,44</p>
-		</td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="2" width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			5</p>
-		</td>
-		<td rowspan="2" width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			45</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			<i>R<sub>SL-PE</sub></i>(Ом)</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			1,28!/0,60*</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,65</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,64</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,61</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,60</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,61</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,60</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,60</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,59</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"><p>
-			0,58</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000; border-right: 1px solid #000">
+			0,48
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			<i>R<sub>SL-N</sub></i>(Ом)</p>
+		<td rowspan="2" style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			3
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,58</p>
+		<td rowspan="2" style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			20
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,59</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-PE</sub></i>( Ом)
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,63</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,34
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,59</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,35
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,60</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,36
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,58</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,36
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,57</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,38
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,58</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,35
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,58</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,37
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"><p>
-			0,55</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,39
 		</td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="2" width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			6</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,38
 		</td>
-		<td rowspan="2" width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			45</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			<i>R<sub>SL-PE</sub></i>(Ом)</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,50</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,48</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,47</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,49</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,48</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,47</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,50</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,47</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,48</p>
-		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"><p>
-			0,50</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000; border-right: 1px solid #000">
+			0,36
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			<i>R<sub>SL-N</sub></i>(Ом)</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-N</sub></i>(Ом)
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,48</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,33
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,46</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,32
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,46</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,33
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,48</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,35
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,45</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,34
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,44</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,34
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,49</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,33
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			1,41/0,45*</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,34
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none;"><p>
-			0,44</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,35
 		</td>
-		<td width="8%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"><p>
-			0,49</p>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000; border-right: 1px solid #000">
+			0,35
+		</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="2" style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			4
+		</td>
+		<td rowspan="2" style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			20
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-PE</sub></i>(Ом)
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,44
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			2. 43
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,44
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,44
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,43
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			1,34!/0,43*
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,42
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,44
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,46
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000; border-right: 1px solid #000">
+			0,45
+		</td>
+	</tr>
+	<tr valign="top">
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-N</sub></i>(Ом)
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,44
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,42
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,43
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,44
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,42
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			1,33!/0,44*
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,41
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,43
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,45
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000; border-right: 1px solid #000">
+			0,44
+		</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="2" style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			5
+		</td>
+		<td rowspan="2" style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			45
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-PE</sub></i>(Ом)
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			1,28!/0,60*
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,65
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,64
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,61
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,60
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,61
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,60
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,60
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,59
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000; border-right: 1px solid #000">
+			0,58
+		</td>
+	</tr>
+	<tr valign="top">
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-N</sub></i>(Ом)
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,58
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,59
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,63
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,59
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,60
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,58
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,57
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,58
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,58
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000; border-right: 1px solid #000">
+			0,55
+		</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="2" style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			6
+		</td>
+		<td rowspan="2" style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			45
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-PE</sub></i>(Ом)
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,50
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,48
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,47
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,49
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,48
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,47
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,50
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,47
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,48
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000; border-right: 1px solid #000">
+			0,50
+		</td>
+	</tr>
+	<tr valign="top">
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			<i>R<sub>SL-N</sub></i>(Ом)
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,48
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,46
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,46
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,48
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,45
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,44
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,49
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			1,41/0,45*
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000">
+			0,44
+		</td>
+		<td style="border-bottom: 1px solid #000; border-left: 1px solid #000; border-right: 1px solid #000">
+			0,49
 		</td>
 	</tr>
 </table>
@@ -1131,7 +1113,7 @@ TN (<i>R<sub>sMAX</sub></i>), определяемые для наиболее
 были ниже, чем <i>R<sub>sMAX</sub></i> и, следовательно,
 в соответствии со стандартной процедурой
 электрические цепи, содержащие эти
-сосуды, были бы признаны исправными.
+розетки, были бы признаны исправными.
 Однако сравнение измеренных <i>R<sub>SL-PE</sub></i> и
 <i>R<sub>SL-N</sub></i> с <i>R<sub>lim</sub></i>(сопротивление на 0,5 Ом выше
 максимального <i>R<sub>SL-PE</sub></i>(<i>R<sub>SL-N</sub></i>) сопротивление,
