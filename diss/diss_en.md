@@ -126,7 +126,7 @@ and the environment <i>T</i><sub>C</sub>:
 where α<sub>C</sub> – convective heat transfer coefficient, W/(m<sup>2</sup>·К);<br>
 <i>T</i><sub>C</sub> – ambient temperature, К.
 
-In <a href="#ref\1">[\1]</a>  analytical dependences were obtained for determining alternating current in the temperature range from 20 to 140 °C. It was assumed that the contact connection is represented as a horizontal conductor (cylinder) with a length of <i>l</i>, m and a diameter of
+In <a href="#ref1">[1]</a>  analytical dependences were obtained for determining alternating current in the temperature range from 20 to 140 °C. It was assumed that the contact connection is represented as a horizontal conductor (cylinder) with a length of <i>l</i>, m and a diameter of
 <i>d</i>, m. Obtaining analytical dependencies is based on formulas for dimensionless heat transfer coefficients.
 
 Common disadvantages of this approach can be called:
@@ -248,7 +248,7 @@ Similarly, when varying <i>I</i><sub>нагр</sub>=
       A
     </td>
     <td rowspan="2" style="border: 1px solid #000000">
-      α = <img src="images/image021.png" name="Объект13" align="absmiddle"/>
+      α = <img src="images/image021.png" name="Объект13"/>
     W/(m<sup>2</sup>К)
     </td>
     <td colspan="2" width="193" style="border: 1px solid #000000">
@@ -413,7 +413,7 @@ It allows you to calculate the<i>Т</i><sub>уст</sub> for any combination of 
 and <i>R</i><sub>конт</sub>
 for the specified type of extension cords (Fig. 7).
 
-According to GOST R51539-99<a href="#ref\1">[\1]</a>, in normal mode,
+According to GOST R51539-99<a href="#ref1">[1]</a>, in normal mode,
 <i>R</i><sub>конт</sub>&le;0,05
 Ohmshould be performed in extension cords with connections between fixed and moving parts. In our experiments,
 <i>R</i><sub>конт</sub>
