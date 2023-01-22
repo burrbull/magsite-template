@@ -4,7 +4,7 @@ layout: index_ru.liquid
 permalink: /diss/index.htm
 data:
   relpath: "../"
-  en: indexe.htm
+  #en: indexe.htm
 ---
 # Реферат по теме выпускной работы
 
