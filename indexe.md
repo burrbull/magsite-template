@@ -9,65 +9,64 @@ data:
 # Brief resume
 
 <table id="resume">
-<tr class=odd>
-  <td class=c1>Name</td>
-  <td class=c2>Ivan Ivanenko</td>
+<tr>
+<td>Name</td>
+<td>Viktor Gluhoi</td>
 </tr>
+<tr>
+<td>Date of birth</td>
+<td>Aug 03, 1987</td>
 </tr>
-<tr class=even>
-  <td class=c1>Date of birth</td>
-  <td class=c2>Jan 1, 1990</td>
+<tr>
+<td>Place of birth</td>
+<td>Zaporozhye city</td>
 </tr>
-<tr class=odd>
-  <td class=c1>Place of birth</td>
-  <td class=c2>Donetsk</td>
+<tr>
+<td>Schools</td>
+<td>1994–2001 — School No. 52, Zaporozhye;<br>
+2001–2005 — Vocational school №27, Zaporozhye</td>
 </tr>
-<tr class=even>
-  <td class=c1>Schools</td>
-  <td class=c2>List of schools</td>
+<tr>
+<td>ВУЗ</td>
+<td>2016–2021 – DonNTU, specialty <q>power supply of industrial enterprises and cities</q>, bachelor;<br>
+2021–2023 – DonNTU, majoring in <q>power supply and energy saving</q>, master's degree</td>
 </tr>
-<tr class=odd>
-  <td class=c1>Universities</td>
-  <td class=c2>List of universities; bachelor and master's programs are divided into two records with periods of study</td>
+<tr>
+<td>Languages</td>
+<td>Russian — <q>advanced</q><br>
+Ukrainian — <q>advanced</q><br>
+English - <q>basic</q><br>
+</td>
 </tr>
-<tr class=even>
-  <td class=c1>Average score</td>
-  <td class=c2>Average score during Bachelor course</td>
+<tr>
+<td>Hobbies and interests</td>
+<td>Sports, nature, fiction, cinema, outdoor activities</td>
 </tr>
-<tr class=odd>
-  <td class=c1>Languages</td>
-  <td class=c2>List of languages with level indicating (<q>basic</q>, <q>intermediate</q>, <q>advanced</q> etc)</td>
+<tr>
+<td>Personal qualities</td>
+<td>Responsible, executive, reliable, organized, initiative, purposeful, sociable, accurate</td>
 </tr>
-<tr class=even>
-  <td class=c1>Personal achievements</td>
-  <td class=c2>List of personal achievements - training (winner of the All-Ukrainian competitions, contests and so on), scientific, sports and any other</td>
+<tr>
+<td>Professional and computer skills</td>
+<td>1. Electrical work<br>
+2. Repair and modernization of equipment<br>
+3. Safety precautions: 4th electrical safety group (up to and over 1000V)<br>
+4. Power networks<br>
+5. Reading and editing diagrams<br>
+6. Business correspondence<br>
+7. Confident user of PC and office equipment<br>
+8. Working with PC components and additional devices<br>
+9. Autocad, KOMPAS, MS Office</td>
 </tr>
-<tr class=odd>
-  <td class=c1>Hobbies and interests</td>
-  <td class=c2>Games, books, music, any other hobbies</td>
+<tr>
+<td>Work experience</td>
+<td>2005–2009 – LLC “Trading house “Amstor”, Zaporozhye, head. food products department;<br>
+2009–2014 — TC "Parrot", senior salesman and merchandiser;<br>
+2014 - present time - SPP "Donetskgorteploset", Electrician for the repair and maintenance of electrical equipment
+</td>
 </tr>
-<tr class=even>
-  <td class=c1>Personal qualities</td>
-  <td class=c2>Short list of positive qualities</td>
-</tr>
-<tr class=odd>
-  <td class=c1>Professional and computer skills</td>
-  <td class=c2>1. Operating systems.<br>2. Applications.<br>3. Programming languages.<br>4. Environments. </td>
-</tr>
-<tr class=even>
-  <td class=c1>Additional courses, internships, grants</td>
-  <td class=c2>Professional courses, internships abroad, international conferences.</td>
-</tr>
-<tr class=odd>
-  <td class=c1>Professional experience</td>
-  <td class=c2>Company, job title and dates of employment</td>
-</tr>
-<tr class=even>
-  <td class=c1>Future plans</td>
-  <td class=c2>Short description of future plans</td>
-</tr>
-<tr class=odd>
-  <td class=c1>Contact information</td>
-  <td class=c2>E-mail, skype, facebook, ICQ etc</td>
+<tr>
+<td>Contact information</td>
+<td>E-mail address: <a href="mailto:VictorGluhoy@gmail.com">VictorGluhoy@gmail.com</a></td>
 </tr>
 </table>
