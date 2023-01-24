@@ -5,14 +5,14 @@ ru:
   google_url: https://www.google.com/search?q=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5+%D0%B8%D1%81%D0%BA%D1%80%D0%BE%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D1%8B%D1%85+%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D0%BE%D0%B2+%D1%81%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D1%85+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85+%D1%86%D0%B5%D0%BF%D0%B5%D0%B9+%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F&oq=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5+%D0%B8%D1%81%D0%BA%D1%80%D0%BE%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D1%8B%D1%85+%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D0%BE%D0%B2+%D1%81%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D1%85+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85+%D1%86%D0%B5%D0%BF%D0%B5%D0%B9+%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F&sourceid=chrome&ie=UTF-8
   google_total_results: 9240
   yandex_url: https://yandex.ru/search/?text=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5+%D0%B8%D1%81%D0%BA%D1%80%D0%BE%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D1%8B%D1%85+%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D0%BE%D0%B2+%D1%81%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D1%85+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85+%D1%86%D0%B5%D0%BF%D0%B5%D0%B9+%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F&lr=142
-  yandex_total_results: ???
+  yandex_total_results: ≈ 15 тыс.
   bing_url: https://www.bing.com/search?form=QBRE&q=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5+%D0%B8%D1%81%D0%BA%D1%80%D0%BE%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D1%8B%D1%85+%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D0%BE%D0%B2+%D1%81%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D1%85+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85+%D1%86%D0%B5%D0%BF%D0%B5%D0%B9+%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F
   bing_total_results: 182000
 - text: Бершадский Илья Адольфович, ДОННТУ
   google_url: https://www.google.com/search?q=%D0%91%D0%B5%D1%80%D1%88%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9+%D0%98%D0%BB%D1%8C%D1%8F+%D0%90%D0%B4%D0%BE%D0%BB%D1%8C%D1%84%D0%BE%D0%B2%D0%B8%D1%87%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3&oq=%D0%91%D0%B5%D1%80%D1%88%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9+%D0%98%D0%BB%D1%8C%D1%8F+%D0%90%D0%B4%D0%BE%D0%BB%D1%8C%D1%84%D0%BE%D0%B2%D0%B8%D1%87%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3&sourceid=chrome&ie=UTF-8
   google_total_results: 168
   yandex_url: https://yandex.ru/search/?text=%D0%91%D0%B5%D1%80%D1%88%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9+%D0%98%D0%BB%D1%8C%D1%8F+%D0%90%D0%B4%D0%BE%D0%BB%D1%8C%D1%84%D0%BE%D0%B2%D0%B8%D1%87%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3&lr=142
-  yandex_total_results: ???
+  yandex_total_results: ≈ 9 тыс.
   bing_url: https://www.bing.com/search?form=QBRE&q=%D0%91%D0%B5%D1%80%D1%88%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9+%D0%98%D0%BB%D1%8C%D1%8F+%D0%90%D0%B4%D0%BE%D0%BB%D1%8C%D1%84%D0%BE%D0%B2%D0%B8%D1%87%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3
   bing_total_results: 54900
 - text: Искробезопасные параметры
@@ -26,14 +26,14 @@ ru:
   google_url: https://www.google.com/search?q=%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5+%D1%86%D0%B5%D0%BF%D0%B8+%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F&oq=%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5+%D1%86%D0%B5%D0%BF%D0%B8+%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F&sourceid=chrome&ie=UTF-8
   google_total_results: 48800
   yandex_url: https://yandex.ru/search/?text=%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5+%D1%86%D0%B5%D0%BF%D0%B8+%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F&lr=142
-  yandex_total_results: ???
+  yandex_total_results: ≈ 533 тыс.
   bing_url: https://www.bing.com/search?form=QBRE&q=%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5+%D1%86%D0%B5%D0%BF%D0%B8+%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F
   bing_total_results: 166000
 - text: Сложные электрические цепи
   google_url: https://www.google.com/search?q=%D0%A1%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D0%B5+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5+%D1%86%D0%B5%D0%BF%D0%B8&oq=%D0%A1%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D0%B5+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5+%D1%86%D0%B5%D0%BF%D0%B8&sourceid=chrome&ie=UTF-8
   google_total_results: 585000
   yandex_url: https://yandex.ru/search/?text=%D0%A1%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D0%B5+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5+%D1%86%D0%B5%D0%BF%D0%B8&lr=142
-  yandex_total_results: ???
+  yandex_total_results: ≈ 382 тыс.
   bing_url: https://www.bing.com/search?form=QBRE&q=%D0%A1%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D0%B5+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5+%D1%86%D0%B5%D0%BF%D0%B8
   bing_total_results: 221000
 en:
@@ -41,34 +41,34 @@ en:
   google_url: https://www.google.com/search?q=Determination+of+intrinsically+safe+parameters+of+complex+electrical+circuits+of+mining+equipment&oq=Determination+of+intrinsically+safe+parameters+of+complex+electrical+circuits+of+mining+equipment&sourceid=chrome&ie=UTF-8
   google_total_results: 4930000
   yandex_url: https://yandex.ru/search/?text=Determination+of+intrinsically+safe+parameters+of+complex+electrical+circuits+of+mining+equipment&lr=142
-  yandex_total_results: ???
+  yandex_total_results: ≈ 50 тыс.
   bing_url: https://www.bing.com/search?form=QBRE&q=Determination+of+intrinsically+safe+parameters+of+complex+electrical+circuits+of+mining+equipment
   bing_total_results: 23300000
 - text: Ilya Bershadsky, DONNTU
   google_url: https://www.google.com/search?q=Ilya+Bershadsky%2C+DONNTU&oq=Ilya+Bershadsky%2C+DONNTU&sourceid=chrome&ie=UTF-8
   google_total_results: 4
   yandex_url: https://yandex.ru/search/?text=Ilya+Bershadsky%2C+DONNTU&lr=142
-  yandex_total_results: ???
+  yandex_total_results: ≈ 559 тыс.
   bing_url: https://www.bing.com/search?form=QBRE&q=Ilya+Bershadsky%2C+DONNTU
   bing_total_results: 874000
 - text: Intrinsically Safe Parameters
   google_url: https://www.google.com/search?q=Intrinsically+Safe+Parameters&oq=Intrinsically+Safe+Parameters&sourceid=chrome&ie=UTF-8
   google_total_results: 57200000
   yandex_url: https://yandex.ru/search/?text=Intrinsically+Safe+Parameters&lr=142
-  yandex_total_results: ???
+  yandex_total_results: ≈ 307 тыс.
   bing_url: https://www.bing.com/search?form=QBRE&q=Intrinsically+Safe+Parameters
   bing_total_results: 300000
 - text: Electrical circuits of mining equipment
   google_url: https://www.google.com/search?q=Electrical+circuits+of+mining+equipment&oq=Electrical+circuits+of+mining+equipment&sourceid=chrome&ie=UTF-8
   google_total_results: 43800000
   yandex_url: https://yandex.ru/search/?text=Electrical+circuits+of+mining+equipment&lr=142
-  yandex_total_results: ???
+  yandex_total_results: ≈ 581 тыс.
   bing_url: https://www.bing.com/search?form=QBRE&q=Electrical+circuits+of+mining+equipment
   bing_total_results: 15200000
 - text: Complex electrical circuits
   google_url: https://www.google.com/search?q=Complex+electrical+circuits&oq=Complex+electrical+circuits&sourceid=chrome&ie=UTF-8
   google_total_results: 86800000
   yandex_url: https://yandex.ru/search/?text=Complex+electrical+circuits&lr=142
-  yandex_total_results: ???
+  yandex_total_results: ≈ 395 тыс.
   bing_url: https://www.bing.com/search?form=QBRE&q=Complex+electrical+circuits
   bing_total_results: 3290000
