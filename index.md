@@ -11,7 +11,7 @@ data:
 <table id="resume">
 <tr>
   <td>ФИО</td>
-  <td>Иваненко Иван Иванович</td>
+  <td>{{ site.data.person.ru.sername }} {{ site.data.person.ru.name }} {{ site.data.person.ru.thirdname }}</td>
 </tr>
 <tr>
   <td>Дата рождения</td>
