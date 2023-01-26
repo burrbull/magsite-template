@@ -1,0 +1,9 @@
+ru
+Арматов Богдан Эдуардович
+Расчет надежности схем систем электроснабжения с восстанавливаемыми элементами
+Электроснабжение и энергосбережение
+
+en
+Bohdan Armatov
+Reliability calculation of power supply system schemes with renewable elements
+Power supply and energy saving
