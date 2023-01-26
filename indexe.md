@@ -11,12 +11,12 @@ data:
 <table id="resume">
 <tr>
   <td>Name</td>
-  <td>Ivan Ivanenko</td>
+  <td>Bohdan Armatov</td>
 </tr>
 </tr>
 <tr>
   <td>Date of birth</td>
-  <td>Jan 1, 1990</td>
+  <td>Jun 14, 1999</td>
 </tr>
 <tr>
   <td>Place of birth</td>
@@ -24,50 +24,49 @@ data:
 </tr>
 <tr>
   <td>Schools</td>
-  <td>List of schools</td>
+  <td>Donetsk school No.63, Donetsk school No.21</td>
 </tr>
 <tr>
   <td>Universities</td>
-  <td>List of universities; bachelor and master's programs are divided into two records with periods of study</td>
+  <td>Donetsk National Technical University:
+<br>bachelor's degree from 31.07.2018 to 17.06.2021</td>
 </tr>
 <tr>
   <td>Average score</td>
-  <td>Average score during Bachelor course</td>
+  <td>81.9</td>
 </tr>
 <tr>
   <td>Languages</td>
-  <td>List of languages with level indicating (<q>basic</q>, <q>intermediate</q>, <q>advanced</q> etc)</td>
-</tr>
-<tr>
-  <td>Personal achievements</td>
-  <td>List of personal achievements - training (winner of the All-Ukrainian competitions, contests and so on), scientific, sports and any other</td>
+  <td>Russian – <q>advanced</q>
+  <br>English – <q>basic</q></td>
 </tr>
 <tr>
   <td>Hobbies and interests</td>
-  <td>Games, books, music, any other hobbies</td>
+  <td>Books, fantasy genre</td>
 </tr>
 <tr>
   <td>Personal qualities</td>
-  <td>Short list of positive qualities</td>
+  <td>Punctuality, performance</td>
 </tr>
 <tr>
   <td>Professional and computer skills</td>
-  <td>1. Operating systems.<br>2. Applications.<br>3. Programming languages.<br>4. Environments. </td>
-</tr>
-<tr>
-  <td>Additional courses, internships, grants</td>
-  <td>Professional courses, internships abroad, international conferences.</td>
+  <td>1. Operating systems: Windows;
+  <br>2. Applied directions and tools: MS Office;
+  <br>3. Math packages: MathCAD; matlab;
+  <br>4. Programming languages: С++;
+  <br>5. Work with drawings: AutoCAD, Visio;
+  <br>6. Development environments: Energy CS</td>
 </tr>
 <tr>
   <td>Professional experience</td>
-  <td>Company, job title and dates of employment</td>
+  <td>State Unitary Enterprise DPR "REK", engineer of the diagnostics, isolation and surge protection service from 07/04/2018 to 02/06/2023</td>
 </tr>
 <tr>
   <td>Future plans</td>
-  <td>Short description of future plans</td>
+  <td>Get a prestigious job and position, as well as build a strong family</td>
 </tr>
 <tr>
   <td>Contact information</td>
-  <td>E-mail, skype, facebook, ICQ etc</td>
+  <td>E-mail: <a href="mailto:bogdanarmatov99@gmail.com">bogdanarmatov99@gmail.com</a></td>
 </tr>
 </table>
