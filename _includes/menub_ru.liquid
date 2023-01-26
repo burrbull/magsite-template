@@ -1,8 +1,16 @@
 <div id="menub">
     <a class="mitemb" href="{{ page.data.relpath }}index.htm">Резюме</a>
     <a class="mitemb" href="{{ page.data.relpath }}diss/index.htm">Реферат</a>
-    <a class="mitemb" href="{{ page.data.relpath }}library/index.htm">Библиотека</a>
-    <a class="mitemb" href="{{ page.data.relpath }}links/index.htm">Ссылки</a>
-    <a class="mitemb" href="{{ page.data.relpath }}links/zvit.htm">Отчет о поиске</a> 
-    <a class="mitemb" href="{{ page.data.relpath }}ind/index.htm">Индивидуальный раздел</a>
+    {% unless site.data.ignore.ru.library %}
+        <a class="mitemb" href="{{ page.data.relpath }}library/index.htm">Библиотека</a>
+    {% endunless %}
+    {% unless site.data.ignore.ru.links %}
+        <a class="mitemb" href="{{ page.data.relpath }}links/index.htm">Ссылки</a>
+    {% endunless %}
+    {% unless site.data.ignore.ru.zvit %}
+        <a class="mitemb" href="{{ page.data.relpath }}links/zvit.htm">Отчет о поиске</a> 
+    {% endunless %}
+    {% unless site.data.ignore.ru.ind %}
+        <a class="mitemb" href="{{ page.data.relpath }}ind/index.htm">Индивидуальный раздел</a>
+    {% endunless %}
 </div>

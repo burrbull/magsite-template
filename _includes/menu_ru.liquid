@@ -17,21 +17,29 @@
     {% if page.title == "Библиотека" %}
         <a class="button colorfix">Библиотека</a>
     {% else %}
-        <a class="button color" href="{{ page.data.relpath }}library/index.htm">Библиотека</a>
+        {% unless site.data.ignore.ru.library %}
+            <a class="button color" href="{{ page.data.relpath }}library/index.htm">Библиотека</a>
+        {% endunless %}
     {% endif %}
     {% if page.title == "Ссылки" %}
         <a class="button colorfix">Ссылки</a>
     {% else %}
-        <a class="button color" href="{{ page.data.relpath }}links/index.htm">Ссылки</a>
+        {% unless site.data.ignore.ru.links %}
+            <a class="button color" href="{{ page.data.relpath }}links/index.htm">Ссылки</a>
+        {% endunless %}
     {% endif %}
     {% if page.title == "Отчет о поиске" %}
         <a class="button colorfix">Отчет о поиске</a>
     {% else %}
-        <a class="button color" href="{{ page.data.relpath }}links/zvit.htm">Отчет о поиске</a>
+        {% unless site.data.ignore.ru.zvit %}
+            <a class="button color" href="{{ page.data.relpath }}links/zvit.htm">Отчет о поиске</a>
+        {% endunless %}
     {% endif %}
     {% if page.title == "Индивидуальный раздел" %}
         <a class="button colorfix">Индивидуальный раздел</a>
     {% else %}
-        <a class="button color" href="{{ page.data.relpath }}ind/index.htm">Индивидуальный раздел</a>
+        {% unless site.data.ignore.ru.ind %}
+            <a class="button color" href="{{ page.data.relpath }}ind/index.htm">Индивидуальный раздел</a>
+        {% endunless %}
     {% endif %}
 </div>
