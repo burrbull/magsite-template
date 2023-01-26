@@ -13,9 +13,9 @@ permalink: /library/article2.htm
 <p style="text-indent: 0pt;"><b>Автор:</b> Пищанская М.И.<br>
 <b>Источник:</b> Innovations, Vol. 8 (2020), Issue 1, pg(s) 41-45</p>
 
-<i>Национальный исследовательский Томский политехнический университет, Томск, Россия, e-mail: mip10@tpu.ru</i>
+<i>Национальный исследовательский Томский политехнический университет, Томск, Россия</i>
 
-E-mail: nedzad@etf.bg.ac.rs, jovan.trifunovic@etf.bg.ac.rs, nmkostic@etf.bg.ac.rs, mdavidovic@etf.bg.ac.rs, kostic@etf.bg.ac.rs
+E-mail: mip10@tpu.ru
 <hr>
 
 Аннотация: <i>В научном обзоре рассмотрены проблемы и их современные схемотехнические решения, на которые
@@ -91,7 +91,7 @@ Security) [1].
 (bounce time).
 
 <div style="text-align: center">
-<img src="article2/img1.png" />
+<img src="article2/img1.png" width=600px />
 </div>
 <p style="text-align: center">Рисунок 1 - Максимальное время отпускания до повреждения менее 20 мс
 для различных материалов, изоляции и сечений</p>
