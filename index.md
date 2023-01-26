@@ -58,9 +58,9 @@ data:
 </tr>
 <tr>
   <td>Профессиональная специализация и владение компьютером</td>
-  <td>1. Операционные системы: OC Windows XP/Vista/7/10;
-2. Прикладные направления: MS Office, AutoCad, MathCAD, MATLAB, КОМПАС, nanoCAD электро, Abacom Sprint-Layout, Abacom sPlan;
-3. Языки программирования: C++, Arduino C;
+  <td>1. Операционные системы: OC Windows XP/Vista/7/10;<br>
+2. Прикладные направления: MS Office, AutoCad, MathCAD, MATLAB, КОМПАС, nanoCAD электро, Abacom Sprint-Layout, Abacom sPlan;<br>
+3. Языки программирования: C++, Arduino C;<br>
 4. Навыки работы с промышленным оборудованием фирм Siemens, ABB, Schneider, Invt, Eura drives, Lovato, Овен, DKC.</td>
 </tr>
 <tr>
