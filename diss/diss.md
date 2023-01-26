@@ -390,7 +390,7 @@ data:
 электрическим током - Н.
 
 <p align="center">
-<img src="images/2e6c0e85364684df.gif" name="Объект45"/>,</p>
+<img src="images/91672a8ea9e5a3b1.gif" name="Объект45"/>,</p>
 
 где <img src="images/68b17a2a19921246.gif" name="Объект46"/> – интервал времени между проверками
 защитного отключения;
