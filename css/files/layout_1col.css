@@ -14,19 +14,19 @@
 #menu { /* Блок верхнего меню */
 	clear: both;
 	text-align: center;
-	padding: 2pt 0pt 10pt 0pt;
-  background: #e7eef0;	
-	border-top: solid 1pt #b4cdd4;	
-	border-bottom: solid 1pt #b4cdd4;
+	padding: 2pt 0pt 8pt 0pt;
+  background: #ffffff; 	
+	border-top: solid 1pt #000000;	
+	border-bottom: solid 1pt #000000;
 }
 
 #menub { /* Блок нижнего меню */
 	clear: both;
 	text-align: center;
 	padding: 8pt 0pt 8pt 0pt;
-  background: #e7eef0;	
-	border-top: solid 1pt #b4cdd4;	
-	border-bottom: solid 1pt #b4cdd4;
+  background: #ffffff;	
+	border-top: solid 1pt #000000;	
+	border-bottom: solid 1pt #000000;
 }
 
 .mitemb { /* Пункт нижнего меню */
