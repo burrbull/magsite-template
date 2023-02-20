@@ -8,7 +8,7 @@ data:
 ---
 # Brief resume
 
-<table>
+<table id="resume">
 <tr>
   <td>Name</td>
   <td>Rita Sedina</td>
