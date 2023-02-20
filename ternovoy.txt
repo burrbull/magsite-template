@@ -1,0 +1,9 @@
+ru
+Терновой Андрей Владимирович
+Исследование температуры перегрева проводников при случайной электрической нагрузке
+Электроснабжение и энергосбережение
+
+en
+Andrey Ternovoy
+Investigation of the overheating temperature of conductors under random electrical load
+Power supply and energy saving
