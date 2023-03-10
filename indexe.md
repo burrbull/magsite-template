@@ -9,65 +9,67 @@ data:
 # Brief resume
 
 <table id="resume">
-<tr class=odd>
-  <td class=c1>Name</td>
-  <td class=c2>Ivan Ivanenko</td>
+<tr>
+  <td>Name</td>
+  <td>Alexey Smolskiy</td>
 </tr>
 </tr>
-<tr class=even>
-  <td class=c1>Date of birth</td>
-  <td class=c2>Jan 1, 1990</td>
+<tr>
+  <td>Date of birth</td>
+  <td>Jun 23, 1998</td>
 </tr>
-<tr class=odd>
-  <td class=c1>Place of birth</td>
-  <td class=c2>Donetsk</td>
+<tr>
+  <td>Place of birth</td>
+  <td>Krasny Luch, Luhansk region</td>
 </tr>
-<tr class=even>
-  <td class=c1>Schools</td>
-  <td class=c2>List of schools</td>
+<tr>
+  <td>Schools</td>
+  <td>2005–2014 - School No. 20
+<br>2014–2018 — Shterovsky Power Engineering College
+</td>
 </tr>
-<tr class=odd>
-  <td class=c1>Universities</td>
-  <td class=c2>List of universities; bachelor and master's programs are divided into two records with periods of study</td>
+<tr>
+  <td>Universities</td>
+  <td>2018–2021 — Donetsk National Technical University, Faculty of Electrical Engineering, specialty "Power supply of enterprises and cities", bachelor
+  <br>2021–2023 – Donetsk National Technical University, Faculty of Intelligent Power Engineering and Robotics, specialty "Power supply of enterprises and cities", master</td>
 </tr>
-<tr class=even>
-  <td class=c1>Average score</td>
-  <td class=c2>Average score during Bachelor course</td>
+<tr>
+  <td>Average score</td>
+  <td>3,9</td>
 </tr>
-<tr class=odd>
-  <td class=c1>Languages</td>
-  <td class=c2>List of languages with level indicating (<q>basic</q>, <q>intermediate</q>, <q>advanced</q> etc)</td>
+<tr>
+  <td>Languages</td>
+  <td>Russian – <q>advanced</q>
+  <br>Ukrainian – <q>advanced</q>
+  <br>English – <q>basic</q>
+  </td>
 </tr>
-<tr class=even>
-  <td class=c1>Personal achievements</td>
-  <td class=c2>List of personal achievements - training (winner of the All-Ukrainian competitions, contests and so on), scientific, sports and any other</td>
+<tr>
+  <td>Hobbies and interests</td>
+  <td>Games, books, music, any other hobbies</td>
 </tr>
-<tr class=odd>
-  <td class=c1>Hobbies and interests</td>
-  <td class=c2>Games, books, music, any other hobbies</td>
+<tr>
+  <td>Personal qualities</td>
+  <td>Games, cycling</td>
 </tr>
-<tr class=even>
-  <td class=c1>Personal qualities</td>
-  <td class=c2>Short list of positive qualities</td>
+<tr>
+  <td>Professional and computer skills</td>
+  <td>1. Operating systems: Windows (2000, XP, 7, 8, 8.1, 10)
+<br>2. Applied areas: MS Office, Mathcad, Matlab, Compass 3D, Autocad;
+<br>3. Programming languages: Python (beginner level).
+<br>4. Development environments: Matlab, simatik.
+</td>
 </tr>
-<tr class=odd>
-  <td class=c1>Professional and computer skills</td>
-  <td class=c2>1. Operating systems.<br>2. Applications.<br>3. Programming languages.<br>4. Environments. </td>
+<tr>
+  <td>Professional experience</td>
+  <td>Design Institute <q>YUZHNIIGIPROGAZ</q>/td>
 </tr>
-<tr class=even>
-  <td class=c1>Additional courses, internships, grants</td>
-  <td class=c2>Professional courses, internships abroad, international conferences.</td>
+<tr>
+  <td>Future plans</td>
+  <td>Finish your studies, achieve professional success at work</td>
 </tr>
-<tr class=odd>
-  <td class=c1>Professional experience</td>
-  <td class=c2>Company, job title and dates of employment</td>
-</tr>
-<tr class=even>
-  <td class=c1>Future plans</td>
-  <td class=c2>Short description of future plans</td>
-</tr>
-<tr class=odd>
-  <td class=c1>Contact information</td>
-  <td class=c2>E-mail, skype, facebook, ICQ etc</td>
+<tr>
+  <td>Contact information</td>
+  <td>E-mail: <a href="mailto:ncsoft98@gmail.com">ncsoft98@gmail.com</a></td>
 </tr>
 </table>
