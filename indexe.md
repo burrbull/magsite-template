@@ -52,7 +52,7 @@ data:
   <td>Professional and computer skills</td>
   <td>1. Operating systems: Windows;
   <br>2. Applied directions and tools: MS Office;
-  <br>3. Math packages: MathCAD; matlab;
+  <br>3. Math packages: MathCAD; Matlab;
   <br>4. Programming languages: С++;
   <br>5. Work with drawings: AutoCAD, Visio;
   <br>6. Development environments: Energy CS</td>
