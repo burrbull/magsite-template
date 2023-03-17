@@ -11,6 +11,7 @@ data:
 <h2>Contents</h2>
 <ul class=content>
   <li class=ct1><a href="#p3">3. Using of Markov random processes to describe the processes of electric shock to a person</a>
+  <li class=ct1><a href="#p4">Conclusion</a>
   <li class=ct1><a href="#ref">References</a>
 </ul>
 
@@ -96,7 +97,7 @@ Rice. 1 Scheme for the process of electric shock to a person:</p>
 
 <a name=p4></a>
 
-## Заключение
+## Conclusion
 
 - The use of logical-probabilistic methods for assessing the electrical safety of electrical equipment operated in coal mines makes it possible to qualitatively determine the level of electrical safety. The assessment of electrical safety by such models greatly underestimates the true level of electrical safety due to the fact that these models do not take into account the time spent by the elements included in the system in an undetected failed state. This means that mathematical models take into account only the probability of the occurrence of an event, but do not take into account the duration of the existence of the event itself.
 - The use of Markov processes for modeling cases of electric shock to people, in our opinion, will make it possible to describe all possible cases of electric shock to people during the operation of electrical equipment and to obtain the characteristics missing for the analysis of systems, except for those obtained in [17,18,19], i.e.: the probability of finding systems in each of the possible states
