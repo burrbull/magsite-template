@@ -11,12 +11,12 @@ data:
 <table id="resume">
 <tr>
   <td>Name</td>
-  <td>Ivan Ivanenko</td>
+  <td>Alexey Kononenko</td>
 </tr>
 </tr>
 <tr>
   <td>Date of birth</td>
-  <td>Jan 1, 1990</td>
+  <td>Jun 23, 1998</td>
 </tr>
 <tr>
   <td>Place of birth</td>
@@ -24,50 +24,58 @@ data:
 </tr>
 <tr>
   <td>Schools</td>
-  <td>List of schools</td>
+  <td>School No.108 (grades 1, 5-9); School No.87 (grades 10-11)</td>
 </tr>
 <tr>
   <td>Universities</td>
-  <td>List of universities; bachelor and master's programs are divided into two records with periods of study</td>
+  <td>DonNTU. Undergraduate (28.07.2018-01.07.2021). Master's degree (28.07.2021-30.07.2023)</td>
 </tr>
 <tr>
   <td>Average score</td>
-  <td>Average score during Bachelor course</td>
+  <td>76.5</td>
 </tr>
 <tr>
   <td>Languages</td>
-  <td>List of languages with level indicating (<q>basic</q>, <q>intermediate</q>, <q>advanced</q> etc)</td>
+  <td>Russian — <q>advanced</q>
+  <br>Ukrainian — <q>intermediate</q>
+  <br>English — <q>basic</q>
+  <br>French — <q>basic</q>
+  </td>
 </tr>
 <tr>
   <td>Personal achievements</td>
-  <td>List of personal achievements - training (winner of the All-Ukrainian competitions, contests and so on), scientific, sports and any other</td>
+  <td>Social activities, won prizes in boxing.</td>
 </tr>
 <tr>
   <td>Hobbies and interests</td>
-  <td>Games, books, music, any other hobbies</td>
+  <td>Sports (Boxing); Books (fantasy, history, science); Music (various genres, but I prefer rock)</td>
 </tr>
 <tr>
   <td>Personal qualities</td>
-  <td>Short list of positive qualities</td>
+  <td>Diligence, perseverance, tolerance, responsibility, stress resistance, sociability</td>
 </tr>
 <tr>
   <td>Professional and computer skills</td>
-  <td>1. Operating systems.<br>2. Applications.<br>3. Programming languages.<br>4. Environments. </td>
-</tr>
-<tr>
-  <td>Additional courses, internships, grants</td>
-  <td>Professional courses, internships abroad, international conferences.</td>
+  <td>1. Operating systems: Windows; MacOS;
+  <br>2. Applied directions and tools: MS Office;
+  <br>3. Math packages: MathCAD; Matlab;
+  <br>4. Programming languages: С++;
+  <br>5. Work with drawings: AutoCAD, Visio;
+  <br>6. Development environments: Energy CS
+  </td>
 </tr>
 <tr>
   <td>Professional experience</td>
-  <td>Company, job title and dates of employment</td>
+  <td>Vostok Leasing LLC - Deputy Chief Power Engineer (06/01/2020 - 08/31/2022);
+<br>LLC "First Republican Supermarket" - chief engineer for the operation of gas and electrical equipment (20.12.2022 - present)</td>
 </tr>
 <tr>
   <td>Future plans</td>
-  <td>Short description of future plans</td>
+  <td>Defend your master's work, develop in your profession</td>
 </tr>
 <tr>
-  <td>Contact information</td>
-  <td>E-mail, skype, facebook, ICQ etc</td>
+  <td>Контактная информация</td>
+  <td>E-mail: <a href="mailto:alexs015.kononenko@gmail.com">alexs015.kononenko@gmail.com</a>
+  <br><a href="mailto:alexs.kononenko@mail.com">alexs.kononenko@mail.com</a></td>
 </tr>
 </table>
