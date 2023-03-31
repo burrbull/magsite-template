@@ -1,19 +1,74 @@
-num: 15
-date: "01.01.2000"
+num: 10
+date: 31.03.2023
 ru:
-  - text: "Оптимизация аппаратурных затрат в логических схемах устройств управления"
-    google_url: "#"
-    google_total_results: "1"
-    yandex_url: "#"
-    yandex_total_results: "2"
-    bing_url: "#"
-    bing_total_results: "3"
-
+- text: Оценка пожарной безопасности электрооборудования системы электроснабжения угольного предприятия подземной добычи
+  google_url: https://www.google.com/search?q=%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0+%D0%BF%D0%BE%D0%B6%D0%B0%D1%80%D0%BD%D0%BE%D0%B9+%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F+%D0%BF%D0%BE%D0%B4%D0%B7%D0%B5%D0%BC%D0%BD%D0%BE%D0%B9+%D0%B4%D0%BE%D0%B1%D1%8B%D1%87%D0%B8&oq=%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0+%D0%BF%D0%BE%D0%B6%D0%B0%D1%80%D0%BD%D0%BE%D0%B9+%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F+%D0%BF%D0%BE%D0%B4%D0%B7%D0%B5%D0%BC%D0%BD%D0%BE%D0%B9+%D0%B4%D0%BE%D0%B1%D1%8B%D1%87%D0%B8&sourceid=chrome&ie=UTF-8
+  google_total_results: 36300
+  yandex_url: https://yandex.ru/search/?text=%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0+%D0%BF%D0%BE%D0%B6%D0%B0%D1%80%D0%BD%D0%BE%D0%B9+%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F+%D0%BF%D0%BE%D0%B4%D0%B7%D0%B5%D0%BC%D0%BD%D0%BE%D0%B9+%D0%B4%D0%BE%D0%B1%D1%8B%D1%87%D0%B8&lr=142&redircnt=1680249252.1
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0+%D0%BF%D0%BE%D0%B6%D0%B0%D1%80%D0%BD%D0%BE%D0%B9+%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F+%D0%BF%D0%BE%D0%B4%D0%B7%D0%B5%D0%BC%D0%BD%D0%BE%D0%B9+%D0%B4%D0%BE%D0%B1%D1%8B%D1%87%D0%B8
+  bing_total_results: 407000
+- text: Чурсинова Аурика Александровна, ДОННТУ
+  google_url: https://www.google.com/search?q=%D0%A7%D1%83%D1%80%D1%81%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0+%D0%90%D1%83%D1%80%D0%B8%D0%BA%D0%B0+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BD%D0%B0%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3&oq=%D0%A7%D1%83%D1%80%D1%81%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0+%D0%90%D1%83%D1%80%D0%B8%D0%BA%D0%B0+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BD%D0%B0%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3&sourceid=chrome&ie=UTF-8
+  google_total_results: 608
+  yandex_url: https://yandex.ru/search/?text=%D0%A7%D1%83%D1%80%D1%81%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0+%D0%90%D1%83%D1%80%D0%B8%D0%BA%D0%B0+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BD%D0%B0%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3&lr=142&redircnt=1680249264.1
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%A7%D1%83%D1%80%D1%81%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0+%D0%90%D1%83%D1%80%D0%B8%D0%BA%D0%B0+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BD%D0%B0%2C+%D0%94%D0%9E%D0%9D%D0%9D%D0%A2%D0%A3
+  bing_total_results: 51100
+- text: Безопасность электроустановок
+  google_url: https://www.google.com/search?q=%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE%D0%BA&oq=%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE%D0%BA&sourceid=chrome&ie=UTF-8
+  google_total_results: 3160000
+  yandex_url: https://yandex.ru/search/?text=%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE%D0%BA&lr=142&redircnt=1680249272.1
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE%D0%BA
+  bing_total_results: 652000
+- text: Пожарная безопасность
+  google_url: https://www.google.com/search?q=%D0%9F%D0%BE%D0%B6%D0%B0%D1%80%D0%BD%D0%B0%D1%8F+%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C&oq=%D0%9F%D0%BE%D0%B6%D0%B0%D1%80%D0%BD%D0%B0%D1%8F+%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C&sourceid=chrome&ie=UTF-8
+  google_total_results: 20900000
+  yandex_url: https://yandex.ru/search/?text=%D0%9F%D0%BE%D0%B6%D0%B0%D1%80%D0%BD%D0%B0%D1%8F+%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C&lr=142&redircnt=1680249288.1
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%9F%D0%BE%D0%B6%D0%B0%D1%80%D0%BD%D0%B0%D1%8F+%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C
+  bing_total_results: 3160000
+- text: Горная промышленность
+  google_url: https://www.google.com/search?q=%D0%93%D0%BE%D1%80%D0%BD%D0%B0%D1%8F+%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C&oq=%D0%93%D0%BE%D1%80%D0%BD%D0%B0%D1%8F+%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C&sourceid=chrome&ie=UTF-8
+  google_total_results: 14800000
+  yandex_url: https://yandex.ru/search/?text=%D0%93%D0%BE%D1%80%D0%BD%D0%B0%D1%8F+%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C&lr=142&redircnt=1680249298.1
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%93%D0%BE%D1%80%D0%BD%D0%B0%D1%8F+%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C
+  bing_total_results: 763000
 en:
-  - text: "Оптимизация аппаратурных затрат в логических схемах устройств управления"
-    google_url: "#"
-    google_total_results: "1"
-    yandex_url: "#"
-    yandex_total_results: "2"
-    bing_url: "#"
-    bing_total_results: "3"
+- text: Assessment of fire safety of electrical equipment of the power supply system of a coal mining enterprise
+  google_url: https://www.google.com/search?q=Assessment+of+fire+safety+of+electrical+equipment+of+the+power+supply+system+of+a+coal+mining+enterprise&oq=Assessment+of+fire+safety+of+electrical+equipment+of+the+power+supply+system+of+a+coal+mining+enterprise&sourceid=chrome&ie=UTF-8
+  google_total_results: 16500000
+  yandex_url: https://yandex.ru/search/?text=Assessment+of+fire+safety+of+electrical+equipment+of+the+power+supply+system+of+a+coal+mining+enterprise&lr=142&redircnt=1680249309.1
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=Assessment+of+fire+safety+of+electrical+equipment+of+the+power+supply+system+of+a+coal+mining+enterprise
+  bing_total_results: 44400000
+- text: Aurika Chursinova, DONNTU
+  google_url: https://www.google.com/search?q=Aurika+Chursinova%2C+DONNTU&oq=Aurika+Chursinova%2C+DONNTU&sourceid=chrome&ie=UTF-8
+  google_total_results: 2
+  yandex_url: https://yandex.ru/search/?text=Aurika+Chursinova%2C+DONNTU&lr=142&redircnt=1680249317.1
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=Aurika+Chursinova%2C+DONNTU
+  bing_total_results: 40800
+- text: Electrical installation safety
+  google_url: https://www.google.com/search?q=Electrical+installation+safety&oq=Electrical+installation+safety&sourceid=chrome&ie=UTF-8
+  google_total_results: 186000000
+  yandex_url: https://yandex.ru/search/?text=Electrical+installation+safety&lr=142&redircnt=1680249330.1
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=Electrical+installation+safety
+  bing_total_results: 3810000
+- text: Fire safety
+  google_url: https://www.google.com/search?q=Fire+safety&oq=Fire+safety&sourceid=chrome&ie=UTF-8
+  google_total_results: 1550000000
+  yandex_url: https://yandex.ru/search/?text=Fire+safety&lr=142&redircnt=1680249343.1
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=Fire+safety
+  bing_total_results: 176000000
+- text: Coal industry
+  google_url: https://www.google.com/search?q=Coal+industry&oq=Coal+industry&sourceid=chrome&ie=UTF-8
+  google_total_results: 215000000
+  yandex_url: https://yandex.ru/search/?text=Coal+industry&lr=142&redircnt=1680249349.1
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=Coal+industry
+  bing_total_results: 39100000
