@@ -1,0 +1,9 @@
+ru
+Кочерга Андрей Иванович
+Исследование составляющих потерь активной мощности в сети 380/220В с нелинейной несимметричной нагрузкой
+Электроснабжение и энергосбережение
+
+en
+Andrey Kocherga
+Study of active power loss components in a 380/220V network with a non-linear asymmetrical load
+Power supply and energy saving
