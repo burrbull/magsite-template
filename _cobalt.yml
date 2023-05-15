@@ -8,5 +8,4 @@ site:
     ignore:
       en:
         diss: true
-      ru:
-        ind: true
+      
