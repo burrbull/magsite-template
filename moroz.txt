@@ -1,0 +1,9 @@
+ru
+Мороз Евгений Сергеевич
+Разработка САПР для проектирования электроснабжения цеха на напряжении 0,4 кВ
+Электроснабжение и энергосбережение
+
+en
+Eugene Moroz
+Development of CAD for designing the power supply of the workshop at a voltage of 0.4 kV
+Power supply and energy saving
