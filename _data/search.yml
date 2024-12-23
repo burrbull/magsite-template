@@ -1,19 +1,74 @@
-num: 15
-date: "01.01.2000"
+num: 10
+date: 23.12.2024
 ru:
-  - text: "Оптимизация аппаратурных затрат в логических схемах устройств управления"
-    google_url: "#"
-    google_total_results: "1"
-    yandex_url: "#"
-    yandex_total_results: "2"
-    bing_url: "#"
-    bing_total_results: "3"
-
+- text: Оценка влияния грозовых перенапряжений на повреждаемость изоляции обмоток силовых трансформаторов
+  google_url: https://www.google.com/search?q=%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0+%D0%B2%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F+%D0%B3%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D1%8B%D1%85+%D0%BF%D0%B5%D1%80%D0%B5%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9+%D0%BD%D0%B0+%D0%BF%D0%BE%D0%B2%D1%80%D0%B5%D0%B6%D0%B4%D0%B0%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D1%8C+%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8+%D0%BE%D0%B1%D0%BC%D0%BE%D1%82%D0%BE%D0%BA+%D1%81%D0%B8%D0%BB%D0%BE%D0%B2%D1%8B%D1%85+%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2&oq=%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0+%D0%B2%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F+%D0%B3%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D1%8B%D1%85+%D0%BF%D0%B5%D1%80%D0%B5%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9+%D0%BD%D0%B0+%D0%BF%D0%BE%D0%B2%D1%80%D0%B5%D0%B6%D0%B4%D0%B0%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D1%8C+%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8+%D0%BE%D0%B1%D0%BC%D0%BE%D1%82%D0%BE%D0%BA+%D1%81%D0%B8%D0%BB%D0%BE%D0%B2%D1%8B%D1%85+%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2&sourceid=chrome&ie=UTF-8
+  google_total_results: 0
+  yandex_url: https://yandex.ru/search/?text=%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0+%D0%B2%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F+%D0%B3%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D1%8B%D1%85+%D0%BF%D0%B5%D1%80%D0%B5%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9+%D0%BD%D0%B0+%D0%BF%D0%BE%D0%B2%D1%80%D0%B5%D0%B6%D0%B4%D0%B0%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D1%8C+%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8+%D0%BE%D0%B1%D0%BC%D0%BE%D1%82%D0%BE%D0%BA+%D1%81%D0%B8%D0%BB%D0%BE%D0%B2%D1%8B%D1%85+%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0+%D0%B2%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F+%D0%B3%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D1%8B%D1%85+%D0%BF%D0%B5%D1%80%D0%B5%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9+%D0%BD%D0%B0+%D0%BF%D0%BE%D0%B2%D1%80%D0%B5%D0%B6%D0%B4%D0%B0%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D1%8C+%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8+%D0%BE%D0%B1%D0%BC%D0%BE%D1%82%D0%BE%D0%BA+%D1%81%D0%B8%D0%BB%D0%BE%D0%B2%D1%8B%D1%85+%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2&lq=0&rdr=1
+  bing_total_results: 2160
+- text: Ковалёв Александр Петрович, ДонНТУ
+  google_url: https://www.google.com/search?q=%D0%9A%D0%BE%D0%B2%D0%B0%D0%BB%D1%91%D0%B2+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80+%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87%2C+%D0%94%D0%BE%D0%BD%D0%9D%D0%A2%D0%A3&oq=%D0%9A%D0%BE%D0%B2%D0%B0%D0%BB%D1%91%D0%B2+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80+%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87%2C+%D0%94%D0%BE%D0%BD%D0%9D%D0%A2%D0%A3&sourceid=chrome&ie=UTF-8
+  google_total_results: 9960
+  yandex_url: https://yandex.ru/search/?text=%D0%9A%D0%BE%D0%B2%D0%B0%D0%BB%D1%91%D0%B2+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80+%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87%2C+%D0%94%D0%BE%D0%BD%D0%9D%D0%A2%D0%A3&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%9A%D0%BE%D0%B2%D0%B0%D0%BB%D1%91%D0%B2+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80+%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87%2C+%D0%94%D0%BE%D0%BD%D0%9D%D0%A2%D0%A3&lq=0&rdr=1
+  bing_total_results: 45900
+- text: Грозовое перенапряжение
+  google_url: https://www.google.com/search?q=%D0%93%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D0%BE%D0%B5+%D0%BF%D0%B5%D1%80%D0%B5%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5&oq=%D0%93%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D0%BE%D0%B5+%D0%BF%D0%B5%D1%80%D0%B5%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5&sourceid=chrome&ie=UTF-8
+  google_total_results: 395000
+  yandex_url: https://yandex.ru/search/?text=%D0%93%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D0%BE%D0%B5+%D0%BF%D0%B5%D1%80%D0%B5%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%93%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D0%BE%D0%B5+%D0%BF%D0%B5%D1%80%D0%B5%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5&lq=0&rdr=1
+  bing_total_results: 71300
+- text: Изоляция обмоток трансформаторов
+  google_url: https://www.google.com/search?q=%D0%98%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D0%BE%D0%B1%D0%BC%D0%BE%D1%82%D0%BE%D0%BA+%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2&oq=%D0%98%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D0%BE%D0%B1%D0%BC%D0%BE%D1%82%D0%BE%D0%BA+%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2&sourceid=chrome&ie=UTF-8
+  google_total_results: 93200
+  yandex_url: https://yandex.ru/search/?text=%D0%98%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D0%BE%D0%B1%D0%BC%D0%BE%D1%82%D0%BE%D0%BA+%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%98%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D0%BE%D0%B1%D0%BC%D0%BE%D1%82%D0%BE%D0%BA+%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2&lq=0&rdr=1
+  bing_total_results: 98700
+- text: Повреждение изоляции
+  google_url: https://www.google.com/search?q=%D0%9F%D0%BE%D0%B2%D1%80%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5+%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8&oq=%D0%9F%D0%BE%D0%B2%D1%80%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5+%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8&sourceid=chrome&ie=UTF-8
+  google_total_results: 6500000
+  yandex_url: https://yandex.ru/search/?text=%D0%9F%D0%BE%D0%B2%D1%80%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5+%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=%D0%9F%D0%BE%D0%B2%D1%80%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5+%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8&lq=0&rdr=1
+  bing_total_results: 102000
 en:
-  - text: "Оптимизация аппаратурных затрат в логических схемах устройств управления"
-    google_url: "#"
-    google_total_results: "1"
-    yandex_url: "#"
-    yandex_total_results: "2"
-    bing_url: "#"
-    bing_total_results: "3"
+- text: Assessment of the influence of lightning overvoltages on the damageability of power transformer winding insulation
+  google_url: https://www.google.com/search?q=Assessment+of+the+influence+of+lightning+overvoltages+on+the+damageability+of+power+transformer+winding+insulation&oq=Assessment+of+the+influence+of+lightning+overvoltages+on+the+damageability+of+power+transformer+winding+insulation&sourceid=chrome&ie=UTF-8
+  google_total_results: 0
+  yandex_url: https://yandex.ru/search/?text=Assessment+of+the+influence+of+lightning+overvoltages+on+the+damageability+of+power+transformer+winding+insulation&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=Assessment+of+the+influence+of+lightning+overvoltages+on+the+damageability+of+power+transformer+winding+insulation&lq=0&rdr=1
+  bing_total_results: 8350
+- text: Alexander Kovalev, DonNTU
+  google_url: https://www.google.com/search?q=Alexander+Kovalev%2C+DonNTU&oq=Alexander+Kovalev%2C+DonNTU&sourceid=chrome&ie=UTF-8
+  google_total_results: 1490
+  yandex_url: https://yandex.ru/search/?text=Alexander+Kovalev%2C+DonNTU&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=Alexander+Kovalev%2C+DonNTU&lq=0&rdr=1
+  bing_total_results: 87000
+- text: Lightning surge
+  google_url: https://www.google.com/search?q=Lightning+surge&oq=Lightning+surge&sourceid=chrome&ie=UTF-8
+  google_total_results: 22400000
+  yandex_url: https://yandex.ru/search/?text=Lightning+surge&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=Lightning+surge&lq=0&rdr=1
+  bing_total_results: 364000
+- text: Transformer winding insulation
+  google_url: https://www.google.com/search?q=Transformer+winding+insulation&oq=Transformer+winding+insulation&sourceid=chrome&ie=UTF-8
+  google_total_results: 2870000
+  yandex_url: https://yandex.ru/search/?text=Transformer+winding+insulation&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=Transformer+winding+insulation&lq=0&rdr=1
+  bing_total_results: 0
+- text: Insulation damage
+  google_url: https://www.google.com/search?q=Insulation+damage&oq=Insulation+damage&sourceid=chrome&ie=UTF-8
+  google_total_results: 55400000
+  yandex_url: https://yandex.ru/search/?text=Insulation+damage&lr=142
+  yandex_total_results: ???
+  bing_url: https://www.bing.com/search?form=QBRE&q=Insulation+damage&lq=0&rdr=1
+  bing_total_results: 161000
