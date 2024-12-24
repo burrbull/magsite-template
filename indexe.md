@@ -24,7 +24,7 @@ data:
 </tr>
 <tr>
   <td>Schools</td>
-  <td>2008-2019 - Municipal Educational Institution Lyceum <q>СПЕКТР<q>,Torez</td>
+  <td>2008-2019 - Municipal Educational Institution Lyceum <q>СПЕКТР</q>,Torez</td>
 </tr>
 <tr>
   <td>Universities</td>
