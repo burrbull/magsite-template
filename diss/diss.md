@@ -140,7 +140,7 @@ class="math inline"><em>U</em><sub><em>р</em><em>а</em><em>б</em>.<em>н</em>
 длинных ударов - более 2 мс.
 
 <div class="cntr"><img src="images/image1.jpeg" name="Рисунок 1" style="width:3.71769in;height:2.47743in"/></div>
-<p class="cntr">Рисунок 1 - Грозовой разряд</p>
+<p class="imgcaption">Рисунок 1 - Грозовой разряд</p>
 
 Грозовые разряды возникают в результате накопления зарядов в облаках под
 воздействием воздушных потоков. В большинстве случаев (-90 %)
@@ -193,8 +193,8 @@ class="math inline"><em>U</em><sub><em>р</em><em>а</em><em>б</em>.<em>н</em>
 
 где S – расчетная площадь поражаемого сооружения.  
   
-<div class="cntr"><img src="images/image2.jpeg" name="Рисунок 1" style="width:2.97095in;height:2.24in"/></div>
-<p class="cntr">Рисунок 2 - Импульс тока молнии</p>
+<div class="cntr"><img src="images/image2.jpeg" name="Рисунок 2" style="width:2.97095in;height:2.24in"/></div>
+<p class="imgcaption">Рисунок 2 - Импульс тока молнии</p>
 
 Главным источником внешних перенапряжений в высоковольтных электрических
 сетях являются грозовые разряды. Наиболее опасные грозовые
