@@ -5,9 +5,13 @@
 </div>
 <div id="headertext">
 	<h1 class="hdr">{{ site.data.person.ru.sername }} {{ site.data.person.ru.name }} {{ site.data.person.ru.thirdname }}</h1>
-	<h3 class="hdr">{{ site.data.person.ru.faculty }}</h3>
+	{% if site.data.person.faculty_url %}<h3 class="hdr"><a href="{{ site.data.person.faculty_url }}">{{ site.data.person.ru.faculty }}</a></h3>
+	{%else%}<h3 class="hdr">{{ site.data.person.ru.faculty }}</h3>
+	{%endif%}
 	{% if site.data.person.ru.department %}
-	<h3 class="hdr">{{ site.data.person.ru.department }}</h3>
+	{% if site.data.person.department_url %}<h3 class="hdr"><a href="{{ site.data.person.department_url }}">{{ site.data.person.ru.department }}</a></h3>
+	{%else%}<h3 class="hdr">{{ site.data.person.ru.department }}</h3>
+	{%endif%}
 	{%endif%}
 	{% if site.data.person.ru.field %}
 	<h3 class="hdr">Направление подготовки <q>{{ site.data.person.ru.field }}</q></h3>
