@@ -202,7 +202,7 @@ data:
 состоящие из ***технических*** ***потерь в оборудовании и линиях передачи***,
 а также ***потерь, которые обусловлены максимально допустимыми погрешностями системы учета*** – рис.1.
 
-<div class="cntr"><img src="images/image1.gif" name="Рисунок 1" style="width:6in"/></div>
+<div class="cntr"><img src="images/image1.png" name="Рисунок 1" style="width:6in"/></div>
 <p class="imgcaption">Рисунок 1 – Структура технологических потерь электроэнергии</p>
 
 Технические потери электроэнергии в электрических сетях, возникающие при
@@ -251,11 +251,11 @@ data:
 
 Потери электроэнергии холостого хода в силовом трансформаторе
 определяются на основе приведенных в паспортных данных оборудования
-потерь мощности холостого хода (ХХ) ![](./images/image2.gif) по формуле:
+потерь мощности холостого хода (ХХ) △*Р*<sub>ХХ</sub> по формуле:
 
 <table class="numeq">
   <tr>
-    <td><img src="images/image3.gif" name="Формула (1)"/></td>
+    <td><img src="images/image3.png" height="52pt"  name="Формула (1)"/></td>
     <td>(1)</td>
   </tr>
 <table>
@@ -275,7 +275,7 @@ data:
 
 <table class="numeq">
   <tr>
-    <td><img src="images/image4.gif" name="Формула (2)"/></td>
+    <td><img src="images/image4.png" height="20pt"  name="Формула (2)"/></td>
     <td>(2)</td>
   </tr>
 <table>
@@ -324,7 +324,7 @@ data:
 3. Потери электроэнергии в ТТ напряжением 0,4 кВ принимаются равными 0,05 тыс. кВт⋅ч/год.
 4. Значения потерь, приведенные в таблице, соответствуют году с числом
 дней 365. При расчете потерь в високосном году применяется коэффициент *k* = 366/365.
-5. Потери электроэнергии в ТТ и ТН включают потери в счетчиках,
+1. Потери электроэнергии в ТТ и ТН включают потери в счетчиках,
 входящих в состав измерительных комплексов.
 
 Потери электроэнергии в электрических счетчиках прямого включения 0,22 -
@@ -358,7 +358,7 @@ data:
 
 <table class="numeq">
   <tr>
-    <td><img src="images/image5.gif" name="Формула (3)"/></td>
+    <td><img src="images/image5.png" height="44pt"  name="Формула (3)"/></td>
     <td>(3)</td>
   </tr>
 <table>
@@ -391,7 +391,7 @@ data:
 
 <table class="numeq">
   <tr>
-    <td><img src="images/image6.gif" name="Формула (4)"/></td>
+    <td><img src="images/image6.png" height="26pt" name="Формула (4)"/></td>
     <td>(4)</td>
   </tr>
 <table>
@@ -411,7 +411,7 @@ data:
 
 <table class="numeq">
   <tr>
-    <td><img src="images/image7.gif" name="Формула (5)"/></td>
+    <td><img src="images/image7.png" height="46pt" name="Формула (5)"/></td>
     <td>(5)</td>
   </tr>
 <table>
@@ -422,12 +422,12 @@ data:
 
 <table class="numeq">
   <tr>
-    <td><img src="images/image8.gif" name="Формула (6)"/></td>
+    <td><img src="images/image8.png" height="46pt" name="Формула (6)"/></td>
     <td>(6)</td>
   </tr>
 <table>
 
-<div class="cntr"><img src="images/image9.gif" name="Рисунок 2" style="width:6in"/></div>
+<div class="cntr"><img src="images/image9.png" name="Рисунок 2" style="width:6in"/></div>
 <p class="imgcaption">Рисунок 2 – График недельного потребления мощности</p>
 
 При отсутствии данных о коэффициенте заполнения графика нагрузки
