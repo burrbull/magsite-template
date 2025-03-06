@@ -12,53 +12,33 @@ data:
 ## Материалы магистров ДонНТУ
 
 <li class=list>
-  <a href="#">Фамилия И.О. Тема</a>
-  <p><span class=cat>Описание: </span>Персональный сайт на портале магистров ДонНТУ, год</p>
-  <p><span class=cat>Руководитель:</span> ФИО Руководителя</p> 
+  <a href="https://masters.donntu.ru/2017/etf/babchenko/links/index.htm" target="_blank">Бабченко Е.В. Разработка мероприятий по энергосбережинию и повышению энергетической эффективности предприятия</a>
+  <p><span class=cat>Описание: </span>Персональный сайт на портале магистров ДонНТУ, 2017 год</p>
+  <p><span class=cat>Руководитель:</span> доц., Чурсинова А.А.</p> 
 </li>
 <li class=list>
-  <a href="#">Фамилия И.О. Тема</a>
-  <p><span class=cat>Описание: </span>Персональный сайт на портале магистров ДонНТУ, год</p>
-  <p><span class=cat>Руководитель:</span> ФИО Руководителя</p> 
+  <a href="https://masters.donntu.ru/2018/etf/kolosov/links/index.htm" target="_blank">Колосов А.И. Анализ способов повышения энергоэффективности многоквартирных и общественных зданий</a>
+  <p><span class=cat>Описание: </span>Персональный сайт на портале магистров ДонНТУ, 2018 год</p>
+  <p><span class=cat>Руководитель:</span> к.т.н., доц. Якимишина В.В.</p> 
 </li>
 <li class=list>
-  <a href="#">Фамилия И.О. Тема</a>
-  <p><span class=cat>Описание: </span>Персональный сайт на портале магистров ДонНТУ, год</p>
-  <p><span class=cat>Руководитель:</span> ФИО Руководителя</p> 
+  <a href="http://masters.donntu.ru/2013/etf/lisienko/diss/index.htm" target="_blank">Лисиенко Д.А. Энергосберегающие технологии для экономии электрической энергии</a>
+  <p><span class=cat>Описание: </span>Персональный сайт на портале магистров ДонНТУ, 2013 год</p>
+  <p><span class=cat>Руководитель:</span> к.т.н., доцент Шлепнев С.В.</p> 
+</li>
+<li class=list>
+  <a href="https://masters.donntu.ru/2016/etf/profatilo/diss/index.htm" target="_blank">Профатило Д.О. Разработка мероприятий по энергосбережинию и повышению энергетической эффективности предприятия</a>
+  <p><span class=cat>Описание: </span>Персональный сайт на портале магистров ДонНТУ, 2016 год</p>
+  <p><span class=cat>Руководитель:</span> к. т. н., доц. Светличный А.В.</p> 
+</li>
+<li class=list>
+  <a href="https://masters.donntu.ru/2016/etf/manyura/library/index.htm" target="_blank">Манюра В.Г. Оценка эффективности и обоснование применения в электроэнергетических системах АПВ как средства автоматического противоаварийного управления</a>
+  <p><span class=cat>Описание: </span>Персональный сайт на портале магистров ДонНТУ, 2016 год</p>
+  <p><span class=cat>Руководитель:</span> к. т. н., доц. Ларин А.М.</p> 
 </li>
 
 ## Научные работы и статьи
 
-<li class=list>
-  <a href="#">Название книги, статьи, доклада </a>
-  <p><span class=cat>Авторы:</span> ФИО авторов </p> 
-  <p><span class=cat>Описание:</span> Текст описания</p>
-</li>
-<li class=list>
-  <a href="#">Название книги, статьи, доклада </a>
-  <p><span class=cat>Авторы:</span> ФИО авторов </p> 
-  <p><span class=cat>Описание:</span> Текст описания</p>
-</li>
-<li class=list>
-  <a href="#">Название книги, статьи, доклада </a>
-  <p><span class=cat>Авторы:</span> ФИО авторов </p> 
-  <p><span class=cat>Описание:</span> Текст описания</p>
-</li>
-<li class=list>
-  <a href="#">Название книги, статьи, доклада </a>
-  <p><span class=cat>Авторы:</span> ФИО авторов </p> 
-  <p><span class=cat>Описание:</span> Текст описания</p>
-</li>
-<li class=list>
-  <a href="#">Название книги, статьи, доклада </a>
-  <p><span class=cat>Авторы:</span> ФИО авторов </p> 
-  <p><span class=cat>Описание:</span> Текст описания</p>
-</li>
-<li class=list>
-  <a href="#">Название книги, статьи, доклада </a>
-  <p><span class=cat>Авторы:</span> ФИО авторов </p> 
-  <p><span class=cat>Описание:</span> Текст описания</p>
-</li>
 <li class=list>
   <a href="#">Название книги, статьи, доклада </a>
   <p><span class=cat>Авторы:</span> ФИО авторов </p> 
