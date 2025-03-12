@@ -1,0 +1,9 @@
+ru
+Ольховский Александр Владимирович
+Анализ построения системы электроснабжения на базе концепции «Microgrid — Умный дом»
+Электроснабжение и энергосбережение
+
+en
+alexandr olkhovskiy
+Analysis of the construction of a power supply system on the basis of the concept "Microgrid - Smart House"
+Power supply and energy saving
