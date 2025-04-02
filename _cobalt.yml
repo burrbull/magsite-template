@@ -9,4 +9,5 @@ site:
       en:
         diss: true
       ru:
-        ind: true
+        ind: false
+        zvit: true

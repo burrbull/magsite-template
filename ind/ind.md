@@ -27,10 +27,8 @@ data:
 активность, но и искусство стратегии и командной игры, что делает его
 захватывающим зрелищем.
 
-<img src="./media/image1.jpeg" style="width:4.82407in;height:3.21605in"
-alt="Picture background" />
-
-Рисунок 1 – Процесс игры в волейбол
+<div class="cntr"><img src="image1.jpeg" style="width:4.82407in;height:3.21605in" /></div>
+<p class="imgcaption">Рисунок 1 – Процесс игры в волейбол</p>
 
 В 1895 году Уильям Морган предложил своим ученикам перебрасывать мяч
 через теннисную сетку, которая была поднята почти на два метра над
@@ -62,18 +60,14 @@ alt="Picture background" />
 волейбола США не решила писать его слитно. Так и появился волейбол или
 летающий мяч.
 
-<img src="./media/image2.png" style="width:3.64815in;height:2.91852in"
-alt="https://terball.ru/sites/default/files/styles/crop_1000_800/public/2023-09/terball-volleyball-history11.png?itok=muGrI816" />
-
-Рисунок 2 – Уильям Морган, создатель волейбола
+<div class="cntr"><img src="image2.png" style="width:3.64815in;height:2.91852in" /></div>
+<p class="imgcaption">Рисунок 2 – Уильям Морган, создатель волейбола</p>
 
 Моя любимая волейбольная команда – это Зенит Казань. Я смотрю каждую их
 игру по телевизору.
 
-<img src="./media/image3.png" style="width:2.08333in;height:2.08333in"
-alt="Логотип" />
-
-Рисунок 3 – Эмблема команды Зенит-Казань
+<div class="cntr"><img src="image3.png" style="width:2.08333in;height:2.08333in" alt="Логотип" /></div>
+<p class="imgcaption">Рисунок 3 – Эмблема команды Зенит-Казань</p>
 
 Зенит-Казань один из самых сильнейших волейбольных команд не только в
 России, но и во всем мире. Каждая их игра выглядит как искусство от
@@ -127,10 +121,8 @@ alt="Логотип" />
 атакующего трезубца и не раз брал на себя лидерство в самых важных
 матчах.
 
-<img src="./media/image4.jpeg" style="width:1.72222in;height:1.72222in"
-alt="https://old.zenit-kazan.com/_images/upload/anderson.jpg" />
-
-Рисунок 4 – Мэттью Андерсон, игрок клуба «Зенит-Казань»
+<div class="cntr"><img src="image4.jpeg" name="Рисунок 1" style="width:1.72222in;height:1.72222in"/></div>
+<p class="imgcaption">Рисунок 4 – - Мэттью Андерсон, игрок клуба «Зенит-Казань»</p>
 
 В 2025 году волейбольная команда «Зенит-Казань» продолжает свою
 спортивную карьеру и радует своих зрителей зрелищными партиями и
