@@ -7,7 +7,7 @@ site:
   data:
     ignore:
       en:
-        diss: true
+        diss: false
       ru:
         ind: false
         zvit: true
