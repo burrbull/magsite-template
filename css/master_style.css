@@ -10,4 +10,37 @@
 /*@import "files/color_08_orange.css";*/ 
 
 
+.content-container {
+    display: flex;
+    align-items: center;
+  }
 
+.secblock-img {
+    width: 100%;
+}
+
+.firblock {
+    width: 70%;
+}
+
+@media (max-width: 1100px) {
+    .content-container {
+        display: block;
+    }
+
+    .content-container img {
+        margin-top: 20px;
+    }
+
+    .secblock {
+        text-align: center;
+    }
+
+    .secblock-img {
+        width: 60%;
+    }
+
+    .firblock {
+        width: 100%;
+    }
+}

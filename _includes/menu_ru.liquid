@@ -1,13 +1,8 @@
 <div id="menu">
     {% if page.title == "Резюме" %}
-        <a class="button colorfix">Резюме</a>
+        <a class="button colorfix">О себе</a>
     {% else %}
-        <a class="button color" href="{{ page.data.relpath }}index.htm">Резюме</a>
-    {% endif %}
-    {% if page.title == "Биография" %}
-        <a class="button colorfix">Биография</a>
-    {% else %}
-        <a class="button color" href="{{ page.data.relpath }}bio/index.htm">Биография</a>
+        <a class="button color" href="{{ page.data.relpath }}index.htm">О себе</a>
     {% endif %}
     {% if page.title == "Реферат" %}
         <a class="button colorfix">Реферат</a>
@@ -18,21 +13,7 @@
         <a class="button colorfix">Библиотека</a>
     {% else %}
         {% unless site.data.ignore.ru.library %}
-            <a class="button color" href="{{ page.data.relpath }}library/index.htm">Библиотека</a>
-        {% endunless %}
-    {% endif %}
-    {% if page.title == "Ссылки" %}
-        <a class="button colorfix">Ссылки</a>
-    {% else %}
-        {% unless site.data.ignore.ru.links %}
-            <a class="button color" href="{{ page.data.relpath }}links/index.htm">Ссылки</a>
-        {% endunless %}
-    {% endif %}
-    {% if page.title == "Отчет о поиске" %}
-        <a class="button colorfix">Отчет о поиске</a>
-    {% else %}
-        {% unless site.data.ignore.ru.zvit %}
-            <a class="button color" href="{{ page.data.relpath }}links/zvit.htm">Отчет о поиске</a>
+            <a class="button color" href="{{ page.data.relpath }}scientific_works/index.htm">Научные труды</a>
         {% endunless %}
     {% endif %}
     {% if page.title == "Индивидуальный раздел" %}
