@@ -1,199 +1,247 @@
 /* ------------- ОСНОВНЫЕ ТЕГИ ------------------------------------------------------------------------------ */
 
-body {  /* Тело документа */
-	background-image: url('../images/bg1.png');
-  margin-bottom: 20pt;  	
+/* Тело документа */
+body {
+	background: linear-gradient(180deg, #d1d0d5, #e1dee7);
+  	margin: 0px;
 }
 
-/* Разные кавычки для разных языков (тег <q>) */
-body:lang(en) q { quotes: "\201C" "\201D" "\2018" "\2019"; }
-body:lang(uk) q, body:lang(de) q { quotes: "\201E" "\201C"; }
-body:lang(ru) q, body:lang(fr) q { quotes: "\00AB" "\00BB" "\201E" "\201C"; }
-
-h1 { /* Заголовок страницы */
-  font: bold 18pt Century, serif;
-  line-height: 100%;
-  text-align: center;
-  padding: 0pt 0pt 0pt 0pt; 
-  color: #0000a3;
-  margin-top: 0pt;
+h1 {
+    font-family: "Times New Roman", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: #1b005e; 
+    margin-bottom: 20px; 
 }
 
-h2 { /* Подзаголовок страницы (названия подразделов) */
-  font: bold 15pt Century, serif;
-  text-align: left;
-  text-indent: 25pt;
-  margin: 20pt 10pt 10pt 10pt;
-  color: #0000a3;
+#maintext h2, .lib_h2 {
+    font-family: "Times New Roman", Arial, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: #1b005e;
+    text-align: left;
+    margin: 20px 15px 10px 15px;
+    text-indent: 20px;
+
 }
 
-h3 { /* Подзаголовок страницы (названия подподразделов) */
-  font: bold 13pt Century, serif;
-  text-align: left;
-  text-indent: 10pt;
-  margin: 20pt 10pt 0pt 10pt;
-  color: #0000a3;
+#maintext h3 {
+    font-family: "Times New Roman", Arial, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #1b005e;
+    text-align: left;
+    margin: 15px 15px 5px 15px;
+    text-indent: 15px;
+
 }
 
-h2.cntr { /* Подзаголовок страницы (названия подразделов) с выравниванием по центру */
-  text-align: center;
-  text-indent: 0pt;
+#header h1 {
+	text-align: left;
+    font-family: "Times New Roman", Arial, sans-serif;
+    font-size: 24 px; 
+    font-weight: bold;
+    color: #16131e;
+    margin: 0;
 }
 
-#header h1 { /* ФИО в шапке*/
-  text-align: left;
-  font: bold 18pt Century Gothic, serif; 
-  line-height: 90%;
-  padding: 4pt 0pt 0pt 0pt;
-  margin-top: 10pt;
+#header h2 {
+    font-family: "Times New Roman", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #16131e;
+    margin: 0;
+	text-indent: 0px;
 }
 
-#header h2 { /* Тема работы в шапке*/
-  font: bold 16pt Century Gothic, serif; 
-  line-height: 90%;
-  color: navy;
-  text-indent: 0pt;
-  margin: 0pt;
-  padding: 5pt 0pt 10pt 0pt;
+#header h3 {
+    font-family: "Times New Roman", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #37474f; 
+    margin: 0;
+	text-indent: 0px;
 }
 
-#header h3 { /* Факультет, кафедра, преподаватель в шапке*/
-  font: 14pt Century Gothic, serif; 
-  line-height: 100%;
-  color: navy;
-  text-indent: 0pt;
-  margin: 0pt;
-  padding: 5pt 0pt 10pt 0pt;
+#header h3 a {
+    text-decoration: none;
+    color: #16131e;
+    transition: color 0.3s ease;
 }
 
-p { /* Абзац */
-	text-indent: 20pt;
-	font: 15pt/120% Times New Roman, serif; 
-	margin: 0pt 0pt 0pt 0pt;
-	padding: 2pt 15pt 3pt 15pt;   		
-	text-align: justify;
+#header h3 a:hover {
+    color: #16131e;
+}
 
+p {
+    font-family: "Times New Roman", serif;
+    font-size: 18px; 
+    line-height: 1.8; 
+    margin: 10px 15px;
+    text-indent: 35px;
+    text-align: justify; 
+    color: #16131e; 
 }
 
 img { 
-border: 0; 
+	border: 0; 
 }
 
-ol { /* Нумерованный список */
-	text-indent: 0pt;
-	margin: 10pt 0pt 0pt 0pt;
-}
-
-ol h2 { /* Заголовок внутри нумерованного списка */
-	text-indent: 0pt;
-	margin: 30pt 10pt 10pt 0pt;
-}
-
-p + ol { margin-top: 0pt;} /* Если нумерованный список идет сразу после абзаца - отступ не нужен */
-
-ul { /* Ненумерованный список */
+/* Списки */
+ul, ul li, ol, ol li { 
 	text-indent: 0pt;
 	margin: 0pt;
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    color: #2c3e50;
+    
 }
 
-ul.content { /* Содержание в реферате */
-	margin-left: 5pt;
-  list-style-type: none;
+ul, ol {
+    padding: 0px 65px;
 }
 
-li { /* Элемент списка */
-  margin-left: 25pt;
-  font: 15pt Times new roman, serif;
-  padding: 0 5pt 5pt 0pt; 
+/* Содержание в реферате */
+ul.content { 
+    list-style-type: none;
+    padding-left: 50px;
 }
 
-li.ct1 { /* Элемент содержания в реферате (уровень 1) */
-  margin-left: 0pt;
-  padding: 2pt; 
+ul li a, ol li a {
+    font-family: "Times New Roman", serif;
+    font-size: 18px; 
+    color: #16131e;
+    text-decoration: none; 
 }
 
-li.ct2 { /* Элемент содержания в реферате (уровень 2) */
-  margin-left: 20pt;
-  padding: 2pt; 
+/* Стили для ссылок при наведении */
+ul li a:hover, ol li a:hover {
+    color: #1b0f4d;
+    text-decoration: none;
 }
 
-a { /* Простая ссылка */
-	font: 14pt Century, serif;
-	color: blue;	
+/* Элемент содержания в реферате (уровень 1) */
+li.ct1 {
+    border-bottom: 1px solid #ccc;
 }
 
-a:hover { /* Курсор наведен на ссылку */
-	color: firebrick;
+/* Элемент содержания в реферате (уровень 2) */
+li.ct2 { 
+    margin-left: 25pt;
+    border-bottom: 1px solid #ccc;
+}
+
+ol li {
+    line-height: 1.6;
+}
+
+/* Простая ссылка */
+a { 
+	font: 18px Century, serif;
+	color: #16131e;
+}
+
+/* Наведен на ссылку */
+a:hover { 
+	color: #1b0f4d;
 	text-decoration: none;
-}
-
-a:visited { /* Посещенная ссылка */
-	color: #915c9e; 
 }
 
 /* ---------------------------------------------------------------------------------------------------------- */
 /* ------------- ОСНОВНЫЕ БЛОКИ ----------------------------------------------------------------------------- */
 
-#topblock { /* Верхний блок (Флаги и ДоННТУ) */
-	min-height: 36px;		
-  border-bottom: solid 1pt #b4cdd4;	
+/* Верхний блок */
+#topblock {
+    min-height: 50px;
+    background-color: #d0d0dc;
+    border-bottom: 1px solid #ccc; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 15px;
 }
 
-#langbox { /* Блок флагов */
-	float: left;
-  padding: 5pt 0pt 0pt 5pt;
+/* Блок ДонНТУ и портала магистров */
+#donntu {
+    display: flex;
+    gap: 15px; 
 }
 
-#donntu { /* Блок ДонНТУ и портала магистров */
-	float: right;
-	padding: 5pt 5pt 0pt 0pt;	
-	margin: 0pt 3pt 0pt 3pt;
+/* Ссылки в блоке ДонНТУ */
+#donntu a {
+    font-family: "Century Gothic", Arial, sans-serif;
+    font-size: 16px;
+    color: #2c3e50;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid transparent; 
+    border-radius: 5px; 
+    transition: all 0.3s ease; 
 }
 
-#donntu a { /* Ссылки в блоке ДонНТУ */
-	font: 12pt Century, serif;
-  margin-left: 3pt;
+#donntu a:hover {
+    background: #dedee7;
+    border-color: #b0bec5;
 }
 
-#donntu a:visited { /* Ссылки в блоке ДонНТУ (цвет посещенных не меняется) */ 
-  color: blue;
+#donntu a:visited {
+    color: #2c3e50; 
 }
 
-#photomag { /* Блок фотографии */
-	float: left;
-	width: 180px;
-  padding: 10pt 20pt 10pt 10pt;  
+#photomag {
+    flex-shrink: 0;
+    border: 2px solid #ccc; 
 }
 
-#header { /* Блок шапки (фотография и текст) */
-	min-height: 270px;
-	clear: both;
+#header {
+    display: flex;
+    align-items: center;
+    background-color: #e5e5ec;
+    border: 1px solid #aaaab2;
+    border-radius: 8px; 
+    padding: 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    gap: 20px;
+	margin: 15px;
 }
 
-#headertext { /* Блок шапки (только текст) */
-  padding: 10pt 10pt 10pt 10pt;
+#headertext {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
 }
 
-.img { /* Блок с рисунком */
-  margin: 15pt 0 30pt 0;
+/* Блок с рисунком */
+.img { 
+  margin: 15pt 0 15pt 0;
   text-align: center;
 }
 
-.imgcaption { /* Подпись под рисунком */
- font: italic 15pt/120% Times New Roman, serif;
- margin: 0pt 0pt 0pt 0pt;
+/* Подпись под рисунком */
+.imgcaption { 
+ font: italic 18px Times New Roman, serif;
+ text-indent: 0px;
  padding: 2pt 15pt 3pt 15pt;
  text-align: center;
 }
 
-.comment { /* Блок с комментарией (в финально версии сожет не использоваться)*/
-  background: lightsteelblue; 
-  color: white; 
-  font-size: 12pt; 
-  margin: 0pt 20pt 0pt 20pt; 
-  padding: 10pt 10pt 10pt 10pt; 
-  text-indent: 0;
+.comment {
+    background: linear-gradient(135deg, #8e8e9b, #898996); /* Градиентный фон */
+    color: #333333; 
+    font-size: 18px; 
+    margin: 20px auto; 
+    padding: 15px 20px; 
+    text-indent: 0;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 80%; 
+    line-height: 1.5; 
+    display: flex;
+    align-items: center;
+    font-weight: bold;
 }
+
 
 .cntr { text-align: center; } /* Выравнивание по центру */
 .bld {font-weight: bold;}     /* Полужирный */
@@ -202,36 +250,82 @@ a:visited { /* Посещенная ссылка */
 /* ---------------------------------------------------------------------------------------------------------- */
 /* ------------- ТАБЛИЦА РЕЗЮМЕ ----------------------------------------------------------------------------- */
 
-table#resume { /* Сама таблица */ 
-	width: 90%;
-	margin: 0 auto;
-	margin-bottom: 0pt;
+table#resume {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: separate; 
+    font-size: 17px; 
 }
 
-table#resume tr td {  /* Ячейка в таблице */
-	border: 0pt solid black;
-	padding: 6pt;
+/* Ячейки таблицы */
+table#resume tr td {
+    padding: 12px 15px; 
+    border-bottom: 1px solid #ddd; 
 }
 
-table#resume td:first-child { /* Первый столбец */ 
-  width: 25%; 
-  text-align: right; 
-  padding-right: 10pt; 
-  color: #1b005e;
+/* Первый столбец */
+table#resume td:first-child {
+    width: 30%; 
+    text-align: right;
+    padding-right: 20px;
+    font-weight: bold;
+    color: #333; 
 }
 
-table#resume td:nth-child(2) { width: 75%; } /* Второй столбец */
+/* Второй столбец */
+table#resume td:nth-child(2) {
+    width: 70%;
+    text-align: left;
+    color: #444; 
+}
 
-table#resume tr:nth-child(odd)  { background-color: #f5f5f5;} /* Нечетная строка */ 
-table#resume tr:nth-child(even) { background-color: white;}  /* Четная строка */ 
+/* Нечетные строки */
+table#resume tr:nth-child(odd) {
+    background-color: #f5f5f5; 
+}
 
-table#resume tr:nth-child(odd):hover  { background-color: #deebef;}  /* Курсор наведен на нечетную строку */
-table#resume tr:nth-child(even):hover { background-color: #eefbff;} /* Курсор наведен на четную строку */
+/* Четные строки */
+table#resume tr:nth-child(even) {
+    background-color: #e9e9e9;
+}
+
+/* Эффекты наведения */
+table#resume tr:nth-child(odd):hover {
+    background-color: #d1d1d7;
+}
+
+table#resume tr:nth-child(even):hover {
+    background-color: #d1d1d7;
+}
+
+/* Ссылки внутри таблицы */
+table#resume td a {
+	font-size: 17px; 
+    text-decoration: none; 
+    color: inherit; 
+    font-weight: inherit; 
+    transition: color 0.3s ease; 
+}
+
+/* Ссылки при наведении */
+table#resume td a:hover {
+    color: #9a94af;
+    text-decoration: underline; 
+}
+
+/* Ссылки посещенные */
+table#resume td a:visited {
+    color: inherit; 
+}
 
 /* ---------------------------------------------------------------------------------------------------------- */
 /* ------------- ПУНКТ СПИСКА БИБЛИОТЕКИ -------------------------------------------------------------------- */
 
-.lib { margin: 10pt 0pt 20pt 25pt; }
+.lib { 
+    padding-bottom: 10px;
+    margin: 10pt 20pt 20pt 50pt; 
+    border-bottom: 1px solid #ccc;
+}
 
 .lib p { /* Абзац в пункте списка */
 	text-indent: 0pt;
@@ -243,10 +337,48 @@ table#resume tr:nth-child(even):hover { background-color: #eefbff;} /* Курс�
 	font-weight: bold;
 }
 
+.lib_ol{
+    padding: 0px 15px;
+}
+
+.backtolib{
+    font-family: "Century Gothic", Arial, sans-serif;
+    font-size: 16px;
+    color: #2c3e50;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid transparent; 
+    border-radius: 5px; 
+    transition: all 0.3s ease;
+}
+
+.topblock {
+    min-height: 45px;
+    background-color: #f5f5f5; /* Светло-серый фон */
+    border-bottom: 1px solid #ccc; /* Тонкая граница снизу */
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    margin: 0px;
+}
+
+.backtolib:hover {
+    background: #e0e0e0; 
+    border-color: #b0bec5;
+}
+
+.dash-list {
+    line-height: 1.8;
+}
+
 /* ---------------------------------------------------------------------------------------------------------- */
 /* ------------- ПУНКТ СПИСКА СССЫЛОК  ---------------------------------------------------------------------- */
 
-.list { margin: 5pt 0pt 12pt 25pt; }
+.list { 
+    padding-bottom: 10px;
+    margin: 5pt 20pt 10pt 50pt;
+    border-bottom: 1px solid #ccc;
+}
 
 .list p { /* Абзац внутри элемента списка */
 	text-indent: 0pt;
@@ -254,142 +386,66 @@ table#resume tr:nth-child(even):hover { background-color: #eefbff;} /* Курс�
 }
 
 .list .cat { /* Название категории (автор, описание, источник) в описании пункта списка */
-	color: green;
+	color: #150146;
 	font-weight: bold;
 }
 
 /* ---------------------------------------------------------------------------------------------------------- */
-/* ------------- ТАБЛИЦА ОТЧЕТА О ПОИСКЕ  ------------------------------------------------------------------- */
-
-table.search { /* Сама таблица */
-	width: 80%;
-	margin: 0 auto;
-	margin-bottom: 40pt;
-  margin-top: 10pt;
-  border-collapse:collapse;
-  padding:0px;
-  text-align: center;
-}
-
-table.search tr td { /* Ячейка в таблице */	
-  border: 1pt solid black; 
-  padding: 3pt;
-} 
-
-table.search td.c1 { /* Первый столбец */ 
-  width: 52%; 
-  text-align: left; 
-  padding-left: 10pt; 
-  color: #150146; 
-  font-size: 15pt;
-}
-  
-table.search td.cn { /* Все остальные столбцы */ 
-  width: 12%; 
-  text-align: center; 
-}
-
-table.search td.cspan { padding: 15pt 5pt 5pt 0pt;} /* Объединенный столбец (название языка)*/ 
-
-table.search tr.result:nth-child(odd)  { background-color: #f5f5f5; }    /* Нечетная строка */  
-table.search tr.result:nth-child(even) { background-color: white; }  /* Четная строка */
-
-table.search tr.result:nth-child(odd):hover  { background-color: #deebef;}  /* Курсор наведен на нечетную строку */
-table.search tr.result:nth-child(even):hover { background-color: #eefbff;} /* Курсор наведен на подсвеченную четная строку */
-
-table.search td.cspan p { /* Абзац в объединенном столбце */ 
-  color: black; 
-  font: bold 13pt Century Gothic, serif; 
-  text-indent: 10pt; 
-  margin: 0;
-}
-  
-table.search td.cn a { /* Ссылка (количество найденных результатов) */ 
-  font-size: 13pt;
-  font-weight: bold; 
-  color: mediumblue;
-}  
-
-table.search td.cn a:visited { color: mediumblue; } /* Посещенная ссылка */
-table.search td.cn a:hover { color: firebrick; }    /* Подсвеченная ссылка */
-
-/* ---------------------------------------------------------------------------------------------------------- */
 /* ------------- КНОПКИ ГЛАВНОГО МЕНЮ ----------------------------------------------------------------------- */
 
-.button { /* Сама кнопка */
-  color: white;
-	display: inline-block;
-	outline: none;
-	cursor: pointer;
-	text-align: center;
-	text-decoration: none;
-	font: 14pt/100% Century, serif;
-	padding: .4em .6em .5em;
-	text-shadow: 0px 1px 1px rgba(0,0,0,.3);
-  margin: .5em .15em .0em .15em; 
-	-webkit-border-radius: .4em; 
-	-moz-border-radius: .4em;
-	border-radius: .4em;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-	-moz-box-shadow: 0px 1px 2px rgba(0,0,0,.2);
-	box-shadow: 0px 1px 2px rgba(0,0,0,.2);
-}
-.button:active { /* Нажатая кнопка */
-	position: relative;
-	top: 1px;
+/* Общий стиль кнопок */
+.button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Century Gothic", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c3e50;
+    padding: 12px 20px;
+    background-color: #f5f5f5; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+    cursor: pointer;
 }
 
-.bigrounded { /* Кнопка с закругленными углами */
-	-webkit-border-radius: 2em;
-	-moz-border-radius: 2em;
-	border-radius: 2em;
+/* Наведение */
+.color:hover {
+    background-color: #c8c8c8; 
+    border-color: #999; 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-3px); 
 }
 
-.color { /* Цвет кнопки*/
-	color: navy;  
-	border: solid 1px #7496a2;
-	background: #96c1d0;
-	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#96c1d0));              /* chrome, safari, opera  */
-	background: -moz-linear-gradient(top,  #fff,  #96c1d0);                                             /* firefox */
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#96c1d0');  /* ie */
+/* Нажатие */
+.color:active {
+    background-color: #b0b0b0; 
+    border-color: #888;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transform: translateY(2px); 
 }
 
-.color:visited { color: #6500c4; } /* Кнопка посещенной ссылки */
-  
-.color:hover { /* На кнопку наведен курсор */
-	background: #007ead;
-	color: white;
-	text-decoration: none;    
-	background: -webkit-gradient(linear, left top, left bottom, from(#8cd0e9), to(#00678e));
-	background: -moz-linear-gradient(top,  #8cd0e9,  #00678e);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cd0e9', endColorstr='#00678e');
+/* Кнопка текущего раздела */
+.colorfix {
+    background-color: #e0e0e0; 
+    color: #2c3e50; 
+    border: 1px solid #bbb; 
+    cursor: default;
+    box-shadow: none; 
 }
 
-.color:active { /* Нажатая кнопка */
-	color: white;
-	position: relative;
-	top: 1px;
-	background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
-	background: -moz-linear-gradient(top,  #0078a5,  #00adee);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+.colorfix:hover {
+    background-color: #e0e0e0; 
+    border-color: #bbb;
 }
 
-.colorfix { /* Кнопка текущего раздела */
-	position: static;
-	top: 0px;
-	cursor: auto;
-	color: #692f06; 
-	font-weight: bold;  
-	text-shadow: 0px 0px 0px rgba(0,0,0,.0);
-	border: solid 1px #7496a2;
-	background: #ffd200;           
-	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#ffd200));             /* chrome, safari, opera  */
-	background: -moz-linear-gradient(top,  white,  #ffd200);                                           /* firefox */
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#ffd200'); /* ie */
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-	
-.colorfix:active  { top: 0px; }		    /* Активную кнопку не смещаем вниз при нажатии */
-.colorfix:hover   { color: #692f06; }	  /* Цвет при наведении не меняем */
 
 table.numeq {
     width: 100%;

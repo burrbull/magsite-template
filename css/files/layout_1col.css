@@ -1,42 +1,65 @@
 /* -------------- ОДНА КОЛОНКА ------------------------------------------------------------------------------ */
-
-#middleblock { /* Средний блок (меню и основной текст в двухколоночной верстке, только основной текст - в одноколоночной)*/
-}
 	
-#maintext { /* Блок основного текста */
- 	font: 14pt/120% Times new roman, serif;
-	line-height: 110%;
-  padding: 15pt 0pt 15pt 10pt;
-	position: relative; 
-	display: block;
+#maintext {
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.8; 
+    padding: 0px; 
+    margin: 20px auto; 
+	background: linear-gradient(180deg, #e7eef0, #f7f9fa);
 }
 
-#menu { /* Блок верхнего меню */
-	clear: both;
-	text-align: center;
-	padding: 2pt 0pt 10pt 0pt;
-  background: #e7eef0;	
-	border-top: solid 1pt #b4cdd4;	
-	border-bottom: solid 1pt #b4cdd4;
+/* Верхнее меню */
+#menu {
+    background-color: #dedee7;
+    padding: 10px; 
+    margin: 15px auto; 
+    box-shadow: 0 2px 6px rgb(147, 147, 157);
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 10px; 
 }
 
-#menub { /* Блок нижнего меню */
-	clear: both;
-	text-align: center;
-	padding: 8pt 0pt 8pt 0pt;
-  background: #e7eef0;	
-	border-top: solid 1pt #b4cdd4;	
-	border-bottom: solid 1pt #b4cdd4;
+/* Нижнее меню */
+#menub {
+    clear: both;
+    text-align: center;
+    padding: 15px 0; 
+    background: #dedee7;
+    border-top: solid 1px #b4cdd4; 
+    border-bottom: solid 1px #b4cdd4; 
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-.mitemb { /* Пункт нижнего меню */
-	font-size: 13pt; 	
-	margin-right: 12pt;
+/* Пункт нижнего меню */
+.mitemb {
+    font-size: 14px;
+    font-family: "Century Gothic", Arial, sans-serif;
+    text-decoration: none; 
+    color: #2c3e50; 
+    padding: 8px 16px; 
+    margin: 0 8px; 
+    background-color: #f5f5f5; 
+    border: 1px solid #ccc; 
+    border-radius: 6px; 
+    transition: all 0.3s ease; 
+    display: inline-block; 
 }
 
-#sb{ /* Кнопки соцсетей */
-	clear: both;
-	text-align: center;
-	padding: 18pt 0pt 0pt 0pt;
-  background: white;	
+/* Наведение на пункт нижнего меню */
+.mitemb:hover {
+    background-color: #e0e0e0; 
+    color: #0056b3; 
+    border-color: #bbb;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px); 
 }
+
+/* Нажатие на пункт нижнего меню */
+.mitemb:active {
+    background-color: #d6d6d6; 
+    box-shadow: none; 
+    transform: translateY(2px); 
+}
+
