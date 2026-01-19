@@ -1,5 +1,5 @@
 destination: "_site"
-  
+
 site:
   title: cobalt blog
   description: Blog Posts Go Here
@@ -10,3 +10,4 @@ site:
         diss: true
       ru:
         ind: true
+        library: true
