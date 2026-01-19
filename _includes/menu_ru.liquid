@@ -1,26 +1,26 @@
 <div id="menu">
-    {% if page.title == "Резюме" %}
+    {%- if page.title == "Резюме" %}
         <a class="button colorfix">О себе</a>
-    {% else %}
+    {%- else %}
         <a class="button color" href="{{ page.data.relpath }}index.htm">О себе</a>
-    {% endif %}
-    {% if page.title == "Реферат" %}
+    {%- endif %}
+    {%- if page.title == "Реферат" %}
         <a class="button colorfix">Реферат</a>
-    {% else %}
+    {%- else %}
         <a class="button color" href="{{ page.data.relpath }}diss/index.htm">Реферат</a>
-    {% endif %}
-    {% if page.title == "Библиотека" %}
+    {%- endif %}
+    {%- if page.title == "Библиотека" %}
         <a class="button colorfix">Библиотека</a>
-    {% else %}
-        {% unless site.data.ignore.ru.library %}
-            <a class="button color" href="{{ page.data.relpath }}scientific_works/index.htm">Научные труды</a>
-        {% endunless %}
-    {% endif %}
-    {% if page.title == "Индивидуальный раздел" %}
+    {%- else %}
+        {%- unless site.data.ignore.ru.library %}
+        <a class="button color" href="{{ page.data.relpath }}scientific_works/index.htm">Научные труды</a>
+        {%- endunless %}
+    {%- endif %}
+    {%- if page.title == "Индивидуальный раздел" %}
         <a class="button colorfix">Индивидуальный раздел</a>
-    {% else %}
-        {% unless site.data.ignore.ru.ind %}
-            <a class="button color" href="{{ page.data.relpath }}ind/index.htm">Индивидуальный раздел</a>
-        {% endunless %}
-    {% endif %}
-</div>
+    {%- else %}
+        {%- unless site.data.ignore.ru.ind %}
+        <a class="button color" href="{{ page.data.relpath }}ind/index.htm">Индивидуальный раздел</a>
+        {%- endunless %}
+    {%- endif %}
+    </div>
