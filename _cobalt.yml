@@ -10,3 +10,4 @@ site:
         diss: true
       ru:
         ind: true
+        library: true
